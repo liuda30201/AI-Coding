@@ -1,0 +1,3446 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-10-15T08:56:12Z",
+  "storage": "json",
+  "stations": [
+    {
+      "id": 1,
+      "slug": "artbloom",
+      "name": "ArtBloom",
+      "subtitle": "支持 Opus 5.5 · 注册首日即送 $100，GitHub 一键注册",
+      "panel_type": "relay",
+      "home_url": "https://api.artbloom.tech",
+      "register_url": "https://api.artbloom.tech/signup?ref=PCTM2VCGUI",
+      "redirect_url": "https://api.artbloom.tech/signup?ref=PCTM2VCGUI",
+      "status_api_url": "https://api.artbloom.tech",
+      "pricing_api_url": "",
+      "docs_url": "https://api.artbloom.tech/models",
+      "invite_code": "PCTM2VCGUI",
+      "registration_methods": [
+        "GitHub OAuth"
+      ],
+      "registration_requirements": [
+        "从本页完整邀请链接进入，保留 ref=PCTM2VCGUI，再点击 Continue with GitHub 注册",
+        "注册页公示新账号即时获得 $100 免费额度，到账后可在后台查看余额并创建 API Key"
+      ],
+      "recharge_ratio": "注册赠送免费额度（详见站点控制台定价说明）",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": 100.0,
+      "invite_bonus": null,
+      "daily_checkin_bonus": null,
+      "first_day_total": 100.0,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "注册送 100 (usd)",
+      "supported_protocols": [
+        "OpenAI 兼容"
+      ],
+      "openai_base_url": "https://api.artbloom.tech/v1",
+      "anthropic_base_url": "",
+      "mirrors": [],
+      "tags": [
+        "免费额度",
+        "注册 $100",
+        "支持 Opus 5.5",
+        "OpenAI 兼容"
+      ],
+      "highlights": [
+        "注册首日即送 $100 API 额度，注册页公示即时到账，无需信用卡",
+        "支持 Opus 5.5（claude-opus-5-5），公开模型页价格为输入 $2 / 百万 tokens、输出 $10 / 百万 tokens",
+        "通过本页邀请链接使用 GitHub 注册；支持 OpenAI 兼容接口，可在通用客户端中接入"
+      ],
+      "caveats": [],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": false,
+      "is_archived": true,
+      "archived_reason": "按维护者要求下架，移入历史区，不再推荐注册",
+      "latency_ms": null,
+      "system_name": "ArtBloom",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T09:19:40Z",
+      "created_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-14T09:19:40Z",
+      "activities": [],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 3,
+      "slug": "omnirush",
+      "name": "OmniRush",
+      "subtitle": "每周免费 50M tokens · 本页邀请额外 +5M · GPT 6 Astra / GPT 6 Sol / GPT-5.6 Sol",
+      "panel_type": "relay",
+      "home_url": "https://omnirush.ai",
+      "register_url": "https://omnirush.ai/console?ref=AXJFLFPA",
+      "redirect_url": "https://omnirush.ai/console?ref=AXJFLFPA",
+      "status_api_url": "https://omnirush.ai/console",
+      "pricing_api_url": "",
+      "docs_url": "",
+      "invite_code": "AXJFLFPA",
+      "registration_methods": [
+        "官网控制台"
+      ],
+      "registration_requirements": [
+        "使用完整邀请链接，保留 ref=AXJFLFPA，并按控制台提示完成注册",
+        "在控制台核对每周额度、邀请奖励和使用条件"
+      ],
+      "recharge_ratio": "注册赠送免费额度（详见站点控制台定价说明）",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": null,
+      "invite_bonus": null,
+      "daily_checkin_bonus": null,
+      "first_day_total": null,
+      "credit_unit": "tokens",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "通过本页邀请链接注册，按投稿信息额外获得 +5M tokens；最新公告：通过本页邀请链接注册，按投稿信息额外获得 +5M tokens",
+      "supported_protocols": [],
+      "openai_base_url": "",
+      "anthropic_base_url": "",
+      "mirrors": [],
+      "tags": [
+        "免费额度",
+        "每周 50M tokens",
+        "邀请额外 +5M",
+        "GPT 6 Astra",
+        "GPT 6 Sol",
+        "GPT-5.6 Sol"
+      ],
+      "highlights": [
+        "每周免费 50M tokens（5000 万）",
+        "通过本页完整邀请链接注册，额外获得 +5M tokens（500 万）",
+        "支持 GPT 6 Astra、GPT 6 Sol、GPT-5.6 Sol，额度与模型信息来自投稿"
+      ],
+      "caveats": [
+        "赠额与模型信息来自投稿，未登录验证实际到账；每周额度的累积、重置规则及邀请奖励周期以控制台为准。"
+      ],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": false,
+      "is_archived": true,
+      "archived_reason": "按维护者要求下架，移入历史区，不再推荐注册",
+      "latency_ms": null,
+      "system_name": "OmniRush",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T09:19:40Z",
+      "created_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-14T09:19:40Z",
+      "activities": [
+        {
+          "id": 1,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "通过本页邀请链接注册，按投稿信息额外获得 +5M tokens",
+          "content": "通过本页邀请链接注册，按投稿信息额外获得 +5M tokens",
+          "publish_date": "",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 8,
+      "slug": "mirasim",
+      "name": "Mirasim",
+      "subtitle": "Go套餐 $1/月 · 每 5 小时官网估算：Kimi 约 130 次 / GLM 约 1,900 次 / DS 约 7,800 次",
+      "panel_type": "relay",
+      "home_url": "https://mirasim.ai",
+      "register_url": "https://mirasim.ai/r/go-kx9cd5",
+      "redirect_url": "https://mirasim.ai/r/go-kx9cd5",
+      "status_api_url": "https://mirasim.ai/pricing",
+      "pricing_api_url": "",
+      "docs_url": "https://mirasim.ai/docs/zh/quickstart",
+      "invite_code": "",
+      "registration_methods": [
+        "GitHub OAuth",
+        "邮箱验证码"
+      ],
+      "registration_requirements": [
+        "保留本页完整邀请链接 https://mirasim.ai/r/go-kx9cd5；公开定价页未承诺被邀请人注册即得额度，具体权益以账号页为准",
+        "官方命令行文档支持 GitHub 授权或邮箱验证码登录；没有公开账号年龄门槛，本页不额外作承诺",
+        "使用自有账号 / Key 无需邀请码；Go 订阅与邀请赠月按站内活动规则办理"
+      ],
+      "recharge_ratio": "注册赠送免费额度（详见站点控制台定价说明）",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": null,
+      "invite_bonus": null,
+      "daily_checkin_bonus": null,
+      "first_day_total": null,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "邀请 3 位好友且三人均开通 Go，邀请者获得 1 个月 Go（官方定价页 Invite offer）；未查到公开的每日签到或注册赠送 API 额度规则，本页不登记美元额度，也不计入跨站合计；最新公告：邀请 3 位好友且三人均开通 Go，邀请者获得 1 个月 Go（官方定价页 Invite offer）",
+      "supported_protocols": [],
+      "openai_base_url": "",
+      "anthropic_base_url": "",
+      "mirrors": [],
+      "tags": [
+        "$1/月",
+        "Go 订阅",
+        "多智能体",
+        "邀请赠月",
+        "Claude Code",
+        "Codex"
+      ],
+      "highlights": [
+        "Go套餐 $1/月：低成本体验云端模型，不需要先买高档套餐",
+        "用量优势看 5 小时窗口：官网估算 Kimi K3 约 130 次、GLM 5.3 Flash 约 1,900 次、DS 4.1 Flash 约 7,800 次；同一份额度按不同模型折算，三项不能相加",
+        "邀请活动：在应用内取得自己的邀请链接，邀请 3 位好友且三人都开通 Go 后，邀请者可获赠 1 个月 Go；公开规则未承诺被邀请人注册即送",
+        "不订阅也能用工作台：自带账号 / Key 的接入能力免费，第三方订阅和 API 调用费用另算",
+        "桌面端提供 macOS / Windows / Linux，支持多模型、并行会话与独立 worktree，也有命令行入口"
+      ],
+      "caveats": [
+        "免费的是自带账号 / Key 的工作台接入能力，第三方模型费用另算；Go 是付费套餐，邀请赠月也有开通条件",
+        "$1/月与模型清单来自 2026-09-23 公开定价页 https://mirasim.ai/pricing，后续可能变动，以开通时页面为准",
+        "官网仍标注 Alpha：模型可能响应缓慢、会话可能中断，版本之间规则也可能调整，不承诺稳定性",
+        "8 月公告提到的早期内测 Pro 赠送 / 补偿针对特定旧用户，不能当成现在通过此链接注册的普遍权益",
+        "robots.txt 禁止自动抓取 /r/ 邀请路径，因此定时检查只访问允许抓取的定价页；在线仅说明官网可访问，不代表登录、支付或模型调用已经实测"
+      ],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": false,
+      "is_archived": true,
+      "archived_reason": "按维护者要求下架，移入历史区，不再推荐注册",
+      "latency_ms": null,
+      "system_name": "Mirasim",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T09:19:40Z",
+      "created_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-14T09:19:40Z",
+      "activities": [
+        {
+          "id": 20,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "未查到公开的每日签到或注册赠送 API 额度规则，本页不登记美元额度，也不计入跨站合计",
+          "content": "未查到公开的每日签到或注册赠送 API 额度规则，本页不登记美元额度，也不计入跨站合计",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 19,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "邀请 3 位好友且三人均开通 Go，邀请者获得 1 个月 Go（官方定价页 Invite offer）",
+          "content": "邀请 3 位好友且三人均开通 Go，邀请者获得 1 个月 Go（官方定价页 Invite offer）",
+          "publish_date": "",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 11,
+      "slug": "gorouter",
+      "name": "GoRouter",
+      "subtitle": "New API 中转站 · 注册送 $50，本页邀请码再加 $20，按次计费里最便宜的一档",
+      "panel_type": "newapi",
+      "home_url": "https://gorouter.app",
+      "register_url": "https://gorouter.app/sign-up?aff=PZDx",
+      "redirect_url": "https://gorouter.app/sign-up?aff=PZDx",
+      "status_api_url": "https://gorouter.app/api/status",
+      "pricing_api_url": "https://gorouter.app/api/pricing",
+      "docs_url": "",
+      "invite_code": "PZDx",
+      "registration_methods": [
+        "GitHub OAuth"
+      ],
+      "registration_requirements": [
+        "务必从本页邀请链接进入注册（带 ?aff=PZDx），$20 在注册那一刻结算，事后补不上",
+        "已关闭账号密码注册，只能用 GitHub 授权；注册完成后可以再设密码用于登录",
+        "注册页有 Cloudflare Turnstile 人机校验，需要能正常加载 Cloudflare 脚本"
+      ],
+      "recharge_ratio": "price=7.3（¥7.3 ≈ $1，Stripe通道 ¥8/$1）",
+      "price_rate": 7.3,
+      "stripe_unit_price": 8.0,
+      "quota_per_unit": null,
+      "signup_bonus": 50.0,
+      "invite_bonus": 20.0,
+      "daily_checkin_bonus": null,
+      "first_day_total": 70.0,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "注册送 50 (usd)；邀请链接送 20；面板已开启每日签到，登录后台点签到即可（每次给多少站点没公示，以站内为准）；邀请他人注册：每成功邀请一人到账 $40（2026-08-11 实测两笔；站点公开接口没公示这个数字）；最新公告：面板已开启每日签到，登录后台点签到即可（每次给多少站点没公示，以站内为准）",
+      "supported_protocols": [
+        "OpenAI 兼容",
+        "Anthropic 兼容"
+      ],
+      "openai_base_url": "https://gorouter.app/v1",
+      "anthropic_base_url": "https://gorouter.app",
+      "mirrors": [],
+      "tags": [
+        "New API",
+        "免费额度",
+        "Claude Code",
+        "Anthropic 兼容",
+        "按次计费"
+      ],
+      "highlights": [
+        "新用户注册送 $50，从本页邀请链接进入再加 $20，首日 $70（2026-08-11 实测到账）",
+        "按次计费里单价最低的一档：claude-opus-5 每次 $0.3，opus-4-8 每次 $0.2，首日 $70 够跑两百多次",
+        "Anthropic 与 OpenAI 两种协议都开着，Claude Code 填个 Base URL 就能直连",
+        "面板开着每日签到，可以持续领额度"
+      ],
+      "caveats": [
+        "按次计费而不是按 token：claude-opus-5 / -thinking 每次 $0.3，claude-opus-4-8 系每次 $0.2。首日 $70 约等于 233 次 opus-5 请求，Claude Code 里一问一答就算一次，与按 token 的站没法直接比",
+        "只有 Claude Opus 四个模型，没有 GPT / Gemini；OpenAI 兼容协议虽然开着，但能填的模型名只有 claude-*（下面 Codex CLI 示例就是这么配的），想拿它跑 GPT / Codex 原生模型是不行的",
+        "只有一个 default 分组，没有 vip 分组可切，遇到上游拥塞只能等",
+        "站点支持在线充值（站内公示 $1 ≈ ¥7.3，Stripe 通道 ¥8），是中转站不是纯公益站，免费额度用完要付费才能续",
+        "站点前面挂着 Cloudflare，机房 IP 容易被拦，本页的自动探测偶尔会标「被 WAF 拦下」，不代表站点对你不可用"
+      ],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": false,
+      "is_archived": true,
+      "archived_reason": "用户反馈已无法使用，移入历史区，不再推荐注册",
+      "latency_ms": null,
+      "system_name": "GoRouter",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T09:19:40Z",
+      "created_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-14T09:19:40Z",
+      "activities": [
+        {
+          "id": 26,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "邀请他人注册：每成功邀请一人到账 $40（2026-08-11 实测两笔；站点公开接口没公示这个数字）",
+          "content": "邀请他人注册：每成功邀请一人到账 $40（2026-08-11 实测两笔；站点公开接口没公示这个数字）",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 25,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "面板已开启每日签到，登录后台点签到即可（每次给多少站点没公示，以站内为准）",
+          "content": "面板已开启每日签到，登录后台点签到即可（每次给多少站点没公示，以站内为准）",
+          "publish_date": "",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 13,
+      "slug": "tabitoken",
+      "name": "TaBiAI",
+      "subtitle": "New API 中转站 · 注册送 $100，本页邀请码再加 $20，专供 Claude Opus",
+      "panel_type": "newapi",
+      "home_url": "https://tabitoken.com",
+      "register_url": "https://tabitoken.com/sign-up?aff=EQIT",
+      "redirect_url": "https://tabitoken.com/sign-up?aff=EQIT",
+      "status_api_url": "https://tabitoken.com/api/status",
+      "pricing_api_url": "https://tabitoken.com/api/pricing",
+      "docs_url": "",
+      "invite_code": "EQIT",
+      "registration_methods": [
+        "GitHub OAuth"
+      ],
+      "registration_requirements": [
+        "务必从本页邀请链接进入注册（带 ?aff=EQIT），$20 在注册那一刻结算，事后补不上",
+        "已关闭账号密码注册，只能用 GitHub 授权；注册完成后可以再设密码用于登录",
+        "注册页有 Cloudflare Turnstile 人机校验，需要能正常加载 Cloudflare 脚本"
+      ],
+      "recharge_ratio": "price=7.3（¥7.3 ≈ $1，Stripe通道 ¥8/$1）",
+      "price_rate": 7.3,
+      "stripe_unit_price": 8.0,
+      "quota_per_unit": null,
+      "signup_bonus": 100.0,
+      "invite_bonus": 20.0,
+      "daily_checkin_bonus": null,
+      "first_day_total": 120.0,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "注册送 100 (usd)；邀请链接送 20；面板已开启每日签到，登录后台点签到即可（每次给多少站点没公示，以站内为准）；邀请他人注册也有奖励，金额站点未公开，登录后台「邀请」页确认；最新公告：面板已开启每日签到，登录后台点签到即可（每次给多少站点没公示，以站内为准）",
+      "supported_protocols": [
+        "OpenAI 兼容",
+        "Anthropic 兼容"
+      ],
+      "openai_base_url": "https://tabitoken.com/v1",
+      "anthropic_base_url": "https://tabitoken.com",
+      "mirrors": [],
+      "tags": [
+        "New API",
+        "免费额度",
+        "Claude Code",
+        "Anthropic 兼容",
+        "按次计费"
+      ],
+      "highlights": [
+        "新用户注册送 $100，从本页邀请链接进入再加 $20，首日 $120（2026-08-30 实测到账）",
+        "Anthropic 与 OpenAI 两种协议都开着，Claude Code 填个 Base URL 就能直连",
+        "只放 Claude Opus 四个型号（opus-5 / opus-5-thinking / opus-4-8 / 4-8-thinking），定价接口公开可查",
+        "面板开着每日签到，可以持续领额度"
+      ],
+      "caveats": [
+        "按次计费而不是按 token：claude-opus-5 / -thinking 每次 $0.8，claude-opus-4-8 系每次 $0.5。首日 $120 约等于 150 次 opus-5 请求，Claude Code 里一问一答就算一次，比按 token 的站消耗快得多",
+        "只有 Claude Opus 四个模型，没有 GPT / Gemini；OpenAI 兼容协议虽然开着，但能填的模型名只有 claude-*（下面 Codex CLI 示例就是这么配的），想拿它跑 GPT / Codex 原生模型是不行的",
+        "站点支持在线充值（站内公示 $1 ≈ ¥7.3，Stripe 通道 ¥8），是中转站不是纯公益站，免费额度用完要付费才能续",
+        "模型分 default / vip 两个分组，同一模型在不同分组的可用性可能不同，以站内为准",
+        "站点前面挂着 Cloudflare，机房 IP 容易被拦，本页的自动探测偶尔会标「被 WAF 拦下」，不代表站点对你不可用"
+      ],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": false,
+      "is_archived": true,
+      "archived_reason": "用户反馈已无法使用，移入历史区，不再推荐注册",
+      "latency_ms": null,
+      "system_name": "TaBiAI",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T09:19:40Z",
+      "created_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-14T09:19:40Z",
+      "activities": [
+        {
+          "id": 32,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "邀请他人注册也有奖励，金额站点未公开，登录后台「邀请」页确认",
+          "content": "邀请他人注册也有奖励，金额站点未公开，登录后台「邀请」页确认",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 31,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "面板已开启每日签到，登录后台点签到即可（每次给多少站点没公示，以站内为准）",
+          "content": "面板已开启每日签到，登录后台点签到即可（每次给多少站点没公示，以站内为准）",
+          "publish_date": "",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 14,
+      "slug": "rawchat",
+      "name": "RawChat 公益站",
+      "subtitle": "Codex 公益站 · 每日 $50 额度池，0 点自动重置",
+      "panel_type": "vibecode",
+      "home_url": "https://new.sharedchat.cc/list/",
+      "register_url": "https://new.sharedchat.cc/list/#/register?i=MaVP1",
+      "redirect_url": "https://new.sharedchat.cc/list/#/register?i=MaVP1",
+      "status_api_url": "https://new.sharedchat.cc/frontend-api/getConfig",
+      "pricing_api_url": "",
+      "docs_url": "",
+      "invite_code": "MaVP1",
+      "registration_methods": [
+        "邮箱注册"
+      ],
+      "registration_requirements": [
+        "务必从本页邀请链接进入注册（带 ?i=MaVP1），否则拿不到邀请奖励",
+        "目前只开放邮箱注册，没有 GitHub / Google 登录入口",
+        "注册登录后要在控制台点一次「领取 Codex 权益」，每日额度才会生效"
+      ],
+      "recharge_ratio": "公益免费站（不支持充值，靠注册+邀请+签到获取额度）",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": null,
+      "invite_bonus": null,
+      "daily_checkin_bonus": 50.0,
+      "first_day_total": 50.0,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "每日重置额度池 50/天；每天 0 点额度自动重置，不需要签到；后台「邀请奖励」邀请他人注册可拿额外奖励；最新公告：每天 0 点额度自动重置，不需要签到",
+      "supported_protocols": [],
+      "openai_base_url": "",
+      "anthropic_base_url": "",
+      "mirrors": [],
+      "tags": [
+        "公益站",
+        "Codex",
+        "每日重置",
+        "免费额度"
+      ],
+      "highlights": [
+        "每日 $50 额度池，每天 0 点自动重置，不用签到、不用充值",
+        "专供 Codex：后台「使用教程」直接复制一键安装脚本，自动装依赖并写好环境变量",
+        "邮箱注册即可，没有 GitHub 账号年龄门槛，也没有人机校验",
+        "按额度计费 + 3 小时滚动窗口，日常 vibe coding 基本够用"
+      ],
+      "caveats": [
+        "$50 是每日重置的额度池，当天用不完会清零，不会累积到第二天",
+        "额度按 3 小时滚动窗口限速，且全站共用上游号池，高峰期会显示「已触发限速」，等窗口刷新即可",
+        "当前只开放 Codex 方向，要用 Claude Code 请走本页其它站点",
+        "站内挂着付费站推广位，注意区分免费公益入口与付费站入口"
+      ],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": false,
+      "is_archived": true,
+      "archived_reason": "用户反馈已无法使用，移入历史区，不再推荐注册",
+      "latency_ms": null,
+      "system_name": "RawChat 公益站",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T09:19:41Z",
+      "created_at": "2026-10-14T09:19:41Z",
+      "updated_at": "2026-10-14T09:19:41Z",
+      "activities": [
+        {
+          "id": 34,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "后台「邀请奖励」邀请他人注册可拿额外奖励",
+          "content": "后台「邀请奖励」邀请他人注册可拿额外奖励",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 33,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "每天 0 点额度自动重置，不需要签到",
+          "content": "每天 0 点额度自动重置，不需要签到",
+          "publish_date": "",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 2,
+      "slug": "codex-relay",
+      "name": "Codex Relay",
+      "subtitle": "注册可获得 $10 API 额度",
+      "panel_type": "relay",
+      "home_url": "https://codex-relay.codes",
+      "register_url": "https://codex-relay.codes/register?aff=6jAq",
+      "redirect_url": "https://codex-relay.codes/register?aff=6jAq",
+      "status_api_url": "https://codex-relay.codes",
+      "pricing_api_url": "",
+      "docs_url": "",
+      "invite_code": "6jAq",
+      "registration_methods": [
+        "官网注册"
+      ],
+      "registration_requirements": [
+        "使用完整注册链接，保留 aff=6jAq，并按页面提示完成注册",
+        "注册可获得 $10 额度，登录后在控制台查看余额"
+      ],
+      "recharge_ratio": "新用户注册即送 $10 美元额度，充值比例见控制台",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": 10.0,
+      "invite_bonus": null,
+      "daily_checkin_bonus": null,
+      "first_day_total": 10.0,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "新用户通过推广链接注册立享 $10 API 额度",
+      "supported_protocols": [],
+      "openai_base_url": "",
+      "anthropic_base_url": "",
+      "mirrors": [],
+      "tags": [
+        "免费额度",
+        "注册 $10"
+      ],
+      "highlights": [
+        "注册可获得 $10 API 额度",
+        "通过本页完整邀请链接进入，保留 aff=6jAq"
+      ],
+      "caveats": [],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": 830,
+      "system_name": "Codex Relay",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T04:56:10.089Z",
+      "created_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-14T09:19:40Z",
+      "activities": [],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 4,
+      "slug": "conduit",
+      "name": "Conduit",
+      "subtitle": "注册赠送 $500 额度 · 支持 GPT-6、Fable 5.1 等模型，Telegram 机器人注册",
+      "panel_type": "relay",
+      "home_url": "https://t.me/conduitoff_bot",
+      "register_url": "https://t.me/conduitoff_bot?start=ref_8111640723",
+      "redirect_url": "https://t.me/conduitoff_bot?start=ref_8111640723",
+      "status_api_url": "https://t.me/conduitoff_bot",
+      "pricing_api_url": "",
+      "docs_url": "",
+      "invite_code": "ref_8111640723",
+      "registration_methods": [
+        "Telegram 机器人"
+      ],
+      "registration_requirements": [
+        "需要 Telegram 账号，通过完整邀请链接进入 @conduitoff_bot，保留 start=ref_8111640723",
+        "点击 Start / 开始后，按机器人提示完成注册并查看余额"
+      ],
+      "recharge_ratio": "注册直接赠送 $500 体验额度（Telegram Bot 内核销）",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": 500.0,
+      "invite_bonus": null,
+      "daily_checkin_bonus": null,
+      "first_day_total": 500.0,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "通过 Telegram 邀请链接启动机器人注册即赠 $500 API 额度",
+      "supported_protocols": [],
+      "openai_base_url": "",
+      "anthropic_base_url": "",
+      "mirrors": [],
+      "tags": [
+        "免费额度",
+        "注册 $500",
+        "GPT-6",
+        "Fable 5.1",
+        "Telegram"
+      ],
+      "highlights": [
+        "注册赠送 $500 额度",
+        "支持 GPT-6、Fable 5.1 等模型",
+        "通过本页 Telegram 邀请链接进入 Conduit 机器人，按提示完成注册"
+      ],
+      "caveats": [],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": 772,
+      "system_name": "Conduit",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T04:56:10.072Z",
+      "created_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-14T09:19:40Z",
+      "activities": [],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 5,
+      "slug": "agentrouter",
+      "name": "AgentRouter",
+      "subtitle": "AI Coding 公益站 · 注册即送额度，签到每日续命",
+      "panel_type": "newapi",
+      "home_url": "https://agentrouter.org",
+      "register_url": "https://agentrouter.org/register?aff=szt3",
+      "redirect_url": "https://agentrouter.org/register?aff=szt3",
+      "status_api_url": "https://agentrouter.org/api/status",
+      "pricing_api_url": "https://agentrouter.org/api/pricing",
+      "docs_url": "https://agentrouter.org/docs/index.html",
+      "invite_code": "szt3",
+      "registration_methods": [
+        "GitHub OAuth",
+        "LinuxDO OAuth",
+        "GitHub",
+        "LinuxDO"
+      ],
+      "registration_requirements": [
+        "务必从本页的邀请链接进入注册，否则拿不到邀请额度",
+        "注册成功后退出再重新登录一次，额度才会显示到账"
+      ],
+      "recharge_ratio": "纯公益免费站（不支持充值，按注册+邀请+每日签到发放美元额度）",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": 500000.0,
+      "signup_bonus": 100.0,
+      "invite_bonus": 50.0,
+      "daily_checkin_bonus": 25.0,
+      "first_day_total": 175.0,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "注册送$100+邀请链接送$50+每日签到$25/天；绑定邮箱参与官方抽奖兑换码；每日10:00和19:00分批投放Claude/GPT额度",
+      "supported_protocols": [
+        "OpenAI 兼容",
+        "Anthropic 兼容"
+      ],
+      "openai_base_url": "https://agentrouter.org/v1",
+      "anthropic_base_url": "https://agentrouter.org",
+      "mirrors": [
+        {
+          "label": "大陆备用域名",
+          "homeUrl": "https://ps.air-outer.com",
+          "signupUrl": "https://ps.air-outer.com/register?aff=szt3"
+        }
+      ],
+      "tags": [
+        "公益站",
+        "免费额度",
+        "Claude Code",
+        "Codex",
+        "Anthropic 兼容"
+      ],
+      "highlights": [
+        "注册即送 $100，从本页邀请链接进入再多 $50，不需要充值、不需要信用卡",
+        "每日签到再领 $25，首日合计最高 $175，长期白嫖不断供",
+        "同时提供 Anthropic 与 OpenAI 两种兼容协议，Claude Code / Codex / Cline / Cursor 都能直连",
+        "官方文档覆盖十几种客户端，照着抄配置即可"
+      ],
+      "caveats": [
+        "官方定位是公益站，不承诺 SLA、不支持充值；上游波动时可能临时停用某些模型",
+        "请求内容仅支持中 / 英 / 法 / 德 / 俄，其它语言会被拦截并返回 400",
+        "严禁批量注册、刷量、转售额度、虚假邀请，官方会直接封号"
+      ],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": 313,
+      "system_name": "Agent Router",
+      "panel_version": "init-20260918-cbda758f",
+      "last_checked_at": "2026-10-14T04:56:15.952Z",
+      "created_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-14T09:19:40Z",
+      "activities": [
+        {
+          "id": 2,
+          "ext_id": "16",
+          "activity_type": "announcement",
+          "title": "为保障服务长期运行，Claude 和 GPT 模型已调整为限量供应，每日分批次发放，用完即止。新的投放时间为🕙北京时间1",
+          "content": "为保障服务长期运行，Claude 和 GPT 模型已调整为限量供应，每日分批次发放，用完即止。新的投放时间为🕙北京时间10:00和19:00（对应UTC时间02:00和11:00），请大家注意时间变更，避免跑空。🕙 额度用完后会报错“402 Budget pool quota has been exhausted.”，等待下一批或切换至 DeepSeek / GLM 即可继续使用。",
+          "publish_date": "2026-08-28",
+          "extra_tag": ""
+        },
+        {
+          "id": 3,
+          "ext_id": "15",
+          "activity_type": "announcement",
+          "title": "📢 备用域名正式上线 为进一步提升服务可用性，本站现已推出备用域名：🔗 https://ps.air-outer.com",
+          "content": "📢 备用域名正式上线 为进一步提升服务可用性，本站现已推出备用域名：🔗 https://ps.air-outer.com 访问不了原域名的中国大陆用户可使用此域名，备用域名支持 API 接口调用 与 官网访问，与原域名功能完全一致。 原域名 https://agentrouter.org 可继续使用。",
+          "publish_date": "2026-07-28",
+          "extra_tag": ""
+        },
+        {
+          "id": 4,
+          "ext_id": "14",
+          "activity_type": "announcement",
+          "title": "🎁 官方社区平台汇总 欢迎加入或关注以下官方渠道，获取最新动态与支持： 📱 QQ 群（会定期清人，没进多试几次） · 1",
+          "content": "🎁 官方社区平台汇总 欢迎加入或关注以下官方渠道，获取最新动态与支持： 📱 QQ 群（会定期清人，没进多试几次） · 1群：1054950616 · 2群：1091388133 · 3群：700583832 💬 Discord（有中文交流频道） https://discord.gg/HgekCyHJqB 🐦 X（Twitter） https://x.com/AgentRouter_0",
+          "publish_date": "2026-07-16",
+          "extra_tag": ""
+        },
+        {
+          "id": 5,
+          "ext_id": "13",
+          "activity_type": "announcement",
+          "title": "📢 不当使用行为封禁说明 为维护服务公平，平台禁止以下不当行为： · 批量注册/获取额度 · 自动化刷量套利 · 转售、",
+          "content": "📢 不当使用行为封禁说明 为维护服务公平，平台禁止以下不当行为： · 批量注册/获取额度 · 自动化刷量套利 · 转售、共享账号及额度 · 虚假邀请欺诈 · 恶意绕过限制、干扰服务 违规账号将封禁，名单见 Discord 🚫blocked-history 频道。 申诉请联系：agent_router_org@163.com",
+          "publish_date": "2026-06-30",
+          "extra_tag": ""
+        },
+        {
+          "id": 6,
+          "ext_id": "12",
+          "activity_type": "announcement",
+          "title": "因受到恶意举报影响，近期服务稳定性遇到巨大挑战，导致Claude系列模型大规模停用。 为保障后续提升服务质量、及时同步信",
+          "content": "因受到恶意举报影响，近期服务稳定性遇到巨大挑战，导致Claude系列模型大规模停用。 为保障后续提升服务质量、及时同步信息，我们已启用新的官方 Discord，并在新的官方X更新动态。 为避免走失，请大家有序移步： 新的 Discord： 👉 https://discord.gg/aYq5B4RW3 官方 X： 👉 @AgentRouter_0 https://x.com/AgentRouter_0 且用且珍惜",
+          "publish_date": "2026-05-14",
+          "extra_tag": ""
+        },
+        {
+          "id": 9,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "邀请他人注册，邀请人同样得额度",
+          "content": "邀请他人注册，邀请人同样得额度",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 8,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "绑定邮箱参与官方不定期抽奖兑换码",
+          "content": "绑定邮箱参与官方不定期抽奖兑换码",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 7,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "每日签到领额度（登录后台点签到）",
+          "content": "每日签到领额度（登录后台点签到）",
+          "publish_date": "",
+          "extra_tag": ""
+        }
+      ],
+      "models": [
+        {
+          "name": "claude-opus-4-8",
+          "ratio": 4.0,
+          "completion_ratio": 5.0,
+          "fixed_price": null,
+          "input_price_per_m": 8.0,
+          "output_price_per_m": 40.0,
+          "groups": [
+            "test",
+            "core",
+            "default",
+            "probation",
+            "svip"
+          ],
+          "protocols": [
+            "anthropic",
+            "openai"
+          ]
+        },
+        {
+          "name": "claude-opus-5",
+          "ratio": 3.0,
+          "completion_ratio": 5.0,
+          "fixed_price": null,
+          "input_price_per_m": 6.0,
+          "output_price_per_m": 30.0,
+          "groups": [
+            "default",
+            "probation",
+            "svip",
+            "test",
+            "core"
+          ],
+          "protocols": [
+            "anthropic",
+            "openai"
+          ]
+        },
+        {
+          "name": "deepseek-v4-flash",
+          "ratio": 2.0,
+          "completion_ratio": 3.0,
+          "fixed_price": null,
+          "input_price_per_m": 4.0,
+          "output_price_per_m": 12.0,
+          "groups": [
+            "core",
+            "default",
+            "probation",
+            "svip",
+            "test"
+          ],
+          "protocols": [
+            "openai",
+            "anthropic"
+          ]
+        },
+        {
+          "name": "gpt-6-astra",
+          "ratio": 2.0,
+          "completion_ratio": 5.0,
+          "fixed_price": null,
+          "input_price_per_m": 4.0,
+          "output_price_per_m": 20.0,
+          "groups": [
+            "core",
+            "default",
+            "probation",
+            "svip",
+            "test"
+          ],
+          "protocols": [
+            "openai"
+          ]
+        }
+      ],
+      "model_count": 4,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 6,
+      "slug": "docode",
+      "name": "DoCode",
+      "subtitle": "New API 中转站 · 注册送 50 站内刀，注册时填邀请码 zMRe 再加 250，首日 300 刀，Claude 与 GPT 都在架上",
+      "panel_type": "newapi",
+      "home_url": "https://docode.cc",
+      "register_url": "https://docode.cc/register?aff=2Lwb",
+      "redirect_url": "https://docode.cc/register?aff=2Lwb",
+      "status_api_url": "https://docode.cc/api/status",
+      "pricing_api_url": "",
+      "docs_url": "",
+      "invite_code": "2Lwb",
+      "registration_methods": [
+        "邮箱 + 密码"
+      ],
+      "registration_requirements": [
+        "邀请码 = zMRe。从本页链接进入（带 ?aff=zMRe）通常会自动填进注册表单的「邀请码」栏，提交前自己再看一眼；空着就只拿得到注册送的 50 站内刀",
+        "250 站内刀在注册那一刻结算，注册完再去后台补填邀请码是没用的",
+        "只能邮箱 + 密码建号：公开配置里 github / linuxdo / discord / telegram / 微信 / OIDC / Passkey 的开关全是 false，没有第三方登录入口",
+        "注册要邮箱验证码（email_verification = true），并且开着 Cloudflare Turnstile 人机校验",
+        "主域名打不开时换 api.docode.cc，同一套账号与额度"
+      ],
+      "recharge_ratio": "price=0.02（活动1元=50站内刀，日常1:25；Stripe单价¥8）",
+      "price_rate": 0.02,
+      "stripe_unit_price": 8.0,
+      "quota_per_unit": 500000.0,
+      "signup_bonus": 50.0,
+      "invite_bonus": 250.0,
+      "daily_checkin_bonus": null,
+      "first_day_total": 300.0,
+      "credit_unit": "site-usd",
+      "my_invite_code": "2Lwb",
+      "my_invite_url": "https://docode.cc/register?aff=2Lwb",
+      "my_api_key": "",
+      "checkin_enabled": false,
+      "register_open": true,
+      "password_register": true,
+      "email_verification": true,
+      "turnstile_check": false,
+      "github_min_age_days": null,
+      "activities_summary": "[2026-10-15] 生图功能暂时不可用，原因为 OpenAI 官方协议变更。 预计这两天修复好；[2026-10-09] gpt 全系已大幅下调倍率，gptpro 最低 7 倍，不降智最低 15 倍，官 key 最低 24 倍。",
+      "supported_protocols": [
+        "OpenAI 兼容",
+        "Anthropic 兼容"
+      ],
+      "openai_base_url": "https://docode.cc/v1",
+      "anthropic_base_url": "https://docode.cc",
+      "mirrors": [
+        {
+          "label": "直连美国",
+          "homeUrl": "https://api.docode.cc",
+          "signupUrl": "https://api.docode.cc/register?aff=zMRe"
+        }
+      ],
+      "tags": [
+        "New API",
+        "免费额度",
+        "Claude Code",
+        "Codex",
+        "Anthropic 兼容",
+        "OpenAI 兼容"
+      ],
+      "highlights": [
+        "⚠️ 别漏了邀请码：注册表单里的「邀请码」一栏填 zMRe，这 250 站内刀才会到账。从本页链接进去通常会自动带上，但提交前务必肉眼确认那一栏不是空的——没填就只有注册送的 50，事后补不上",
+        "注册送 50 站内刀，填了邀请码 zMRe 再加 250，首日 300 刀不用充值——注意这个「刀」是站内计价单位，不是美元，换算见下面的风险提示",
+        "Claude 和 GPT 同时在架：站内公告点名 cc / cc-kiro 分组的 sonnet-5、按次计费的 opus4.6，以及 GPT pro / plus、Grok、Gemini、fable-5，一把 Key 通吃，本页多数站只给其中一边",
+        "Anthropic 与 OpenAI 两条原生路由都开着（不带 key 探 /v1/messages 与 /v1/chat/completions 都回 New API 的 401 Invalid token），Claude Code 填 Base URL 就能直连，Codex CLI 走 /v1",
+        "面板公开配置里带着一键导入的 deeplink：CC Switch、Cherry Studio、DeepChat、OpenCat、Lobe Chat 等客户端可以从后台直接把 Key 推过去",
+        "主域名之外还有 api.docode.cc（公告写「直连美国」），实测两个入口都活着，主站进不去时可以换"
+      ],
+      "caveats": [
+        "站内的「刀」不是美元：面板公开的 price = 0.02 就是充值比例，1 元 = 50 站内刀（公告里说平时恢复 1:25），而本页其它站是 ¥7.3 ≈ $1。所以 300 站内刀对应的充值面值只有 ¥6~12，本页也没把它并进跨站的美元合计",
+        "扣费还要再乘站内倍率：公告里 GPT pro 分组长期在 7~14 倍之间随上游号商价格来回调（New API 口径：倍率 1 = $2 / 百万 tokens）。按 13 倍粗算，300 站内刀约合一千万 tokens 量级的输入额度，输出还要乘补全倍率——量不算小，但一切以控制台实时倍率为准",
+        "额度数字（注册 50 / 邀请 250）站点公开接口没有暴露：/api/status 里既没有 quota_for_new_user 也没有 quota_for_invitee，本页登记的是站内公示口径，进后台核对一遍再算账",
+        "没有每日签到，额度用完只能充值或等活动，不像 AgentRouter 那样能每天续命",
+        "这是付费中转站不是公益站：后台开着在线充值（Stripe 单价 ¥8），公告里大半是充值送额度与倍率涨跌，免费额度用完要付费才能续",
+        "站内 FAQ 公示的备用域名 ai.docode.life / ai.docode.pro 与 docode.cc 解析到同一台服务器，但证书只签了 docode.cc，浏览器打开会直接报证书错误；公告里的 hk.docode.cc 则是 TLS 握手失败（2026-10-05 复测）。本页注册链接用的是站点 /api/status 自报的主地址 docode.cc，同一套账号，邀请码 zMRe 照样生效；别为了这几个域名去点「继续访问」绕过证书警告",
+        "上游波动写在公告里：GPT plus「全面阵亡」后又「暂时复活」、gpt-5.4 已彻底下架、9 月 10 日还在说「openai 炸了，gpt 全线都不太行」，别当稳定生产通道用"
+      ],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": 1845,
+      "system_name": "DoCode",
+      "panel_version": "",
+      "last_checked_at": "2026-10-15T08:12:54Z",
+      "created_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-15T08:56:12Z",
+      "activities": [
+        {
+          "id": 10,
+          "ext_id": "34",
+          "activity_type": "success",
+          "title": "gpt 全系已大幅下调倍率，gptpro 最低 7 倍，不降智最低 15 倍，官 key 最低 24 倍。",
+          "content": "gpt 全系已大幅下调倍率，gptpro 最低 7 倍，不降智最低 15 倍，官 key 最低 24 倍。",
+          "publish_date": "2026-10-09",
+          "extra_tag": ""
+        },
+        {
+          "id": 11,
+          "ext_id": "33",
+          "activity_type": "default",
+          "title": "最近上线模型：gpt-6.1-sol、claude-opus-5-5、claude-sonnet-5-5",
+          "content": "最近上线模型：gpt-6.1-sol、claude-opus-5-5、claude-sonnet-5-5",
+          "publish_date": "2026-10-04",
+          "extra_tag": ""
+        },
+        {
+          "id": 12,
+          "ext_id": "32",
+          "activity_type": "success",
+          "title": "中秋节活动预告：中秋节当天凡是 vip500，赠送 1500 额度；vip1000，赠送 3000 额度，；vip200",
+          "content": "中秋节活动预告：中秋节当天凡是 vip500，赠送 1500 额度；vip1000，赠送 3000 额度，；vip2000，赠送 5000 额度。中秋节三天，充值加赠 5-20%。",
+          "publish_date": "2026-09-22",
+          "extra_tag": ""
+        },
+        {
+          "id": 13,
+          "ext_id": "31",
+          "activity_type": "warning",
+          "title": "gptpro+分组即将下线，请及时切换至其他分组，推荐gpt不降智分组！！！",
+          "content": "gptpro+分组即将下线，请及时切换至其他分组，推荐gpt不降智分组！！！",
+          "publish_date": "2026-09-21",
+          "extra_tag": ""
+        },
+        {
+          "id": 14,
+          "ext_id": "30",
+          "activity_type": "ongoing",
+          "title": "免费期间，可选择gpt与grok模型，总量为2W额度，用完即止，次日9点恢复，如使用问题请进群联系管理.",
+          "content": "免费期间，可选择gpt与grok模型，总量为2W额度，用完即止，次日9点恢复，如使用问题请进群联系管理.",
+          "publish_date": "2026-09-18",
+          "extra_tag": ""
+        },
+        {
+          "id": 56,
+          "ext_id": "28",
+          "activity_type": "ongoing",
+          "title": "国模分组倍率下调，其中deepseek仅保留DeepSeek-V4.1-Flash与DeepSeek-V4-Pro。",
+          "content": "国模分组倍率下调，其中deepseek仅保留DeepSeek-V4.1-Flash与DeepSeek-V4-Pro。",
+          "publish_date": "2026-09-15",
+          "extra_tag": ""
+        },
+        {
+          "id": 57,
+          "ext_id": "27",
+          "activity_type": "warning",
+          "title": "今天openai炸了，gpt全线都不太行，推荐用grok或者cc特殊分组",
+          "content": "今天openai炸了，gpt全线都不太行，推荐用grok或者cc特殊分组",
+          "publish_date": "2026-09-10",
+          "extra_tag": ""
+        },
+        {
+          "id": 58,
+          "ext_id": "26",
+          "activity_type": "default",
+          "title": "已上架按次收费的分组，有gemini和opus4.6，价格详情可以查看定价页面。",
+          "content": "已上架按次收费的分组，有gemini和opus4.6，价格详情可以查看定价页面。",
+          "publish_date": "2026-08-29",
+          "extra_tag": ""
+        },
+        {
+          "id": 60,
+          "ext_id": "24",
+          "activity_type": "default",
+          "title": "号源暂时全断了，全网价格都上涨，gpt每个vip等级都上调了1-2点。",
+          "content": "号源暂时全断了，全网价格都上涨，gpt每个vip等级都上调了1-2点。",
+          "publish_date": "2026-08-06",
+          "extra_tag": ""
+        },
+        {
+          "id": 59,
+          "ext_id": "25",
+          "activity_type": "default",
+          "title": "基本稳定，相关分组倍率已回落",
+          "content": "基本稳定，相关分组倍率已回落",
+          "publish_date": "2026-08-06",
+          "extra_tag": ""
+        },
+        {
+          "id": 61,
+          "ext_id": "23",
+          "activity_type": "default",
+          "title": "经过openai一顿厮杀，暂时稳定了，站点的gpt pro价格扛不住了，vip10-vip500的倍率都上调了+2倍率。",
+          "content": "经过openai一顿厮杀，暂时稳定了，站点的gpt pro价格扛不住了，vip10-vip500的倍率都上调了+2倍率。如vip10由11倍上调13倍，vip500由7倍上调至9倍。如后续市场价格回落，我站也会对应调整。",
+          "publish_date": "2026-07-21",
+          "extra_tag": ""
+        },
+        {
+          "id": 62,
+          "ext_id": "22",
+          "activity_type": "success",
+          "title": "🔥限时充值加码活动🔥 【活动时间：7.20-7.22 仅 3 天】 💰充值赠刀福利 ✅充 100 送 500 刀 ✅充",
+          "content": "🔥限时充值加码活动🔥 【活动时间：7.20-7.22 仅 3 天】 💰充值赠刀福利 ✅充 100 送 500 刀 ✅充 200 送 1500 刀 ✅充 300 送 3000 刀 ✅充 500 送 6500 刀 📈额外拉新福利 活动期间所有 VIP 用户，拉新赠送额度从 80 上调至 120",
+          "publish_date": "2026-07-20",
+          "extra_tag": "已结束"
+        },
+        {
+          "id": 63,
+          "ext_id": "21",
+          "activity_type": "default",
+          "title": "针对gpt pro与grok倍率都下调了，最低至7倍，具体看定价页面的倍率 https://api.docode.cc/",
+          "content": "针对gpt pro与grok倍率都下调了，最低至7倍，具体看定价页面的倍率 https://api.docode.cc/pricing 新注册用户gpt福利组取消，体验gpt的倍率降至13. 后期如市场影响稳定后，docode会做出对应调整。",
+          "publish_date": "2026-07-16",
+          "extra_tag": ""
+        },
+        {
+          "id": 64,
+          "ext_id": "20",
+          "activity_type": "default",
+          "title": "今日受上游市场影响，我站现针对gpt pro组倍率降价，vip500由10降至8，vip300由11降至8.5，vip1",
+          "content": "今日受上游市场影响，我站现针对gpt pro组倍率降价，vip500由10降至8，vip300由11降至8.5，vip100由12降至10，vip50由13降至11，vip10由14降至12，其余分组暂时不变。",
+          "publish_date": "2026-07-13",
+          "extra_tag": ""
+        },
+        {
+          "id": 65,
+          "ext_id": "19",
+          "activity_type": "ongoing",
+          "title": "凌晨接到通知，pro号号商价格集体上涨，无奈需要针对gpt pro的倍率稍调整，vip500原9倍调整至10倍，vip3",
+          "content": "凌晨接到通知，pro号号商价格集体上涨，无奈需要针对gpt pro的倍率稍调整，vip500原9倍调整至10倍，vip300原9.5倍调整至11倍，vip100原10倍调整为12倍，其他不变。等到上游号商价格有回调，我们也会跟着回调。",
+          "publish_date": "2026-07-10",
+          "extra_tag": ""
+        },
+        {
+          "id": 16,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "邀请他人注册也有奖励，公告里提过 VIP 用户拉新额度从 80 上调至 120，具体金额登录后台「邀请」页确认",
+          "content": "邀请他人注册也有奖励，公告里提过 VIP 用户拉新额度从 80 上调至 120，具体金额登录后台「邀请」页确认",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 15,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "站内没有签到（面板自报 checkin_enabled = false），额度靠充值和不定时活动，公告里出现过「充 10",
+          "content": "站内没有签到（面板自报 checkin_enabled = false），额度靠充值和不定时活动，公告里出现过「充 100 送 500 刀」这类限时加码",
+          "publish_date": "",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": true,
+      "personal_link": true,
+      "source_url": "https://github.com/panxunying/ai-coding-welfare/blob/main/data/sites.json",
+      "reference_checked_at": "2026-10-15T07:30:49Z",
+      "intro": "New API 主力中转网关，邮箱注册即送额度，同时支持 Claude Code 与 GPT 全系双协议直连。",
+      "signup_bonus_label": "注册送 50 + 邀请码加赠 250 站内刀",
+      "bonus_evidence": "参考仓库登记注册 50、提交邀请码 zMRe 另赠 250；幻城导航描述 150，来源冲突，实际额度请以注册页及到账为准。公开状态未披露赠额数值。",
+      "usage_note": "Anthropic Base URL：https://docode.cc；OpenAI 兼容：https://docode.cc/v1。实际模型名、倍率和可用分组登录后确认。",
+      "suitability": "邮箱路径优先；金额仅作来源记录，不按赠额大小排名。",
+      "evidence_checked_at": "2026-10-15T07:30:49Z",
+      "first_batch": true,
+      "display_order": 1,
+      "recommendation": {
+        "score": 9.8,
+        "max": 10,
+        "stars": 5,
+        "label": "9.8 / 10"
+      },
+      "short_desc": "New API 主力中转网关，邮箱注册即送额度，同时支持 Claude Code 与 GPT 全系双协议直连。",
+      "reg_tag": "邮箱注册 · 邀请码 2Lwb",
+      "live_promos": [
+        {
+          "date": "2026-10-15",
+          "tag": "站内公告",
+          "text": "生图功能暂时不可用，原因为 OpenAI 官方协议变更。 预计这两天修复好"
+        },
+        {
+          "date": "2026-10-09",
+          "tag": "站内公告",
+          "text": "gpt 全系已大幅下调倍率，gptpro 最低 7 倍，不降智最低 15 倍，官 key 最低 24 倍。"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "justdowork",
+      "name": "JustDoWork (Justwoker)",
+      "subtitle": "New API 中转站 · GitHub 一键登录，支持签到与绘图",
+      "panel_type": "newapi",
+      "home_url": "https://api.justwoker.icu",
+      "register_url": "https://api.justwoker.icu/register?aff=8lTQ",
+      "redirect_url": "https://api.justwoker.icu/register?aff=8lTQ",
+      "status_api_url": "https://api.justwoker.icu/api/status",
+      "pricing_api_url": "",
+      "docs_url": "https://api.justwoker.icu/dashboard/overview",
+      "invite_code": "8lTQ",
+      "registration_methods": [
+        "GitHub OAuth"
+      ],
+      "registration_requirements": [
+        "GitHub 账号需满 365 天",
+        "邮箱密码注册关闭",
+        "Turnstile 人机验证"
+      ],
+      "recharge_ratio": "公益签到 + 在线兑换码（Quota单位 500000 = $1）",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": 500000.0,
+      "signup_bonus": 70.0,
+      "invite_bonus": null,
+      "daily_checkin_bonus": 22.0,
+      "first_day_total": 92.0,
+      "credit_unit": "usd",
+      "my_invite_code": "8lTQ",
+      "my_invite_url": "https://api.justwoker.icu/register?aff=8lTQ",
+      "my_api_key": "",
+      "checkin_enabled": true,
+      "register_open": true,
+      "password_register": false,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": 365,
+      "activities_summary": "[实时生效] 通过专属邀请链接 (aff=8lTQ) GitHub 一键登录立送 $70 额度，每日后台签到再领约 $22；[社区福利] 加入官方 Discord 社区 (discord.gg/jDXjGMUDS) 与关注站内公告，不定期掉落免费额度兑换码",
+      "supported_protocols": [
+        "OpenAI 兼容",
+        "Anthropic 兼容"
+      ],
+      "openai_base_url": "https://api.justwoker.icu/v1",
+      "anthropic_base_url": "https://api.justwoker.icu",
+      "mirrors": [],
+      "tags": [
+        "New API",
+        "免费额度",
+        "签到",
+        "绘图",
+        "OpenAI 兼容"
+      ],
+      "highlights": [
+        "注册即得约 $70 额度，GitHub 一键登录，不用充值",
+        "基于开源 New API 面板，控制台熟悉、日志与用量一目了然",
+        "每日签到再领约 $22，首日合计约 $92",
+        "支持对话之外的绘图 / 异步任务接口",
+        "一键把 Key 推送到 Cherry Studio、DeepChat、CC Switch 等客户端"
+      ],
+      "caveats": [
+        "不属于低门槛精选；指定 /register 入口按用户要求保留，未提交注册。"
+      ],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": 946,
+      "system_name": "JustDoWork",
+      "panel_version": "v1.0.0-rc.23",
+      "last_checked_at": "2026-10-15T08:12:54Z",
+      "created_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-15T07:43:10Z",
+      "activities": [
+        {
+          "id": 18,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "关注站点公告获取活动兑换码",
+          "content": "关注站点公告获取活动兑换码",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 17,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "每日签到领约 $22",
+          "content": "每日签到领约 $22",
+          "publish_date": "",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": true,
+      "personal_link": true,
+      "evidence_checked_at": "2026-10-15T07:19:24Z",
+      "public_status_evidence": {
+        "register_enabled": true,
+        "password_register_enabled": false,
+        "github_minimum_account_age_days": 365,
+        "turnstile_check": true
+      },
+      "signup_bonus_label": "注册即送 $70 + 每日签到 ≈$22",
+      "bonus_evidence": "历史投稿描述，当前公开状态不披露注册赠额；未实测到账。",
+      "intro": "GitHub 一键授权登录，注册立享 $70 体验金与每日签到续命，支持 OpenAI / Anthropic 与绘图接口。",
+      "source_url": "https://github.com/panxunying/ai-coding-welfare/blob/main/data/sites.json",
+      "usage_note": "历史资料记录 OpenAI 与 Anthropic 兼容；当前清单及价格需登录确认。",
+      "suitability": "仅适合已有符合年限 GitHub 账号的用户。",
+      "first_batch": true,
+      "recommendation": {
+        "score": 9.4,
+        "max": 10,
+        "stars": 5,
+        "label": "9.4 / 10"
+      },
+      "short_desc": "GitHub 一键授权登录，注册立享 $70 体验金与每日签到续命，支持 OpenAI / Anthropic 与绘图接口。",
+      "reg_tag": "GitHub 登录 · 邀请码 8lTQ",
+      "display_order": 2,
+      "live_promos": [
+        {
+          "date": "实时生效",
+          "tag": "新人与签到",
+          "text": "通过专属邀请链接 (aff=8lTQ) GitHub 一键登录立送 $70 额度，每日后台签到再领约 $22"
+        },
+        {
+          "date": "社区福利",
+          "tag": "兑换码发放",
+          "text": "加入官方 Discord 社区 (discord.gg/jDXjGMUDS) 与关注站内公告，不定期掉落免费额度兑换码"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "flushapi",
+      "name": "FlushAPI",
+      "subtitle": "New API 网关 · 注册送 $15，本页邀请进入共 $22.5，GitHub 一键建号，16 个模型与价格全公开",
+      "panel_type": "newapi",
+      "home_url": "https://flushapi.fun",
+      "register_url": "https://flushapi.fun/sign-up?aff=WBF3",
+      "redirect_url": "https://flushapi.fun/sign-up?aff=WBF3",
+      "status_api_url": "https://flushapi.fun/api/status",
+      "pricing_api_url": "https://flushapi.fun/api/pricing",
+      "docs_url": "https://flushapi.fun/docs",
+      "invite_code": "WBF3",
+      "registration_methods": [
+        "GitHub OAuth",
+        "GitHub",
+        "账号密码"
+      ],
+      "registration_requirements": [
+        "务必从本页邀请链接进入注册（带 ?aff=WBF3）：裸注册只有 $15，走邀请链接是 $22.5，多出的 $7.5 在注册那一刻结算，事后补不上",
+        "只能走 GitHub 授权建号：接口自报邮箱密码注册关着（password_register_enabled=false），密码登录只留给已有账号",
+        "没有邮箱验证码环节（email_verification=false），也没开 Turnstile 人机校验"
+      ],
+      "recharge_ratio": "price=7.3（¥7.3 ≈ $1，DeepSeek低至$0.03/M，Claude系输入$5/输出$25）",
+      "price_rate": 7.3,
+      "stripe_unit_price": null,
+      "quota_per_unit": 500000.0,
+      "signup_bonus": 15.0,
+      "invite_bonus": 7.5,
+      "daily_checkin_bonus": null,
+      "first_day_total": 22.5,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": true,
+      "register_open": true,
+      "password_register": false,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "注册送$15+邀请码WBF3送$7.5；每邀请一位好友再得$7.5；开启后台每日签到",
+      "supported_protocols": [
+        "OpenAI 兼容",
+        "Anthropic 兼容"
+      ],
+      "openai_base_url": "https://flushapi.fun/v1",
+      "anthropic_base_url": "https://flushapi.fun",
+      "mirrors": [],
+      "tags": [
+        "New API",
+        "签到",
+        "Claude Code",
+        "Codex",
+        "免费额度",
+        "Anthropic 兼容",
+        "OpenAI 兼容"
+      ],
+      "highlights": [
+        "注册送 $15，从本页邀请链接进入变 $22.5；此后每邀请一人再得 $7.5（站方公告口径 2026-09-24）",
+        "GitHub OAuth 一键建号：接口自报 github_oauth=true 且未开邮箱验证、未开 Turnstile，注册链路很短",
+        "三条原生路由实测在线：带无效 Key 探 /v1/messages、/v1/chat/completions、/v1/responses，都由 New API 亲自回「Invalid token」——Claude Code、Codex 与 Chat 类客户端填个 Base URL 就能直连",
+        "定价接口无需登录：16 个模型与倍率全公开，含 claude-opus-5 / 4-8、fable-5.1、gpt-6-astra、gpt-5.6-sol、glm-5.3(-flash)、DeepSeek-V4.1-Flash 等",
+        "价格最低 $0.03/1M tokens 起（DeepSeek-V4.1-Flash 输入侧）；claude 系输入 $5 / 输出 $25，按量扣不是按次",
+        "Super 余额独立：claude-opus-5 / 4.8 / 4.7、fable-5.x、gpt-6-astra / 5.6-sol 划在 Super 档，gpt-5.6-luna 不耗 Super 余额"
+      ],
+      "caveats": [
+        "额度数字（注册 $15 / 邀请 $7.5 / 邀请人 +$7.5）来自站方 2026-09-24 的公告截图，公开接口不公示这些字段、本页无法自动核对，进后台看实际到账再算账",
+        "站点很新：接口自报的 start_time 折 2026-09-24 前后才上线，运营稳定性还没有经过时间检验，别替它做长期承诺",
+        "Super 档是独立余额（公告口径「separate balance」）：claude-opus / fable、gpt-6-astra 等旗舰模型走 Super 档，$15 / $22.5 是 default 余额的口径，开通前看清站内的分档说明",
+        "页面是纯 SPA：robots.txt 返回的是前端壳而不是 robots 内容，本页只打 /api/status 与 /api/pricing 两个公开接口探测",
+        "充值比例 price=7.3（¥7.3 ≈ $1）说明它不是纯免费站，免费额度用完后要付费才能续"
+      ],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": 1484,
+      "system_name": "FlushAPI",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T04:56:10.794Z",
+      "created_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-14T09:19:40Z",
+      "activities": [
+        {
+          "id": 22,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "每日签到开着（checkin_enabled=true），签到给多少公告与公开接口都没写，登录后台点签到看实际数额",
+          "content": "每日签到开着（checkin_enabled=true），签到给多少公告与公开接口都没写，登录后台点签到看实际数额",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 21,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "每邀请一位好友注册，邀请人再得 $7.5（站方公告口径，人数未见上限说明）",
+          "content": "每邀请一位好友注册，邀请人再得 $7.5（站方公告口径，人数未见上限说明）",
+          "publish_date": "",
+          "extra_tag": ""
+        }
+      ],
+      "models": [
+        {
+          "name": "claude-fable-5",
+          "ratio": 5.0,
+          "completion_ratio": 5.0,
+          "fixed_price": null,
+          "input_price_per_m": 10.0,
+          "output_price_per_m": 50.0,
+          "groups": [
+            "default",
+            "Super"
+          ],
+          "protocols": [
+            "anthropic",
+            "openai"
+          ]
+        },
+        {
+          "name": "claude-opus-4-8",
+          "ratio": 2.5,
+          "completion_ratio": 5.0,
+          "fixed_price": null,
+          "input_price_per_m": 5.0,
+          "output_price_per_m": 25.0,
+          "groups": [
+            "default",
+            "Super"
+          ],
+          "protocols": [
+            "anthropic",
+            "openai"
+          ]
+        },
+        {
+          "name": "claude-opus-5",
+          "ratio": 2.5,
+          "completion_ratio": 5.0,
+          "fixed_price": null,
+          "input_price_per_m": 5.0,
+          "output_price_per_m": 25.0,
+          "groups": [
+            "default",
+            "Super"
+          ],
+          "protocols": [
+            "anthropic",
+            "openai"
+          ]
+        },
+        {
+          "name": "claude-sonnet-5",
+          "ratio": 1.0,
+          "completion_ratio": 5.0,
+          "fixed_price": null,
+          "input_price_per_m": 2.0,
+          "output_price_per_m": 10.0,
+          "groups": [
+            "default",
+            "Super"
+          ],
+          "protocols": [
+            "anthropic",
+            "openai"
+          ]
+        },
+        {
+          "name": "gpt-5.6-luna",
+          "ratio": 0.1,
+          "completion_ratio": 6.0,
+          "fixed_price": null,
+          "input_price_per_m": 0.2,
+          "output_price_per_m": 1.2,
+          "groups": [
+            "default",
+            "Super"
+          ],
+          "protocols": [
+            "openai"
+          ]
+        },
+        {
+          "name": "gpt-5.6-sol",
+          "ratio": 2.0,
+          "completion_ratio": 5.0,
+          "fixed_price": null,
+          "input_price_per_m": 4.0,
+          "output_price_per_m": 20.0,
+          "groups": [
+            "default",
+            "Super"
+          ],
+          "protocols": [
+            "openai"
+          ]
+        },
+        {
+          "name": "gpt-6-astra",
+          "ratio": 5.0,
+          "completion_ratio": 5.0,
+          "fixed_price": null,
+          "input_price_per_m": 10.0,
+          "output_price_per_m": 50.0,
+          "groups": [
+            "Super",
+            "default"
+          ],
+          "protocols": [
+            "openai"
+          ]
+        }
+      ],
+      "model_count": 7,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 10,
+      "slug": "kktoken",
+      "name": "KKtoken AI",
+      "subtitle": "New API 中转站 · 注册送 $75，本页邀请码再加 $25，按 token 计费输入输出各 $1/M",
+      "panel_type": "newapi",
+      "home_url": "https://kktoken.cc",
+      "register_url": "https://kktoken.cc/sign-up?aff=MzG9",
+      "redirect_url": "https://kktoken.cc/sign-up?aff=MzG9",
+      "status_api_url": "https://kktoken.cc/api/status",
+      "pricing_api_url": "",
+      "docs_url": "https://kktoken.cc/dashboard/overview",
+      "invite_code": "MzG9",
+      "registration_methods": [
+        "GitHub OAuth",
+        "GitHub",
+        "账号密码"
+      ],
+      "registration_requirements": [
+        "务必从本页邀请链接进入注册（带 ?aff=MzG9），$25 在注册那一刻结算，事后补不上",
+        "GitHub 账号注册满 1 年（365 天）才允许绑定，小号会被拒绝",
+        "已关闭账号密码注册，只能用 GitHub 授权；注册完成后可以再设密码用于登录",
+        "注册页有 Cloudflare Turnstile 人机校验，需要能正常加载 Cloudflare 脚本"
+      ],
+      "recharge_ratio": "¥7.3 ≈ $1（Stripe 通道 ¥8/$1；输入/输出各 $1 / 1M tokens）",
+      "price_rate": 7.3,
+      "stripe_unit_price": 8.0,
+      "quota_per_unit": 500000.0,
+      "signup_bonus": 75.0,
+      "invite_bonus": 25.0,
+      "daily_checkin_bonus": 20.0,
+      "first_day_total": 120.0,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": true,
+      "register_open": true,
+      "password_register": false,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "注册送$75+邀请链接送$25+每日签到$20/天；长对话按token计费仅$1/M",
+      "supported_protocols": [
+        "OpenAI 兼容",
+        "Anthropic 兼容"
+      ],
+      "openai_base_url": "https://kktoken.cc/v1",
+      "anthropic_base_url": "https://kktoken.cc",
+      "mirrors": [],
+      "tags": [
+        "New API",
+        "免费额度",
+        "签到",
+        "按 token 计费",
+        "Anthropic 兼容",
+        "OpenAI 兼容"
+      ],
+      "highlights": [
+        "注册送 $75，从本页邀请链接进入再加 $25，每日签到再领 $20，首日合计 $120",
+        "按 token 计费：输入 $1 / 百万 tokens、输出 $1 / 百万 tokens，和本页那几个「每次 $0.3」的按次站不是一套口径，长对话更划算",
+        "Anthropic 与 OpenAI 两条原生路由都开着（未鉴权探测 /v1/messages 与 /v1/chat/completions 都已就位），Claude Code 填个 Base URL 就能直连——具体上了哪些模型要登录后台确认",
+        "面板开着每日签到、绘图与异步任务接口，控制台就是熟悉的 New API（站点自报 KKtoken AI v1.0.0-rc.25）"
+      ],
+      "caveats": [
+        "额度数字（注册 $75 / 邀请 $25 / 签到 $20）站点公开接口没有暴露——它的 /api/status 里既没有 quota_for_new_user 也没有 quota_for_invitee，本页登记的是站内公示口径，进后台核对一下再算账",
+        "模型清单与价格要登录才能看（/api/pricing 返回 401），$1/M 的输入输出价同样以站内为准，本页不做承诺",
+        "站点支持在线充值（站内公示 $1 ≈ ¥7.3，Stripe 通道 ¥8），是中转站不是纯公益站，免费额度用完要付费才能续",
+        "站点前面挂着 Cloudflare，机房 IP 容易被拦，本页的自动探测偶尔会标「被 WAF 拦下」，不代表站点对你不可用"
+      ],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": 1666,
+      "system_name": "KKtoken AI",
+      "panel_version": "v1.0.0-rc.25",
+      "last_checked_at": "2026-10-14T04:56:10.978Z",
+      "created_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-14T09:19:40Z",
+      "activities": [
+        {
+          "id": 24,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "邀请他人注册也有奖励，金额站点公开接口没公示，登录后台「邀请」页确认",
+          "content": "邀请他人注册也有奖励，金额站点公开接口没公示，登录后台「邀请」页确认",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 23,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "每日签到领 $20（登录后台点签到）",
+          "content": "每日签到领 $20（登录后台点签到）",
+          "publish_date": "",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 12,
+      "slug": "matrix",
+      "name": "Matrix",
+      "subtitle": "统一 API 网关 + 开源应用商店 · 邀请注册送 600 积分，实名再送 2000",
+      "panel_type": "matrix",
+      "home_url": "https://matrix.mzsjai.com",
+      "register_url": "https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_",
+      "redirect_url": "https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_",
+      "status_api_url": "https://matrix.mzsjai.com/api/health",
+      "pricing_api_url": "",
+      "docs_url": "https://matrix.mzsjai.com/docs/matrix/intro/",
+      "invite_code": "",
+      "registration_methods": [
+        "杭电统一身份认证",
+        "手机验证码",
+        "邮箱 + 密码"
+      ],
+      "registration_requirements": [
+        "务必从本页邀请链接进入注册（带 inviteCode），奖励仅对新用户首次注册有效，否则 600 积分不发放",
+        "被邀请者注册即得 600 获赠积分，不要求先实名；2,000 积分的实名奖励要自己去钱包页领取",
+        "同一用户 / 同一实名主体只能领一次实名奖励；异常注册、重复绑定邀请关系不发奖"
+      ],
+      "recharge_ratio": "站内积分制（邀请送600积分，实名认证送2000积分，拉新双方各得600积分）",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": null,
+      "invite_bonus": 600.0,
+      "daily_checkin_bonus": null,
+      "first_day_total": 600.0,
+      "credit_unit": "point",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "邀请注册送600积分+实名认证领2000积分+邀请好友双方各得600积分+反馈建议赢兑换码（有效期至2026-12-31）",
+      "supported_protocols": [
+        "OpenAI 兼容"
+      ],
+      "openai_base_url": "",
+      "anthropic_base_url": "",
+      "mirrors": [],
+      "tags": [
+        "积分制",
+        "免费额度",
+        "OpenAI 兼容",
+        "开源应用商店",
+        "Cursor"
+      ],
+      "highlights": [
+        "从本页邀请链接注册即得 600 获赠积分，注册就发、不用实名、不用充值",
+        "完成个人实名认证再领 2,000 积分，是这个站拿额度最快的一步",
+        "一把 Key 调通 OpenAI / Anthropic / Google / DeepSeek / Moonshot / 智谱 / 阿里 等多家模型，OpenAI 兼容协议直连 Cursor / Cherry Studio / Open WebUI / Aider",
+        "自带开源应用商店，登录后一键拉起独立容器实例，容器内的 AI 调用自动走你的 Matrix Key"
+      ],
+      "caveats": [
+        "额度是站内积分，站方没有公开积分与美元的换算，本页按积分原样显示，不折算美元、也不并入跨站的美元合计",
+        "活动奖励发的是「获赠积分」，长期有效，但只能调用支持获赠积分的模型与平台服务",
+        "增长活动官方写明有效期至 2026 年 12 月 31 日，之后规则可能调整",
+        "只提供 OpenAI 兼容协议，官方文档没有 Anthropic 原生接口，Claude Code 不能直连（要用得自己做协议转换）",
+        "应用商店的容器实例按规格 × 运行时长计费，体验完记得在控制台关停 / 删除，否则会一直扣额度",
+        "站内的 Qoder 订阅、充值等是付费商品，注意与免费活动奖励区分",
+        "实名认证要提交个人身份信息，为 2,000 积分做不做这一步请自行判断"
+      ],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": 1929,
+      "system_name": "Matrix",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T04:56:11.241Z",
+      "created_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-14T09:19:40Z",
+      "activities": [
+        {
+          "id": 30,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "注册后钱包里还有一笔初始体验额度，站方没公示具体数目，本页不计入合计",
+          "content": "注册后钱包里还有一笔初始体验额度，站方没公示具体数目，本页不计入合计",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 29,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "站内「反馈赢兑换码」：建议被采纳会送额度",
+          "content": "站内「反馈赢兑换码」：建议被采纳会送额度",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 28,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "邀请好友注册，邀请者与被邀请者各得 600 积分 / 人",
+          "content": "邀请好友注册，邀请者与被邀请者各得 600 积分 / 人",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 27,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "完成个人实名认证，在钱包页领 2,000 积分（一次性）",
+          "content": "完成个人实名认证，在钱包页领 2,000 积分（一次性）",
+          "publish_date": "",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "source_url": "https://github.com/panxunying/ai-coding-welfare/blob/main/data/sites.json",
+      "reference_checked_at": "2026-10-15T07:30:49Z",
+      "intro": "统一 API 网关及开源应用平台。参考仓库记录可用邮箱密码注册，经指定邀请链接首次注册可获 600 积分，不以实名认证为这笔奖励的前提。网关地址需登录 API Key 详情页查看，不能直接把网站域名当作 API 地址。",
+      "signup_bonus_label": "仓库口径：邀请注册赠 600 积分",
+      "bonus_evidence": "仓库登记首次经邀请链接注册，受邀者赠 600 获赠积分；实名另赠 2000 不计入本次注册额度。",
+      "usage_note": "只登记 OpenAI 兼容；Base URL 以登录后 API Key 详情页下发地址为准，本页不猜测。",
+      "suitability": "邮箱路径优先；金额仅作来源记录，不按赠额大小排名。",
+      "evidence_checked_at": "2026-10-15T07:30:49Z",
+      "first_batch": false,
+      "recommendation": {
+        "score": 7,
+        "max": 10,
+        "registration": 4,
+        "reward_clarity": 3,
+        "public_evidence": 0,
+        "risk_deduction": 0,
+        "reason": "按注册便利 0–4、赠额描述 0–3、公开注册配置 0–2、说明完整 0–1 加分，再扣明确风险。全部未实测到账或模型质量，评分只代表资料与注册便利性。",
+        "documentation": 0
+      }
+    },
+    {
+      "id": 15,
+      "slug": "anyrouter",
+      "name": "AnyRouter",
+      "subtitle": "New API 中转站 · 注册送 $75，本页邀请码再加 $50，Anthropic 与 OpenAI 两条原生路由都开着",
+      "panel_type": "newapi",
+      "home_url": "https://anyrouter.top",
+      "register_url": "https://anyrouter.top/register?aff=Z24N",
+      "redirect_url": "https://anyrouter.top/register?aff=Z24N",
+      "status_api_url": "https://anyrouter.top/api/status",
+      "pricing_api_url": "",
+      "docs_url": "",
+      "invite_code": "Z24N",
+      "registration_methods": [
+        "GitHub OAuth",
+        "LinuxDO OAuth"
+      ],
+      "registration_requirements": [
+        "务必从本页邀请链接进入注册（带 ?aff=Z24N），$50 在注册那一刻结算，事后补不上",
+        "GitHub 账号注册满 5 年才允许绑定——门槛比本页其它站高得多，小号一律被拒",
+        "GitHub 不满 5 年就改走 LinuxDO 登录，这条路没有账号年龄要求",
+        "签到领的 $25 要退出再重新登录一次才会刷新到额度上"
+      ],
+      "recharge_ratio": "按 Token 计费（输入 $5/M、输出 $25/M），注册+邀请+签到免费领",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": 75.0,
+      "invite_bonus": 50.0,
+      "daily_checkin_bonus": 25.0,
+      "first_day_total": 150.0,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "新用户注册送$75+邀请码Z24N加送$50+每日签到$25（首日$150）；邀请好友注册享额外返利",
+      "supported_protocols": [
+        "OpenAI 兼容",
+        "Anthropic 兼容"
+      ],
+      "openai_base_url": "https://anyrouter.top/v1",
+      "anthropic_base_url": "https://anyrouter.top",
+      "mirrors": [],
+      "tags": [
+        "New API",
+        "免费额度",
+        "签到",
+        "Claude Code",
+        "按 token 计费",
+        "Anthropic 兼容",
+        "OpenAI 兼容"
+      ],
+      "highlights": [
+        "注册送 $75，从本页邀请链接进入再加 $50，每日签到再领 $25，首日合计 $150",
+        "Anthropic 与 OpenAI 两条原生路由都开着：未鉴权 POST /v1/messages 与 /v1/chat/completions 都由 New API 亲自回「无效的令牌」，Claude Code 与 Codex 填个 Base URL 就能直连",
+        "站内公示按 token 计价：输入 $5 / 百万 tokens、输出 $25 / 百万 tokens，按量扣不是按次，短问答很省",
+        "站内公示支持 GPT-5.6 Sol；GitHub 账号不满 5 年的可以改用 LinuxDO 登录，绕开年龄门槛"
+      ],
+      "caveats": [
+        "整站挂着 JS 人机挑战，连 robots.txt 与注册页都返回挑战页，本页的自动探测读不到它的 /api/status——所以上面「实时数据」一栏除了接口延迟基本是空的，站名、面板版本、模型数都拿不到。那是我们读不到，不代表你打不开",
+        "额度数字（注册 $75 / 邀请 $50 / 签到 $25）与 $5 / $25 的价格都是站内公示口径，公开接口无法核对，进后台自己确认一遍再算账",
+        "GitHub 满 5 年这条门槛卡掉的人不少，注册前先看一眼自己账号的创建年份，不够就走 LinuxDO",
+        "只有 /v1/* 的中转接口不吃挑战，网页端偶发挑战失败时换个浏览器或稍后再试"
+      ],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": 176,
+      "system_name": "AnyRouter",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T04:56:17.133Z",
+      "created_at": "2026-10-14T09:19:41Z",
+      "updated_at": "2026-10-14T09:19:41Z",
+      "activities": [
+        {
+          "id": 36,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "邀请他人注册也有奖励，金额站点公开接口读不到，登录后台「邀请」页确认",
+          "content": "邀请他人注册也有奖励，金额站点公开接口读不到，登录后台「邀请」页确认",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 35,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "每日签到领 $25（登录后台点签到，之后退出重新登录一次刷新额度）",
+          "content": "每日签到领 $25（登录后台点签到，之后退出重新登录一次刷新额度）",
+          "publish_date": "",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 16,
+      "slug": "cheapcodex",
+      "name": "CheapCodex",
+      "subtitle": "自研 AI 网关 · 本页邀请码送 $20，每日签到再 $20，OpenAI / Anthropic / Codex 三条协议一把 Key",
+      "panel_type": "relay",
+      "home_url": "https://api.cheapcodex.online",
+      "register_url": "https://api.cheapcodex.online/register?aff=U7SSQZSDB36S",
+      "redirect_url": "https://api.cheapcodex.online/register?aff=U7SSQZSDB36S",
+      "status_api_url": "https://api.cheapcodex.online/v1/models",
+      "pricing_api_url": "",
+      "docs_url": "",
+      "invite_code": "U7SSQZSDB36S",
+      "registration_methods": [
+        "邮箱注册"
+      ],
+      "registration_requirements": [
+        "务必从本页邀请链接进入注册（带 ?aff=U7SSQZSDB36S），$20 在注册那一刻结算，事后补不上",
+        "只能用邮箱建号：站点前端自带的公开配置里 github / google / linuxdo / 微信 / 钉钉 / OIDC 的 oauth 开关全是 false，没有第三方登录入口",
+        "注册页的人机校验目前是关的（配了 Turnstile site key 但 turnstile_enabled=false），加载不出 Cloudflare 脚本也能注册"
+      ],
+      "recharge_ratio": "外置收单 pay.ldxp.cn 订阅制 + 免费签到 $20/天",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": null,
+      "invite_bonus": 20.0,
+      "daily_checkin_bonus": 20.0,
+      "first_day_total": 40.0,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "[实时生效] 邮箱免验证通过邀请链接注册立得 $20 额度，每日后台签到再领 $20（首日可得 $40）；[协议特惠] 原生开放 /v1/messages、/v1/chat/completions、/v1/responses，支持 GPT-5.6 Sol 与 Codex CLI",
+      "supported_protocols": [
+        "OpenAI 兼容",
+        "Anthropic 兼容"
+      ],
+      "openai_base_url": "https://api.cheapcodex.online/v1",
+      "anthropic_base_url": "https://api.cheapcodex.online",
+      "mirrors": [],
+      "tags": [
+        "免费额度",
+        "签到",
+        "Codex",
+        "Claude Code",
+        "OpenAI 兼容",
+        "Anthropic 兼容"
+      ],
+      "highlights": [
+        "从本页邀请链接注册送 $20，每日签到再领 $20，首日合计 $40",
+        "三条原生路由都开着：带无效 key 探 /v1/chat/completions、/v1/messages、/v1/responses 一律回 INVALID_API_KEY，而 /v1/bogus 回 404 —— Claude Code 与 Codex CLI 都能直连",
+        "/v1/responses 在线意味着 Codex CLI 能走它原生的 responses 协议，不用退回 chat",
+        "鉴权头收三种：Authorization: Bearer、x-api-key、x-goog-api-key —— 站点自己的 401 报错里列的，OpenAI / Anthropic / Gemini 三家客户端的习惯都照顾到了",
+        "站内公示可以用 GPT-5.6 Sol"
+      ],
+      "caveats": [
+        "额度数字（邀请 $20 / 签到 $20）与 GPT-5.6 Sol 都是站内公示口径，面板接口 robots 禁爬、本页无法自动核对，进后台自己确认一遍再算账",
+        "上面「实时数据」一栏只有接口延迟：本页只对 /v1/models 做存活探测，站名、面板版本、模型数一概拿不到",
+        "站内挂着付费订阅商品、收单走站外的 pay.ldxp.cn，前端配置里 payment_enabled 目前是 false（站内直充没开）——是付费网关不是纯公益站，免费额度用完要付费才能续",
+        "另一个域名 api.cheapcodex.ccwu.cc 提供同一套应用（.online 的 robots.txt 里声明的 sitemap 就指向它），但邀请码在那边是否同样结算无法从公开接口确认，建议就走本页链接"
+      ],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": 2713,
+      "system_name": "CheapCodex",
+      "panel_version": "",
+      "last_checked_at": "2026-10-15T08:12:54Z",
+      "created_at": "2026-10-14T09:19:41Z",
+      "updated_at": "2026-10-15T07:43:10Z",
+      "activities": [
+        {
+          "id": 38,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "邀请他人注册也有奖励（站点前端配置里 affiliate_enabled=true），金额没公示，登录后台「邀请」页确认",
+          "content": "邀请他人注册也有奖励（站点前端配置里 affiliate_enabled=true），金额没公示，登录后台「邀请」页确认",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 37,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "每日签到领 $20（登录后台点签到）",
+          "content": "每日签到领 $20（登录后台点签到）",
+          "publish_date": "",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": true,
+      "personal_link": false,
+      "source_url": "https://github.com/panxunying/ai-coding-welfare/blob/main/data/sites.json",
+      "reference_checked_at": "2026-10-15T07:30:49Z",
+      "intro": "纯邮箱免验证快速建号，原生支持 OpenAI / Anthropic / Codex Responses 三协议直连。",
+      "signup_bonus_label": "邀请注册送 $20 + 每日签到 $20",
+      "bonus_evidence": "仓库登记通过 aff=U7SSQZSDB36S 注册赠 20；签到另赠 20 不计入注册额度。来源未经本轮到账实测。",
+      "usage_note": "参考仓库的 OpenAI Base URL：https://api.cheapcodex.online/v1；Anthropic：https://api.cheapcodex.online。请在控制台核对实时配置。",
+      "suitability": "邮箱路径优先；金额仅作来源记录，不按赠额大小排名。",
+      "evidence_checked_at": "2026-10-15T07:30:49Z",
+      "first_batch": true,
+      "display_order": 6,
+      "recommendation": {
+        "score": 8.9,
+        "max": 10,
+        "stars": 4,
+        "label": "8.9 / 10"
+      },
+      "short_desc": "纯邮箱免验证快速建号，原生支持 OpenAI / Anthropic / Codex Responses 三协议直连。",
+      "reg_tag": "邮箱免验注册 · 每日签到",
+      "live_promos": [
+        {
+          "date": "实时生效",
+          "tag": "注册与签到",
+          "text": "邮箱免验证通过邀请链接注册立得 $20 额度，每日后台签到再领 $20（首日可得 $40）"
+        },
+        {
+          "date": "协议特惠",
+          "tag": "三协议直连",
+          "text": "原生开放 /v1/messages、/v1/chat/completions、/v1/responses，支持 GPT-5.6 Sol 与 Codex CLI"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "slug": "nofx",
+      "name": "NOFX",
+      "subtitle": "任务制积分站 · 做任务领 API 积分，签到 / Discord / 邀请 / 发推都给分，免密码登录、无需绑卡",
+      "panel_type": "relay",
+      "home_url": "https://nofx.one/zh-CN",
+      "register_url": "https://nofx.one/zh-CN/sign-in?ref=J369GHY4",
+      "redirect_url": "https://nofx.one/zh-CN/sign-in?ref=J369GHY4",
+      "status_api_url": "https://nofx.one/sitemap.xml",
+      "pricing_api_url": "",
+      "docs_url": "",
+      "invite_code": "J369GHY4",
+      "registration_methods": [
+        "邮箱 magic link",
+        "GitHub OAuth"
+      ],
+      "registration_requirements": [
+        "务必从本页邀请链接进入注册（带 ?ref=J369GHY4），邀请关系在注册那一刻绑定，事后补不上",
+        "免密码登录：填邮箱收一条登录链接，或直接用 GitHub 授权；站点隐私条款写明「不签发或保存登录密码」",
+        "签到和 Discord 验证这两笔要在 Discord 里做（/checkin 与 /verify，命令得从弹出列表里选，不能直接粘贴），不进 Discord 就领不到"
+      ],
+      "recharge_ratio": "任务积分制（免充值，约 5 积分 ≈ 7M tokens，支持 gpt-5.6-sol）",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": null,
+      "invite_bonus": 10.0,
+      "daily_checkin_bonus": 5.0,
+      "first_day_total": 15.0,
+      "credit_unit": "point",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "邀请注册+10积分、Discord验证+5积分、每日签到+5积分、邀请好友+5积分/人、X发推截图过审+20积分",
+      "supported_protocols": [
+        "OpenAI 兼容"
+      ],
+      "openai_base_url": "",
+      "anthropic_base_url": "",
+      "mirrors": [],
+      "tags": [
+        "积分制",
+        "免费额度",
+        "Discord 签到",
+        "Codex",
+        "OpenAI 兼容"
+      ],
+      "highlights": [
+        "从本页邀请链接注册得 10 积分，之后每天签到 +$5 积分，站点自报「第一笔积分，30 秒就能到账」",
+        "积分是靠做任务领的，不是充值买的：加入 Discord +$5、每日签到 +$5、邀请一位好友 +$5（不限每日人数）、在 X 发一条带邀请码的推文过审 +$20",
+        "免密码登录：邮箱 magic link 或 GitHub 授权，站点明确写着「不签发或保存登录密码」，也支持两步验证",
+        "一个 Key 调用主流模型，站内公示可以用 gpt-5.6-sol；据反馈约 5 积分能换 7M tokens 左右",
+        "无需绑卡，注册后立刻能签到领第一笔"
+      ],
+      "caveats": [
+        "额度是站内积分，站方没有公开积分与美元的换算，本页按积分原样显示，不折算美元、也不并入跨站的美元合计——站点界面写的「$5 积分」是它自己的单位，别当成 5 美元",
+        "积分有 30 天有效期：从首次奖励入账起算，期间有真实 API 消耗会重新计算 30 天，到期前 7 天 / 1 天有站内和邮件提醒。领了不用会过期，这点和本页其它站不一样",
+        "每日签到「剩余积分超过 $50 时暂停」，攒不到很高，是设计成让你边领边用的",
+        "落地页的 CTA 写「注册领取 $20 积分」，而本页登记的邀请注册是 10 积分——两个口径站点没在公开页面上对齐，进后台看实际到账数",
+        "「分享到 X」那 $20 要发带自己邀请码的推文并上传截图过审，本质是替站点做推广，要不要做自己判断",
+        "站点公开面读不到任何机器可读的状态：robots.txt 禁掉了 /api/ 与控制台各页，本页只探 sitemap.xml 判断站点还活着，所以「实时数据」一栏只有延迟"
+      ],
+      "source_channel": "github:ai-coding-welfare",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": 3436,
+      "system_name": "NOFX",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T04:56:12.751Z",
+      "created_at": "2026-10-14T09:19:41Z",
+      "updated_at": "2026-10-14T09:19:41Z",
+      "activities": [
+        {
+          "id": 43,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "体验合作 APP 的任务另有积分，由合作方 HMAC 回调自动确认",
+          "content": "体验合作 APP 的任务另有积分，由合作方 HMAC 回调自动确认",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 42,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "在 X 发一条带邀请码的推文、上传截图过审 +$20 积分（一次性）",
+          "content": "在 X 发一条带邀请码的推文、上传截图过审 +$20 积分（一次性）",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 41,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "邀请好友注册，邀请者每人 +$5 积分，不限每日人数",
+          "content": "邀请好友注册，邀请者每人 +$5 积分，不限每日人数",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 40,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "加入 Discord 并用 /verify 验证 +$5 积分（一次性，验证码领取后 30 分钟内有效）",
+          "content": "加入 Discord 并用 /verify 验证 +$5 积分（一次性，验证码领取后 30 分钟内有效）",
+          "publish_date": "",
+          "extra_tag": ""
+        },
+        {
+          "id": 39,
+          "ext_id": "",
+          "activity_type": "welfare_rule",
+          "title": "每日签到 +$5 积分（Discord 里输入 /checkin，每日刷新）",
+          "content": "每日签到 +$5 积分（Discord 里输入 /checkin，每日刷新）",
+          "publish_date": "",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 18,
+      "slug": "molyeye",
+      "name": "MolyEye",
+      "subtitle": "社区投稿收录 · [收录] MolyEye",
+      "panel_type": "newapi",
+      "home_url": "https://molyeye.com",
+      "register_url": "https://molyeye.com/register",
+      "redirect_url": "https://molyeye.com/register",
+      "status_api_url": "https://molyeye.com/api/status",
+      "pricing_api_url": "https://molyeye.com/api/pricing",
+      "docs_url": "https://github.com/panxunying/ai-coding-welfare/issues/30",
+      "invite_code": "",
+      "registration_methods": [
+        "邮箱注册"
+      ],
+      "registration_requirements": [
+        "来源 GitHub Issue 投稿：https://github.com/panxunying/ai-coding-welfare/issues/30"
+      ],
+      "recharge_ratio": "¥1 = $1",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": 0.3,
+      "invite_bonus": null,
+      "daily_checkin_bonus": null,
+      "first_day_total": 0.3,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "### 站点名称 MolyEye ### 注册链接 https://molyeye.com/register ### 站点首页 https://molyeye.com ### 面板类型 New API ### 新用户能拿多少额度 注册送 $0.3（邮箱验证后到账，¥1 = $1 计价），无签到 ### 支持的兼容协议 - [X] Anthropic 兼容（Claude Code 可直连） - [X",
+      "supported_protocols": [
+        "Anthropic 兼容",
+        "OpenAI 兼容"
+      ],
+      "openai_base_url": "https://molyeye.com/v1",
+      "anthropic_base_url": "https://molyeye.com",
+      "mirrors": [],
+      "tags": [
+        "社区投稿",
+        "AI中转站"
+      ],
+      "highlights": [
+        "### 站点名称 MolyEye ### 注册链接 https://molyeye.com/register ### 站点首页 https://molyeye.com ### 面板类型 New API ### 新用户能拿多少额度 注册送 $0.3（邮箱验证后到账，¥1 = $1 计价），无签到 ### 支持的兼容协议 "
+      ],
+      "caveats": [],
+      "source_channel": "github:issues",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": null,
+      "system_name": "",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T09:19:42Z",
+      "created_at": "2026-10-14T09:19:42Z",
+      "updated_at": "2026-10-14T09:19:42Z",
+      "activities": [
+        {
+          "id": 44,
+          "ext_id": "",
+          "activity_type": "community_submission",
+          "title": "社区投稿：MolyEye",
+          "content": "### 站点名称 MolyEye ### 注册链接 https://molyeye.com/register ### 站点首页 https://molyeye.com ### 面板类型 New API ### 新用户能拿多少额度 注册送 $0.3（邮箱验证后到账，¥1 = $1 计价），无签到 ### 支持的兼容协议 - [X] Anthropic 兼容（Claude Code 可直连） - [X] OpenAI 兼容（Codex / Cursor / SDK 可直连） ### 注册门槛与注意事项 - 邮箱注册，要收验证码；QQ / 163 / 126 / Foxmail / Gmail /",
+          "publish_date": "2026-10-14",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 19,
+      "slug": "novai",
+      "name": "NovAI",
+      "subtitle": "社区投稿收录 · 补充收录：NovAI (aiapi-pro.com) — 零加价中国模型网关 + 5 个免费无限模型",
+      "panel_type": "relay",
+      "home_url": "https://aiapi-pro.com",
+      "register_url": "https://aiapi-pro.com/register?utm_source=ai_coding_welfare",
+      "redirect_url": "https://aiapi-pro.com/register?utm_source=ai_coding_welfare",
+      "status_api_url": "https://aiapi-pro.com",
+      "pricing_api_url": "",
+      "docs_url": "https://github.com/panxunying/ai-coding-welfare/issues/25",
+      "invite_code": "",
+      "registration_methods": [
+        "GitHub OAuth"
+      ],
+      "registration_requirements": [
+        "来源 GitHub Issue 投稿：https://github.com/panxunying/ai-coding-welfare/issues/25"
+      ],
+      "recharge_ratio": "见站内公示（社区投稿站点）",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": null,
+      "invite_bonus": null,
+      "daily_checkin_bonus": null,
+      "first_day_total": null,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "申请收录。以下为可直接追加到 `data/sites.json` 的 `sites` 数组的条目（按仓库 schema 填写）： ```json { \"id\": \"novai\", \"name\": \"NovAI (AI API Pro)\", \"subtitle\": \"零平台费的中国前沿模型网关，121 个模型一个 OpenAI 兼容端点\", \"recommended\": false, \"credit",
+      "supported_protocols": [
+        "OpenAI 兼容"
+      ],
+      "openai_base_url": "https://aiapi-pro.com/v1",
+      "anthropic_base_url": "",
+      "mirrors": [],
+      "tags": [
+        "社区投稿",
+        "AI中转站"
+      ],
+      "highlights": [
+        "申请收录。以下为可直接追加到 `data/sites.json` 的 `sites` 数组的条目（按仓库 schema 填写）： ```json { \"id\": \"novai\", \"name\": \"NovAI (AI API Pro)\", \"subtitle\": \"零平台费的中国前沿模型网关，121 个模型一个 Ope"
+      ],
+      "caveats": [],
+      "source_channel": "github:issues",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": null,
+      "system_name": "",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T09:19:42Z",
+      "created_at": "2026-10-14T09:19:42Z",
+      "updated_at": "2026-10-14T09:19:42Z",
+      "activities": [
+        {
+          "id": 45,
+          "ext_id": "",
+          "activity_type": "community_submission",
+          "title": "社区投稿：NovAI",
+          "content": "申请收录。以下为可直接追加到 `data/sites.json` 的 `sites` 数组的条目（按仓库 schema 填写）： ```json { \"id\": \"novai\", \"name\": \"NovAI (AI API Pro)\", \"subtitle\": \"零平台费的中国前沿模型网关，121 个模型一个 OpenAI 兼容端点\", \"recommended\": false, \"credits\": { \"signup\": 2, \"invite\": null, \"dailyCheckin\": null, \"dailyQuota\": null, \"approx\": false, \"unit\"",
+          "publish_date": "2026-10-14",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 20,
+      "slug": "dsh-api",
+      "name": "DSH API",
+      "subtitle": "社区投稿收录 · 提交站点：DSH API（中转聚合站，国模分组 0.08x，OpenAI + Anthropic 双协议）",
+      "panel_type": "relay",
+      "home_url": "https://api.dshapi.icu",
+      "register_url": "https://api.dshapi.icu/r/T8KiaeGU",
+      "redirect_url": "https://api.dshapi.icu/r/T8KiaeGU",
+      "status_api_url": "https://api.dshapi.icu",
+      "pricing_api_url": "",
+      "docs_url": "https://github.com/panxunying/ai-coding-welfare/issues/17",
+      "invite_code": "",
+      "registration_methods": [
+        "邮箱注册"
+      ],
+      "registration_requirements": [
+        "来源 GitHub Issue 投稿：https://github.com/panxunying/ai-coding-welfare/issues/17"
+      ],
+      "recharge_ratio": "见站内公示（社区投稿站点）",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": null,
+      "invite_bonus": null,
+      "daily_checkin_bonus": null,
+      "first_day_total": null,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "**站点名称**：DSH API **入口**：https://api.dshapi.icu/r/T8KiaeGU **官网（无推广参数）**：https://api.dshapi.icu **统一端点**：https://api.dshapi.icu/v1 ### 基本信息 | 项 | 内容 | |---|---| | 类型 | 中转聚合站（按量计费，人民币） | | 协议 | OpenAI（`",
+      "supported_protocols": [
+        "OpenAI 兼容"
+      ],
+      "openai_base_url": "https://api.dshapi.icu/v1",
+      "anthropic_base_url": "",
+      "mirrors": [],
+      "tags": [
+        "社区投稿",
+        "AI中转站"
+      ],
+      "highlights": [
+        "**站点名称**：DSH API **入口**：https://api.dshapi.icu/r/T8KiaeGU **官网（无推广参数）**：https://api.dshapi.icu **统一端点**：https://api.dshapi.icu/v1 ### 基本信息 | 项 | 内容 | |---|---| "
+      ],
+      "caveats": [],
+      "source_channel": "github:issues",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": null,
+      "system_name": "",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T09:19:42Z",
+      "created_at": "2026-10-14T09:19:42Z",
+      "updated_at": "2026-10-14T09:19:42Z",
+      "activities": [
+        {
+          "id": 46,
+          "ext_id": "",
+          "activity_type": "community_submission",
+          "title": "社区投稿：DSH API",
+          "content": "**站点名称**：DSH API **入口**：https://api.dshapi.icu/r/T8KiaeGU **官网（无推广参数）**：https://api.dshapi.icu **统一端点**：https://api.dshapi.icu/v1 ### 基本信息 | 项 | 内容 | |---|---| | 类型 | 中转聚合站（按量计费，人民币） | | 协议 | OpenAI（`/v1/models`、`/v1/chat/completions`、`/v1/responses`）+ Anthropic（`/v1/messages`），同一个 base URL | | 支付 |",
+          "publish_date": "2026-10-14",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 21,
+      "slug": "tierflow",
+      "name": "清枢智汇tierflow",
+      "subtitle": "社区投稿收录 · [收录] 清枢智汇",
+      "panel_type": "relay",
+      "home_url": "https://tierflow.cn",
+      "register_url": "https://tierflow.cn/register?referral_code=JtDE1qbaHqhW",
+      "redirect_url": "https://tierflow.cn/register?referral_code=JtDE1qbaHqhW",
+      "status_api_url": "https://tierflow.cn",
+      "pricing_api_url": "",
+      "docs_url": "https://github.com/panxunying/ai-coding-welfare/issues/14",
+      "invite_code": "JtDE1qbaHqhW",
+      "registration_methods": [
+        "官网注册"
+      ],
+      "registration_requirements": [
+        "来源 GitHub Issue 投稿：https://github.com/panxunying/ai-coding-welfare/issues/14"
+      ],
+      "recharge_ratio": "见站内公示（社区投稿站点）",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": null,
+      "invite_bonus": null,
+      "daily_checkin_bonus": null,
+      "first_day_total": null,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "### 站点名称 清枢智汇tierflow ### 注册链接 https://tierflow.cn/register?referral_code=JtDE1qbaHqhW ### 站点首页 https://tierflow.cn ### 面板类型 自研或未知 ### 新用户能拿多少额度 35 ### 支持的兼容协议 - [x] Anthropic 兼容（Claude Code 可直连） - [x",
+      "supported_protocols": [
+        "Anthropic 兼容",
+        "OpenAI 兼容"
+      ],
+      "openai_base_url": "https://tierflow.cn/v1",
+      "anthropic_base_url": "https://tierflow.cn",
+      "mirrors": [],
+      "tags": [
+        "社区投稿",
+        "AI中转站"
+      ],
+      "highlights": [
+        "### 站点名称 清枢智汇tierflow ### 注册链接 https://tierflow.cn/register?referral_code=JtDE1qbaHqhW ### 站点首页 https://tierflow.cn ### 面板类型 自研或未知 ### 新用户能拿多少额度 35 ### 支持的兼容协议 "
+      ],
+      "caveats": [],
+      "source_channel": "github:issues",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": null,
+      "system_name": "",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T09:19:42Z",
+      "created_at": "2026-10-14T09:19:42Z",
+      "updated_at": "2026-10-14T09:19:42Z",
+      "activities": [
+        {
+          "id": 47,
+          "ext_id": "",
+          "activity_type": "community_submission",
+          "title": "社区投稿：清枢智汇tierflow",
+          "content": "### 站点名称 清枢智汇tierflow ### 注册链接 https://tierflow.cn/register?referral_code=JtDE1qbaHqhW ### 站点首页 https://tierflow.cn ### 面板类型 自研或未知 ### 新用户能拿多少额度 35 ### 支持的兼容协议 - [x] Anthropic 兼容（Claude Code 可直连） - [x] OpenAI 兼容（Codex / Cursor / SDK 可直连） ### 注册门槛与注意事项 -中国手机号注册 - 无限制 -可用模型 GLM-5.3 GLM-5.3-Flash GLM-5",
+          "publish_date": "2026-10-14",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 22,
+      "slug": "onomeo",
+      "name": "onomeo",
+      "subtitle": "社区投稿收录 · [收录] onomeo",
+      "panel_type": "newapi",
+      "home_url": "https://onomeo.com",
+      "register_url": "https://onomeo.com/zh/login",
+      "redirect_url": "https://onomeo.com/zh/login",
+      "status_api_url": "https://onomeo.com/api/status",
+      "pricing_api_url": "https://onomeo.com/api/pricing",
+      "docs_url": "https://github.com/panxunying/ai-coding-welfare/issues/13",
+      "invite_code": "",
+      "registration_methods": [
+        "GitHub OAuth",
+        "邮箱注册"
+      ],
+      "registration_requirements": [
+        "来源 GitHub Issue 投稿：https://github.com/panxunying/ai-coding-welfare/issues/13"
+      ],
+      "recharge_ratio": "见站内公示（社区投稿站点）",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": null,
+      "invite_bonus": null,
+      "daily_checkin_bonus": null,
+      "first_day_total": null,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "### 站点名称 onomeo ### 注册链接 https://onomeo.com/zh/login ### 站点首页 https://onomeo.com/zh ### 面板类型 自研或未知 ### 新用户能拿多少额度 免费用量按次数给，不用签到：33 个免费模型，每个账号每 5 小时 30 次，每把密钥每分钟 12 次（其余限制见下）。网页画图每个账号每天 10 张，免费。Claude、G",
+      "supported_protocols": [
+        "Anthropic 兼容",
+        "OpenAI 兼容"
+      ],
+      "openai_base_url": "https://onomeo.com/v1",
+      "anthropic_base_url": "https://onomeo.com",
+      "mirrors": [],
+      "tags": [
+        "社区投稿",
+        "AI中转站"
+      ],
+      "highlights": [
+        "### 站点名称 onomeo ### 注册链接 https://onomeo.com/zh/login ### 站点首页 https://onomeo.com/zh ### 面板类型 自研或未知 ### 新用户能拿多少额度 免费用量按次数给，不用签到：33 个免费模型，每个账号每 5 小时 30 次，每把密钥每分钟 "
+      ],
+      "caveats": [],
+      "source_channel": "github:issues",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": null,
+      "system_name": "",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T09:19:42Z",
+      "created_at": "2026-10-14T09:19:42Z",
+      "updated_at": "2026-10-14T09:19:42Z",
+      "activities": [
+        {
+          "id": 48,
+          "ext_id": "",
+          "activity_type": "community_submission",
+          "title": "社区投稿：onomeo",
+          "content": "### 站点名称 onomeo ### 注册链接 https://onomeo.com/zh/login ### 站点首页 https://onomeo.com/zh ### 面板类型 自研或未知 ### 新用户能拿多少额度 免费用量按次数给，不用签到：33 个免费模型，每个账号每 5 小时 30 次，每把密钥每分钟 12 次（其余限制见下）。网页画图每个账号每天 10 张，免费。Claude、GPT 等大模型和 DeepSeek 编程专线按量付费（美元余额，5 美元起充），不在免费范围内。 ### 支持的兼容协议 - [ ] Anthropic 兼容（Claude Code 可直连） - [",
+          "publish_date": "2026-10-14",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 23,
+      "slug": "hiyo-free",
+      "name": "hiyo free",
+      "subtitle": "社区投稿收录 · [收录] Hiyo Free",
+      "panel_type": "newapi",
+      "home_url": "https://free.hiyo.top",
+      "register_url": "https://free.hiyo.top/register?aff=G4N5JVJ3W7YJ",
+      "redirect_url": "https://free.hiyo.top/register?aff=G4N5JVJ3W7YJ",
+      "status_api_url": "https://free.hiyo.top/api/status",
+      "pricing_api_url": "https://free.hiyo.top/api/pricing",
+      "docs_url": "https://github.com/panxunying/ai-coding-welfare/issues/12",
+      "invite_code": "G4N5JVJ3W7YJ",
+      "registration_methods": [
+        "官网注册"
+      ],
+      "registration_requirements": [
+        "来源 GitHub Issue 投稿：https://github.com/panxunying/ai-coding-welfare/issues/12"
+      ],
+      "recharge_ratio": "见站内公示（社区投稿站点）",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": null,
+      "invite_bonus": null,
+      "daily_checkin_bonus": 5.0,
+      "first_day_total": 5.0,
+      "credit_unit": "usd",
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "### 站点名称 hiyo free ### 注册链接 https://free.hiyo.top/register?aff=G4N5JVJ3W7YJ ### 站点首页 https://free.hiyo.top/register?aff=G4N5JVJ3W7YJ ### 面板类型 New API ### 新用户能拿多少额度 注册20$，每日签到5-10刀 ### 支持的兼容协议 - [ ] An",
+      "supported_protocols": [
+        "Anthropic 兼容",
+        "OpenAI 兼容"
+      ],
+      "openai_base_url": "https://free.hiyo.top/v1",
+      "anthropic_base_url": "https://free.hiyo.top",
+      "mirrors": [],
+      "tags": [
+        "社区投稿",
+        "AI中转站"
+      ],
+      "highlights": [
+        "### 站点名称 hiyo free ### 注册链接 https://free.hiyo.top/register?aff=G4N5JVJ3W7YJ ### 站点首页 https://free.hiyo.top/register?aff=G4N5JVJ3W7YJ ### 面板类型 New API ### 新用户能拿多"
+      ],
+      "caveats": [],
+      "source_channel": "github:issues",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": null,
+      "system_name": "",
+      "panel_version": "",
+      "last_checked_at": "2026-10-14T09:19:42Z",
+      "created_at": "2026-10-14T09:19:42Z",
+      "updated_at": "2026-10-14T09:19:42Z",
+      "activities": [
+        {
+          "id": 49,
+          "ext_id": "",
+          "activity_type": "community_submission",
+          "title": "社区投稿：hiyo free",
+          "content": "### 站点名称 hiyo free ### 注册链接 https://free.hiyo.top/register?aff=G4N5JVJ3W7YJ ### 站点首页 https://free.hiyo.top/register?aff=G4N5JVJ3W7YJ ### 面板类型 New API ### 新用户能拿多少额度 注册20$，每日签到5-10刀 ### 支持的兼容协议 - [ ] Anthropic 兼容（Claude Code 可直连） - [x] OpenAI 兼容（Codex / Cursor / SDK 可直连） ### 注册门槛与注意事项 不限制注册，但有邀请码等限制，邀",
+          "publish_date": "2026-10-14",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": false,
+      "personal_link": false,
+      "first_batch": false
+    },
+    {
+      "id": 24,
+      "slug": "hcnsec",
+      "name": "新疆幻城网安网关",
+      "subtitle": "社区投稿收录 · [收录] 新疆幻城网安科技公益大模型安全网关",
+      "panel_type": "newapi",
+      "home_url": "https://api.hcnsec.cn",
+      "register_url": "https://api.hcnsec.cn/sign-up?aff=b1KI",
+      "redirect_url": "https://api.hcnsec.cn/sign-up?aff=b1KI",
+      "status_api_url": "https://api.hcnsec.cn/api/status",
+      "pricing_api_url": "https://api.hcnsec.cn/api/pricing",
+      "docs_url": "https://github.com/panxunying/ai-coding-welfare/issues/10",
+      "invite_code": "b1KI",
+      "registration_methods": [
+        "邮箱 + 密码"
+      ],
+      "registration_requirements": [
+        "邮箱验证码",
+        "Turnstile 人机验证"
+      ],
+      "recharge_ratio": "见站内公示（社区投稿站点）",
+      "price_rate": null,
+      "stripe_unit_price": null,
+      "quota_per_unit": null,
+      "signup_bonus": 14600.0,
+      "invite_bonus": null,
+      "daily_checkin_bonus": null,
+      "first_day_total": 14600.0,
+      "credit_unit": "cny",
+      "my_invite_code": "b1KI",
+      "my_invite_url": "https://api.hcnsec.cn/sign-up?aff=b1KI",
+      "my_api_key": "",
+      "checkin_enabled": null,
+      "register_open": null,
+      "password_register": null,
+      "email_verification": null,
+      "turnstile_check": null,
+      "github_min_age_days": null,
+      "activities_summary": "[2026-10-15] 小程序名字：《重生之这一世我要好好学人工智能》直接微信搜索然后进去答题，获取兑换码权限，获取兑换码，然后就可以在我站钱包界面填写兑换码兑换额度，一天能答题十次，十次能换一万余额，现阶段正处于内测阶段，有问题大家及时反馈；[2026-10-13] 活动链接：https://zcode.z.ai/invite/JEGSSGVA 下载绑定glm账号，即可领取三亿token，具体大家自己看吧",
+      "supported_protocols": [
+        "Anthropic 兼容",
+        "OpenAI 兼容"
+      ],
+      "openai_base_url": "https://api.hcnsec.cn/v1",
+      "anthropic_base_url": "https://api.hcnsec.cn",
+      "mirrors": [],
+      "tags": [
+        "社区投稿",
+        "AI中转站"
+      ],
+      "highlights": [
+        "### 站点名称 新疆幻城网安科技公益大模型安全网关 ### 注册链接 https://api.hcnsec.cn/sign-up?aff=MaxS ### 站点首页 https://api.hcnsec.cn/ ### 面板类型 New API ### 新用户能拿多少额度 注册送￥14600，每天签到随机额度，邀请送"
+      ],
+      "caveats": [
+        "指定邀请链接已替换；未实测到账。"
+      ],
+      "source_channel": "github:issues",
+      "online_status": true,
+      "is_archived": false,
+      "archived_reason": "",
+      "latency_ms": null,
+      "system_name": "",
+      "panel_version": "",
+      "last_checked_at": "2026-10-15T08:12:54Z",
+      "created_at": "2026-10-14T09:19:43Z",
+      "updated_at": "2026-10-15T07:43:10Z",
+      "activities": [
+        {
+          "id": 50,
+          "ext_id": "",
+          "activity_type": "community_submission",
+          "title": "社区投稿：新疆幻城网安科技公益大模型安全网关",
+          "content": "### 站点名称 新疆幻城网安科技公益大模型安全网关 ### 注册链接 https://api.hcnsec.cn/sign-up?aff=MaxS ### 站点首页 https://api.hcnsec.cn/ ### 面板类型 New API ### 新用户能拿多少额度 注册送￥14600，每天签到随机额度，邀请送￥14600，所以总共可得￥2.92w以上的额度 ### 支持的兼容协议 - [x] Anthropic 兼容（Claude Code 可直连） - [x] OpenAI 兼容（Codex / Cursor / SDK 可直连） ### 注册门槛与注意事项 邮箱注册，都是国产模型",
+          "publish_date": "2026-10-14",
+          "extra_tag": ""
+        }
+      ],
+      "models": [],
+      "model_count": 0,
+      "simple_signup_selected": true,
+      "personal_link": true,
+      "evidence_checked_at": "2026-10-15T07:19:24Z",
+      "public_status_evidence": {
+        "register_enabled": true,
+        "password_register_enabled": true,
+        "github_minimum_account_age_days": null,
+        "turnstile_check": true
+      },
+      "signup_bonus_label": "注册即送 ¥14600 站内额度 + 每日签到",
+      "bonus_evidence": "仓库社区投稿描述注册送“￥14600”，不能视作可提现人民币；公开接口未披露赠额，未实测到账。签到、邀请追加奖励不合并计算。",
+      "intro": "幻城网安公益大模型网关，邮箱快速注册即赠高额站内体验金，支持 Anthropic 与 OpenAI 兼容协议。",
+      "source_url": "https://github.com/panxunying/ai-coding-welfare/issues/10",
+      "usage_note": "历史投稿记录 OpenAI 与 Anthropic 兼容。接入地址和模型 ID 应在控制台核对；网站可访问不代表模型可用。",
+      "suitability": "适合愿意完成邮箱和人机验证、先体验国产模型的用户。",
+      "first_batch": true,
+      "display_order": 4,
+      "recommendation": {
+        "score": 9.1,
+        "max": 10,
+        "stars": 5,
+        "label": "9.1 / 10"
+      },
+      "short_desc": "幻城网安公益大模型网关，邮箱快速注册即赠高额站内体验金，支持 Anthropic 与 OpenAI 兼容协议。",
+      "reg_tag": "邮箱注册 · 邀请码 b1KI",
+      "live_promos": [
+        {
+          "date": "2026-10-15",
+          "tag": "本站最新获余额活动，在我",
+          "text": "小程序名字：《重生之这一世我要好好学人工智能》直接微信搜索然后进去答题，获取兑换码权限，获取兑换码，然后就可以在我站钱包界面填写兑换码兑换额度，一天能答题十次，十次能换一万余额，现阶段正处于内测阶段，有问题大家及时反馈"
+        },
+        {
+          "date": "2026-10-13",
+          "tag": "glm官方活动下载z c",
+          "text": "活动链接：https://zcode.z.ai/invite/JEGSSGVA 下载绑定glm账号，即可领取三亿token，具体大家自己看吧"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "slug": "jixiangai",
+      "name": "即享AI",
+      "activities": [],
+      "models": [],
+      "created_at": "2026-10-15T07:19:24Z",
+      "home_url": "https://api.jixiangai.xyz",
+      "register_url": "https://api.jixiangai.xyz/register?aff=XimB",
+      "redirect_url": "https://api.jixiangai.xyz/register?aff=XimB",
+      "invite_code": "XimB",
+      "panel_type": "newapi",
+      "signup_bonus": 1,
+      "first_day_total": 1,
+      "credit_unit": "site-usd",
+      "signup_bonus_label": "注册即送 $1 + 每日签到福利",
+      "bonus_evidence": "注册送一刀，签到、邀请、加群奖励另计。",
+      "registration_methods": [
+        "邮箱 + 密码（需邮箱验证码）"
+      ],
+      "registration_requirements": [
+        "邮箱验证码"
+      ],
+      "caveats": [
+        "未注册、未实测到账；赠额以站内当前公示为准"
+      ],
+      "simple_signup_selected": true,
+      "personal_link": false,
+      "source_channel": "hcnsec-navigation",
+      "source_url": "https://link.hcnsec.cn/site/14",
+      "status_api_url": "https://api.jixiangai.xyz/api/status",
+      "register_open": true,
+      "password_register": true,
+      "email_verification": true,
+      "turnstile_check": false,
+      "evidence_checked_at": "2026-10-15T07:19:24Z",
+      "online_status": true,
+      "last_checked_at": "2026-10-15T08:12:54Z",
+      "is_archived": false,
+      "updated_at": "2026-10-15T07:43:10Z",
+      "public_status_evidence": {
+        "register_enabled": true,
+        "password_register_enabled": true,
+        "email_verification": true,
+        "turnstile_check": false
+      },
+      "intro": "开放邮箱密码直接注册，倍率低耐消耗，1 刀额度即可跑数百万 Token，支持日常签到。",
+      "usage_note": "导航提到 Claude 方向，但本轮未核实模型列表、标准协议与倍率；接入地址以后台为准。",
+      "suitability": "优先使用邮箱注册；先确认赠额适用模型与有效期，再发起调用。",
+      "first_batch": true,
+      "display_order": 10,
+      "recommendation": {
+        "score": 8.4,
+        "max": 10,
+        "stars": 4,
+        "label": "8.4 / 10"
+      },
+      "short_desc": "开放邮箱密码直接注册，倍率低耐消耗，1 刀额度即可跑数百万 Token，支持日常签到。",
+      "reg_tag": "邮箱注册 · 低倍率耐烧",
+      "live_promos": [
+        {
+          "date": "2026-08-24",
+          "tag": "站内公告",
+          "text": "关于退款政策说明： 即享永久开放无理由退款服务，如为平台兑换码充值退款将会扣除支付通道手续费3%（私下充值的额度不计算退款手续费） 已消费额度由即享承担不会计算手续费 计算公式：兑换码充值剩余额度-兑换码充值剩余额度x3…"
+        },
+        {
+          "date": "2026-06-24",
+          "tag": "站内公告",
+          "text": "每日限量免费分组，如需使用请将分组切换到free 不定时上新，包含glm，DeepSeek，claude，gemini等等"
+        }
+      ],
+      "activities_summary": "[2026-08-24] 关于退款政策说明： 即享永久开放无理由退款服务，如为平台兑换码充值退款将会扣除支付通道手续费3%（私下充值的额度不计算退款手续费） 已消费额度由即享承担不会计算手续费 计算公式：兑换码充值剩余额度-兑换码充值剩余额度x3…；[2026-06-24] 每日限量免费分组，如需使用请将分组切换到free 不定时上新，包含glm，DeepSeek，claude，gemini等等"
+    },
+    {
+      "id": 26,
+      "slug": "fuka",
+      "name": "芙卡卡の小食堂",
+      "activities": [],
+      "models": [],
+      "created_at": "2026-10-15T07:19:24Z",
+      "home_url": "https://api.fuka.win",
+      "register_url": "https://api.fuka.win/sign-up?aff=Ajvn",
+      "redirect_url": "https://api.fuka.win/sign-up?aff=Ajvn",
+      "invite_code": "Ajvn",
+      "panel_type": "newapi",
+      "signup_bonus": 150,
+      "first_day_total": 150,
+      "credit_unit": "site-usd",
+      "signup_bonus_label": "注册立送 150 + 邀请加赠 50 额度",
+      "bonus_evidence": "注册送一百五，邀请人和被邀请人送五十，只开放 QQ 邮箱。",
+      "registration_methods": [
+        "邮箱 + 密码（需邮箱验证码）"
+      ],
+      "registration_requirements": [
+        "仅限 QQ 邮箱"
+      ],
+      "caveats": [
+        "仅限 QQ 邮箱；邀请额外赠额不计入注册额度",
+        "未注册、未实测到账；赠额以站内当前公示为准"
+      ],
+      "simple_signup_selected": true,
+      "personal_link": true,
+      "source_channel": "hcnsec-navigation",
+      "source_url": "https://link.hcnsec.cn/site/15",
+      "status_api_url": "https://api.fuka.win/api/status",
+      "register_open": true,
+      "password_register": true,
+      "email_verification": true,
+      "turnstile_check": false,
+      "evidence_checked_at": "2026-10-15T07:19:24Z",
+      "online_status": true,
+      "last_checked_at": "2026-10-15T08:12:54Z",
+      "is_archived": false,
+      "updated_at": "2026-10-15T07:43:10Z",
+      "public_status_evidence": {
+        "register_enabled": true,
+        "password_register_enabled": true,
+        "email_verification": true,
+        "turnstile_check": false
+      },
+      "intro": "QQ 邮箱快速注册无需复杂认证，新用户注册即送 150 站内额度，走专属链接双方再加赠 50。",
+      "usage_note": "需要可收验证码的 QQ 邮箱；可用模型、协议、单价及余额用途请登录后确认。",
+      "suitability": "优先使用邮箱注册；先确认赠额适用模型与有效期，再发起调用。",
+      "first_batch": true,
+      "display_order": 3,
+      "recommendation": {
+        "score": 9.3,
+        "max": 10,
+        "stars": 5,
+        "label": "9.3 / 10"
+      },
+      "my_invite_code": "Ajvn",
+      "my_invite_url": "https://api.fuka.win/sign-up?aff=Ajvn",
+      "short_desc": "QQ 邮箱快速注册无需复杂认证，新用户注册即送 150 站内额度，走专属链接双方再加赠 50。",
+      "reg_tag": "QQ邮箱注册 · 邀请码 Ajvn",
+      "live_promos": [
+        {
+          "date": "实时生效",
+          "tag": "邀请双享",
+          "text": "QQ 邮箱快速注册即送 150 站内额度；通过专属链接 (aff=Ajvn) 注册，邀请人与被邀请人双方各加赠 50 点"
+        },
+        {
+          "date": "每日福利",
+          "tag": "签到开启",
+          "text": "面板已开启每日签到领点数功能（checkin_enabled=true），支持 CC Switch / Cherry Studio 一键导入"
+        }
+      ],
+      "activities_summary": "[实时生效] QQ 邮箱快速注册即送 150 站内额度；通过专属链接 (aff=Ajvn) 注册，邀请人与被邀请人双方各加赠 50 点；[每日福利] 面板已开启每日签到领点数功能（checkin_enabled=true），支持 CC Switch / Cherry Studio 一键导入"
+    },
+    {
+      "id": 27,
+      "slug": "pandaapi",
+      "name": "熊猫API",
+      "activities": [],
+      "models": [],
+      "created_at": "2026-10-15T07:19:24Z",
+      "home_url": "https://api520.pro",
+      "register_url": "https://api520.pro/register?aff=jCOA",
+      "redirect_url": "https://api520.pro/register?aff=jCOA",
+      "invite_code": "jCOA",
+      "panel_type": "newapi",
+      "signup_bonus": 200,
+      "first_day_total": 200,
+      "credit_unit": "site-usd",
+      "signup_bonus_label": "新用户注册即送 $200 站内刀",
+      "bonus_evidence": "导航描述新用户送两百刀；邀请奖励另计。",
+      "registration_methods": [
+        "邮箱 + 密码（需邮箱验证码）"
+      ],
+      "registration_requirements": [
+        "邮箱验证码"
+      ],
+      "caveats": [
+        "导航提醒模型可能映射，按千 token 计费；未验证模型真实性",
+        "未注册、未实测到账；赠额以站内当前公示为准"
+      ],
+      "simple_signup_selected": true,
+      "personal_link": true,
+      "source_channel": "hcnsec-navigation",
+      "source_url": "https://link.hcnsec.cn/site/26",
+      "status_api_url": "https://api520.pro/api/status",
+      "register_open": true,
+      "password_register": true,
+      "email_verification": true,
+      "turnstile_check": false,
+      "evidence_checked_at": "2026-10-15T07:19:24Z",
+      "online_status": true,
+      "last_checked_at": "2026-10-15T08:12:54Z",
+      "is_archived": false,
+      "updated_at": "2026-10-15T08:56:12Z",
+      "public_status_evidence": {
+        "register_enabled": true,
+        "password_register_enabled": true,
+        "email_verification": true,
+        "turnstile_check": false
+      },
+      "intro": "邮箱密码直接注册，新用户立享 200 刀高额体验金，支持主流对话与编程模型接口调用。",
+      "usage_note": "不要将每千 token 单价误读为每百万 token 单价；本轮没有做模型身份或质量测试。",
+      "suitability": "优先使用邮箱注册；先确认赠额适用模型与有效期，再发起调用。",
+      "first_batch": true,
+      "display_order": 5,
+      "recommendation": {
+        "score": 9.0,
+        "max": 10,
+        "stars": 5,
+        "label": "9.0 / 10"
+      },
+      "short_desc": "邮箱密码直接注册，新用户立享 200 刀高额体验金，支持主流对话与编程模型接口调用。",
+      "reg_tag": "QQ邮箱注册 · 邀请码 jCOA",
+      "live_promos": [
+        {
+          "date": "实时通知",
+          "tag": "邀请升级",
+          "text": "站内通知：邀请福利升级，QQ 邮箱注册立得 100~200 额度，邀请好友双方各得 100 额度"
+        },
+        {
+          "date": "实时通知",
+          "tag": "模型监控",
+          "text": "已上线实时模型状态监控（look.api520.pro），可一键查看当前高可用低延迟模型"
+        }
+      ],
+      "activities_summary": "[实时通知] 站内通知：邀请福利升级，QQ 邮箱注册立得 100~200 额度，邀请好友双方各得 100 额度；[实时通知] 已上线实时模型状态监控（look.api520.pro），可一键查看当前高可用低延迟模型",
+      "my_invite_code": "jCOA",
+      "my_invite_url": "https://api520.pro/register?aff=jCOA"
+    },
+    {
+      "id": 28,
+      "slug": "monkeyapi",
+      "name": "猴山 API",
+      "activities": [],
+      "models": [],
+      "created_at": "2026-10-15T07:19:24Z",
+      "home_url": "https://monkeyapi.apimonkey.online",
+      "register_url": "https://monkeyapi.apimonkey.online/register?aff=eYCy",
+      "redirect_url": "https://monkeyapi.apimonkey.online/register?aff=eYCy",
+      "invite_code": "eYCy",
+      "panel_type": "newapi",
+      "signup_bonus": 100,
+      "first_day_total": 100,
+      "credit_unit": "site-usd",
+      "signup_bonus_label": "注册即送 $100 站内刀",
+      "bonus_evidence": "注册送一百美刀；进群与邀请加赠各一百另计。",
+      "registration_methods": [
+        "邮箱 + 密码（需邮箱验证码）"
+      ],
+      "registration_requirements": [
+        "邮箱验证码",
+        "Turnstile 人机验证"
+      ],
+      "caveats": [
+        "需要人机验证；邮箱验证码可能在垃圾箱；进群不是此处注册赠额的前提",
+        "未注册、未实测到账；赠额以站内当前公示为准"
+      ],
+      "simple_signup_selected": true,
+      "personal_link": false,
+      "source_channel": "hcnsec-navigation",
+      "source_url": "https://link.hcnsec.cn/site/36",
+      "status_api_url": "https://monkeyapi.apimonkey.online/api/status",
+      "register_open": true,
+      "password_register": true,
+      "email_verification": true,
+      "turnstile_check": true,
+      "evidence_checked_at": "2026-10-15T07:19:24Z",
+      "online_status": true,
+      "last_checked_at": "2026-10-15T08:12:54Z",
+      "is_archived": false,
+      "updated_at": "2026-10-15T07:43:10Z",
+      "public_status_evidence": {
+        "register_enabled": true,
+        "password_register_enabled": true,
+        "email_verification": true,
+        "turnstile_check": true
+      },
+      "intro": "开放邮箱密码快速注册，新号立得 100 美刀站内体验额度，兼容标准 OpenAI 接口。",
+      "usage_note": "导航示例提到部分模型单次扣费较高；请先查看计费模式，不能根据余额数值推断能用多少次。",
+      "suitability": "优先使用邮箱注册；先确认赠额适用模型与有效期，再发起调用。",
+      "first_batch": true,
+      "display_order": 7,
+      "recommendation": {
+        "score": 8.7,
+        "max": 10,
+        "stars": 4,
+        "label": "8.7 / 10"
+      },
+      "short_desc": "开放邮箱密码快速注册，新号立得 100 美刀站内体验额度，兼容标准 OpenAI 接口。",
+      "reg_tag": "邮箱注册 · 满额立享",
+      "live_promos": [
+        {
+          "date": "2026-08-18",
+          "tag": "站内公告",
+          "text": "8.18晚8点开七夕充值活动！活动比例如下。 10￥ 1700额度 30￥ 6000额度 50￥ 11000额度 100￥ 26000额度 闲鱼支持微信支付啦！！可以在微信小程序里使用闲鱼了！"
+        },
+        {
+          "date": "2026-08-13",
+          "tag": "站内公告",
+          "text": "目前签到只针对付费用户开放，且需要调用超过5次，消耗超过10，经营不易，请谅解"
+        }
+      ],
+      "activities_summary": "[2026-08-18] 8.18晚8点开七夕充值活动！活动比例如下。 10￥ 1700额度 30￥ 6000额度 50￥ 11000额度 100￥ 26000额度 闲鱼支持微信支付啦！！可以在微信小程序里使用闲鱼了！；[2026-08-13] 目前签到只针对付费用户开放，且需要调用超过5次，消耗超过10，经营不易，请谅解"
+    },
+    {
+      "id": 29,
+      "slug": "jiushi",
+      "name": "玖时API",
+      "activities": [],
+      "models": [],
+      "created_at": "2026-10-15T07:19:24Z",
+      "home_url": "https://api.jiushi.xin",
+      "register_url": "https://api.jiushi.xin/register?aff=y35X",
+      "redirect_url": "https://api.jiushi.xin/register?aff=y35X",
+      "invite_code": "y35X",
+      "panel_type": "newapi",
+      "signup_bonus": 3.0,
+      "first_day_total": 3.0,
+      "credit_unit": "site-usd",
+      "signup_bonus_label": "注册即送 $3 + 每日签到 ~$1",
+      "bonus_evidence": "注册送 3 刀；签到赠额另计。",
+      "registration_methods": [
+        "邮箱 + 密码（需邮箱验证码）"
+      ],
+      "registration_requirements": [
+        "邮箱验证码"
+      ],
+      "caveats": [
+        "多数模型按次收费；请先查看价格",
+        "未注册、未实测到账；赠额以站内当前公示为准"
+      ],
+      "simple_signup_selected": true,
+      "personal_link": false,
+      "source_channel": "hcnsec-navigation",
+      "source_url": "https://link.hcnsec.cn/site/58",
+      "status_api_url": "https://api.jiushi.xin/api/status",
+      "register_open": true,
+      "password_register": true,
+      "email_verification": true,
+      "turnstile_check": false,
+      "evidence_checked_at": "2026-10-15T07:19:24Z",
+      "online_status": true,
+      "last_checked_at": "2026-10-15T08:12:54Z",
+      "is_archived": false,
+      "updated_at": "2026-10-15T09:03:52Z",
+      "public_status_evidence": {
+        "register_enabled": true,
+        "password_register_enabled": true,
+        "email_verification": true,
+        "turnstile_check": false
+      },
+      "intro": "邮箱密码快速建号，注册即赠 3 刀体验金，按次计费低至 0.05 刀/次，适合轻量高频调用。",
+      "usage_note": "导航示例约 0.05 站内刀/次，仅作历史描述，不保证所有模型同价；以定价页为准。",
+      "suitability": "优先使用邮箱注册；先确认赠额适用模型与有效期，再发起调用。",
+      "first_batch": true,
+      "display_order": 9,
+      "recommendation": {
+        "score": 8.5,
+        "max": 10,
+        "stars": 4,
+        "label": "8.5 / 10"
+      },
+      "short_desc": "邮箱密码快速建号，注册即赠 3 刀体验金，按次计费低至 0.05 刀/次，适合轻量高频调用。",
+      "reg_tag": "邮箱注册 · 按次低价",
+      "live_promos": [
+        {
+          "date": "2026-10-14",
+          "tag": "站内公告",
+          "text": "[内测]gemini-4-argon下架 改名为 [企业E]gemini-4-argon 0.095/次 VIP 0.0931/次 Gemini Enterprise渠道 源头大概是vertex 属于是平替了基本没什么差…"
+        },
+        {
+          "date": "2026-10-13",
+          "tag": "站内公告",
+          "text": "有需要的加新群 交流九群729636167 禁言十群1098690039"
+        }
+      ],
+      "activities_summary": "[2026-10-14] [内测]gemini-4-argon下架 改名为 [企业E]gemini-4-argon 0.095/次 VIP 0.0931/次 Gemini Enterprise渠道 源头大概是vertex 属于是平替了基本没什么差…；[2026-10-13] 有需要的加新群 交流九群729636167 禁言十群1098690039",
+      "recent_logs": [],
+      "my_invite_url": "https://api.jiushi.xin/register?aff=y35X",
+      "my_invite_code": "y35X",
+      "deleted_at": null,
+      "supported_protocols": [],
+      "mirrors": [],
+      "tags": [],
+      "highlights": [],
+      "my_api_key": "",
+      "recharge_ratio": "",
+      "subtitle": "",
+      "model_count": 0
+    },
+    {
+      "id": 30,
+      "slug": "zhuanzhuan",
+      "name": "转转AI",
+      "activities": [],
+      "models": [],
+      "created_at": "2026-10-15T07:19:24Z",
+      "home_url": "https://api.uu6.top",
+      "register_url": "https://api.uu6.top/sign-up?aff=3sNT",
+      "redirect_url": "https://api.uu6.top/sign-up?aff=3sNT",
+      "invite_code": "3sNT",
+      "panel_type": "newapi",
+      "signup_bonus": 10.0,
+      "first_day_total": 10.0,
+      "credit_unit": "site-usd",
+      "signup_bonus_label": "注册即送 $10 + 每日签到 $2",
+      "bonus_evidence": "注册送 10 刀；邀请 10 刀、签到 2 刀另计。",
+      "registration_methods": [
+        "邮箱 + 密码（需邮箱验证码）"
+      ],
+      "registration_requirements": [
+        "邮箱验证码"
+      ],
+      "caveats": [
+        "未注册、未实测到账；赠额以站内当前公示为准"
+      ],
+      "simple_signup_selected": true,
+      "personal_link": false,
+      "source_channel": "hcnsec-navigation",
+      "source_url": "https://link.hcnsec.cn/site/48",
+      "status_api_url": "https://api.uu6.top/api/status",
+      "register_open": true,
+      "password_register": true,
+      "email_verification": true,
+      "turnstile_check": false,
+      "evidence_checked_at": "2026-10-15T07:19:24Z",
+      "online_status": true,
+      "last_checked_at": "2026-10-15T08:12:54Z",
+      "is_archived": false,
+      "updated_at": "2026-10-15T09:03:52Z",
+      "public_status_evidence": {
+        "register_enabled": true,
+        "password_register_enabled": true,
+        "email_verification": true,
+        "turnstile_check": false
+      },
+      "intro": "邮箱验证码快速注册，新用户立得 10 刀额度并支持每日签到续期，GPT 系列倍率实惠。",
+      "usage_note": "导航提及 GPT 系列和按量计价；本轮未验证模型真实性、延迟或稳定性。",
+      "suitability": "优先使用邮箱注册；先确认赠额适用模型与有效期，再发起调用。",
+      "first_batch": true,
+      "display_order": 8,
+      "recommendation": {
+        "score": 8.6,
+        "max": 10,
+        "stars": 4,
+        "label": "8.6 / 10"
+      },
+      "short_desc": "邮箱验证码快速注册，新用户立得 10 刀额度并支持每日签到续期，GPT 系列倍率实惠。",
+      "reg_tag": "邮箱注册 · 签到续命",
+      "live_promos": [
+        {
+          "date": "2026-10-13",
+          "tag": "站内公告",
+          "text": "Claude高缓存降价为0.7倍率"
+        },
+        {
+          "date": "2026-10-04",
+          "tag": "站内公告",
+          "text": "Claude高缓存降价为0.8倍率，100%能打到缓存"
+        }
+      ],
+      "activities_summary": "[2026-10-13] Claude高缓存降价为0.7倍率；[2026-10-04] Claude高缓存降价为0.8倍率，100%能打到缓存",
+      "recent_logs": [],
+      "my_invite_url": "https://api.uu6.top/sign-up?aff=3sNT",
+      "my_invite_code": "3sNT",
+      "deleted_at": null,
+      "supported_protocols": [],
+      "mirrors": [],
+      "tags": [],
+      "highlights": [],
+      "my_api_key": "",
+      "recharge_ratio": "",
+      "subtitle": "",
+      "model_count": 0
+    }
+  ],
+  "crawl_logs": [
+    {
+      "id": 1,
+      "station_id": null,
+      "channel": "github_repo",
+      "target_url": "https://raw.githubusercontent.com/panxunying/ai-coding-welfare/main/data/sites.json",
+      "final_redirect_url": "https://raw.githubusercontent.com/panxunying/ai-coding-welfare/main/data/sites.json",
+      "http_status": 200,
+      "latency_ms": 705,
+      "is_success": 1,
+      "error_message": "",
+      "raw_excerpt": "Loaded 17 sites from GitHub sites.json",
+      "checked_at": "2026-10-14T09:19:40Z"
+    },
+    {
+      "id": 2,
+      "station_id": null,
+      "channel": "github_issues",
+      "target_url": "https://api.github.com/repos/panxunying/ai-coding-welfare/issues?state=open&per_page=30",
+      "final_redirect_url": "https://api.github.com/repos/panxunying/ai-coding-welfare/issues?state=open&per_page=30",
+      "http_status": 200,
+      "latency_ms": 918,
+      "is_success": 1,
+      "error_message": "",
+      "raw_excerpt": "Discovered 7 stations from GitHub Issues",
+      "checked_at": "2026-10-14T09:19:43Z"
+    },
+    {
+      "id": 3,
+      "station_id": 6,
+      "channel": "probe_register",
+      "target_url": "https://docode.cc/register?aff=zMRe",
+      "final_redirect_url": "https://docode.cc/register?aff=zMRe",
+      "http_status": 200,
+      "latency_ms": 717,
+      "is_success": 1,
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"zh\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <link rel=\"icon\" href=\"/logo.png\" />\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, viewport-fit=cover\"\n    />\n    <meta name=\"theme-color\" content=\"#ffffff\" />\n    <meta\n      name=\"descr",
+      "checked_at": "2026-10-14T09:19:44Z"
+    },
+    {
+      "id": 4,
+      "station_id": 6,
+      "channel": "probe_status_api",
+      "target_url": "https://docode.cc/api/status",
+      "final_redirect_url": "https://docode.cc/api/status",
+      "http_status": 200,
+      "latency_ms": 1845,
+      "is_success": 1,
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":true},\\\"docs\\\":false,\\\"about\\\":false}\",\"SidebarModulesAdmin\":\"{\\\"chat\\\":{\\\"enabled\\\":true,\\\"playground\\\":false,\\\"chat\\\":false},\\\"console\\\":{\\\"enabled\\\":true,\\\"detail\\\":true,\\\"token\\\":true,\\\"log",
+      "checked_at": "2026-10-14T09:19:47Z"
+    }
+  ],
+  "selection_notes": [
+    "Justwoker：要求满 365 天 GitHub 账号，保留指定链接但不纳入低门槛精选。",
+    "Xiaomu、可萌、帮帮程序员、code Router：导航有注册赠额，但公开接口未明确返回开放密码注册配置，暂不列入精选。",
+    "RouterTeam 需绑手机，NikoAPI 需进群，Cancri 接口需申请；不符合本次筛选。",
+    "UniVibe、小白、CaMeL 等只有签到 / 邀请福利描述；百分百描述含糊，modelset 混有付费福利，均暂不收录精选。",
+    "鱼鱼API、Starport、NaraRouter：未确认简单注册完整条件，暂不列入精选。鱼鱼导航实赠口径为 20，而非宣传换算的 2000，且入口是 sub.anzhiyu.com，不是 hundo.cc。",
+    "所有赠额仅为站点内记账额度，不能跨站相加，也不代表模型真实性或服务稳定性。",
+    "首批展示 10 个，DoCode 与幻城按用户要求固定第 1、2，不按评分重排。其余结合参考仓库与幻城导航补齐，去重后显示。",
+    "CheapCodex、Matrix 的注册路径和赠额依据参考仓库，未做本轮注册配置实测；卡片明确区分资料核对与公开接口核对。",
+    "Justwoker 保留在“我的指定链接”，不为凑数纳入低门槛十站。"
+  ],
+  "migration": {
+    "source": "ai_relays.db",
+    "source_counts": {
+      "relay_stations": 24,
+      "station_activities": 60,
+      "station_models": 11,
+      "crawl_logs": 4
+    },
+    "migrated_at": "2026-10-15T07:19:24Z",
+    "preserved_all_records": true
+  },
+  "source_url": "https://link.hcnsec.cn",
+  "first_batch_slugs": [
+    "docode",
+    "justdowork",
+    "fuka",
+    "hcnsec",
+    "pandaapi",
+    "cheapcodex",
+    "monkeyapi",
+    "zhuanzhuan",
+    "jiushi",
+    "jixiangai"
+  ],
+  "reference_repository": "https://github.com/panxunying/ai-coding-welfare",
+  "live_promo_feed": [
+    {
+      "site": "DoCode",
+      "slug": "docode",
+      "date": "2026-10-15",
+      "tag": "站内公告",
+      "text": "生图功能暂时不可用，原因为 OpenAI 官方协议变更。 预计这两天修复好",
+      "register_url": "https://docode.cc/register?aff=2Lwb"
+    },
+    {
+      "site": "JustDoWork (Justwoker)",
+      "slug": "justdowork",
+      "date": "实时生效",
+      "tag": "新人与签到",
+      "text": "通过专属邀请链接 (aff=8lTQ) GitHub 一键登录立送 $70 额度，每日后台签到再领约 $22",
+      "register_url": "https://api.justwoker.icu/register?aff=8lTQ"
+    },
+    {
+      "site": "芙卡卡の小食堂",
+      "slug": "fuka",
+      "date": "实时生效",
+      "tag": "邀请双享",
+      "text": "QQ 邮箱快速注册即送 150 站内额度；通过专属链接 (aff=Ajvn) 注册，邀请人与被邀请人双方各加赠 50 点",
+      "register_url": "https://api.fuka.win/sign-up?aff=Ajvn"
+    },
+    {
+      "site": "新疆幻城网安网关",
+      "slug": "hcnsec",
+      "date": "2026-10-15",
+      "tag": "本站最新获余额活动，在我",
+      "text": "小程序名字：《重生之这一世我要好好学人工智能》直接微信搜索然后进去答题，获取兑换码权限，获取兑换码，然后就可以在我站钱包界面填写兑换码兑换额度，一天能答题十次，十次能换一万余额，现阶段正处于内测阶段，有问题大家及时反馈",
+      "register_url": "https://api.hcnsec.cn/sign-up?aff=b1KI"
+    },
+    {
+      "site": "CheapCodex",
+      "slug": "cheapcodex",
+      "date": "实时生效",
+      "tag": "注册与签到",
+      "text": "邮箱免验证通过邀请链接注册立得 $20 额度，每日后台签到再领 $20（首日可得 $40）",
+      "register_url": "https://api.cheapcodex.online/register?aff=U7SSQZSDB36S"
+    },
+    {
+      "site": "熊猫API",
+      "slug": "pandaapi",
+      "date": "实时通知",
+      "tag": "邀请升级",
+      "text": "站内通知：邀请福利升级，QQ 邮箱注册立得 100~200 额度，邀请好友双方各得 100 额度",
+      "register_url": "https://api520.pro/register?aff=jCOA"
+    },
+    {
+      "site": "猴山 API",
+      "slug": "monkeyapi",
+      "date": "2026-08-18",
+      "tag": "站内公告",
+      "text": "8.18晚8点开七夕充值活动！活动比例如下。 10￥ 1700额度 30￥ 6000额度 50￥ 11000额度 100￥ 26000额度 闲鱼支持微信支付啦！！可以在微信小程序里使用闲鱼了！",
+      "register_url": "https://monkeyapi.apimonkey.online/register?aff=eYCy"
+    },
+    {
+      "site": "转转AI",
+      "slug": "zhuanzhuan",
+      "date": "2026-10-13",
+      "tag": "站内公告",
+      "text": "Claude高缓存降价为0.7倍率",
+      "register_url": "https://api.uu6.top/sign-up?aff=3sNT"
+    },
+    {
+      "site": "玖时API",
+      "slug": "jiushi",
+      "date": "2026-10-14",
+      "tag": "站内公告",
+      "text": "[内测]gemini-4-argon下架 改名为 [企业E]gemini-4-argon 0.095/次 VIP 0.0931/次 Gemini Enterprise渠道 源头大概是vertex 属于是平替了基本没什么差…",
+      "register_url": "https://api.jiushi.xin/register?aff=y35X"
+    },
+    {
+      "site": "即享AI",
+      "slug": "jixiangai",
+      "date": "2026-08-24",
+      "tag": "站内公告",
+      "text": "关于退款政策说明： 即享永久开放无理由退款服务，如为平台兑换码充值退款将会扣除支付通道手续费3%（私下充值的额度不计算退款手续费） 已消费额度由即享承担不会计算手续费 计算公式：兑换码充值剩余额度-兑换码充值剩余额度x3…",
+      "register_url": "https://api.jixiangai.xyz/register?aff=XimB"
+    }
+  ]
+}
