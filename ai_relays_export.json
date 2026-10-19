@@ -2849,7 +2849,7 @@
       "usage_note": "导航提到 Claude 方向，但本轮未核实模型列表、标准协议与倍率；接入地址以后台为准。",
       "suitability": "优先使用邮箱注册；先确认赠额适用模型与有效期，再发起调用。",
       "first_batch": true,
-      "display_order": 10,
+      "display_order": 9,
       "recommendation": {
         "score": 8.4,
         "max": 10,
@@ -3150,7 +3150,7 @@
       "usage_note": "导航示例约 0.05 站内刀/次，仅作历史描述，不保证所有模型同价；以定价页为准。",
       "suitability": "优先使用邮箱注册；先确认赠额适用模型与有效期，再发起调用。",
       "first_batch": true,
-      "display_order": 9,
+      "display_order": 10,
       "recommendation": {
         "score": 8.5,
         "max": 10,
@@ -3357,8 +3357,8 @@
     "cheapcodex",
     "monkeyapi",
     "zhuanzhuan",
-    "jiushi",
-    "jixiangai"
+    "jixiangai",
+    "jiushi"
   ],
   "reference_repository": "https://github.com/panxunying/ai-coding-welfare",
   "live_promo_feed": [
