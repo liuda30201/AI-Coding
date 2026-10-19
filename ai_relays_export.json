@@ -955,20 +955,20 @@
       "id": 6,
       "slug": "docode",
       "name": "DoCode",
-      "subtitle": "New API 中转站 · 注册送 50 站内刀，注册时填邀请码 zMRe 再加 250，首日 300 刀，Claude 与 GPT 都在架上",
+      "subtitle": "New API 中转站 · 注册送 50 站内刀，注册时填邀请码 plGC 再加 250，首日 300 刀，Claude 与 GPT 都在架上",
       "panel_type": "newapi",
       "home_url": "https://docode.cc",
-      "register_url": "https://docode.cc/register?aff=2Lwb",
-      "redirect_url": "https://docode.cc/register?aff=2Lwb",
+      "register_url": "https://docode.cc/register?aff=plGC",
+      "redirect_url": "https://docode.cc/register?aff=plGC",
       "status_api_url": "https://docode.cc/api/status",
       "pricing_api_url": "",
       "docs_url": "",
-      "invite_code": "2Lwb",
+      "invite_code": "plGC",
       "registration_methods": [
         "邮箱 + 密码"
       ],
       "registration_requirements": [
-        "邀请码 = zMRe。从本页链接进入（带 ?aff=zMRe）通常会自动填进注册表单的「邀请码」栏，提交前自己再看一眼；空着就只拿得到注册送的 50 站内刀",
+        "邀请码 = plGC。从本页链接进入（带 ?aff=plGC）通常会自动填进注册表单的「邀请码」栏，提交前自己再看一眼；空着就只拿得到注册送的 50 站内刀",
         "250 站内刀在注册那一刻结算，注册完再去后台补填邀请码是没用的",
         "只能邮箱 + 密码建号：公开配置里 github / linuxdo / discord / telegram / 微信 / OIDC / Passkey 的开关全是 false，没有第三方登录入口",
         "注册要邮箱验证码（email_verification = true），并且开着 Cloudflare Turnstile 人机校验",
@@ -983,8 +983,8 @@
       "daily_checkin_bonus": null,
       "first_day_total": 300.0,
       "credit_unit": "site-usd",
-      "my_invite_code": "2Lwb",
-      "my_invite_url": "https://docode.cc/register?aff=2Lwb",
+      "my_invite_code": "plGC",
+      "my_invite_url": "https://docode.cc/register?aff=plGC",
       "my_api_key": "",
       "checkin_enabled": false,
       "register_open": true,
@@ -1003,7 +1003,7 @@
         {
           "label": "直连美国",
           "homeUrl": "https://api.docode.cc",
-          "signupUrl": "https://api.docode.cc/register?aff=zMRe"
+          "signupUrl": "https://api.docode.cc/register?aff=plGC"
         }
       ],
       "tags": [
@@ -1015,8 +1015,8 @@
         "OpenAI 兼容"
       ],
       "highlights": [
-        "⚠️ 别漏了邀请码：注册表单里的「邀请码」一栏填 zMRe，这 250 站内刀才会到账。从本页链接进去通常会自动带上，但提交前务必肉眼确认那一栏不是空的——没填就只有注册送的 50，事后补不上",
-        "注册送 50 站内刀，填了邀请码 zMRe 再加 250，首日 300 刀不用充值——注意这个「刀」是站内计价单位，不是美元，换算见下面的风险提示",
+        "⚠️ 别漏了邀请码：注册表单里的「邀请码」一栏填 plGC，这 250 站内刀才会到账。从本页链接进去通常会自动带上，但提交前务必肉眼确认那一栏不是空的——没填就只有注册送的 50，事后补不上",
+        "注册送 50 站内刀，填了邀请码 plGC 再加 250，首日 300 刀不用充值——注意这个「刀」是站内计价单位，不是美元，换算见下面的风险提示",
         "Claude 和 GPT 同时在架：站内公告点名 cc / cc-kiro 分组的 sonnet-5、按次计费的 opus4.6，以及 GPT pro / plus、Grok、Gemini、fable-5，一把 Key 通吃，本页多数站只给其中一边",
         "Anthropic 与 OpenAI 两条原生路由都开着（不带 key 探 /v1/messages 与 /v1/chat/completions 都回 New API 的 401 Invalid token），Claude Code 填 Base URL 就能直连，Codex CLI 走 /v1",
         "面板公开配置里带着一键导入的 deeplink：CC Switch、Cherry Studio、DeepChat、OpenCat、Lobe Chat 等客户端可以从后台直接把 Key 推过去",
@@ -1028,7 +1028,7 @@
         "额度数字（注册 50 / 邀请 250）站点公开接口没有暴露：/api/status 里既没有 quota_for_new_user 也没有 quota_for_invitee，本页登记的是站内公示口径，进后台核对一遍再算账",
         "没有每日签到，额度用完只能充值或等活动，不像 AgentRouter 那样能每天续命",
         "这是付费中转站不是公益站：后台开着在线充值（Stripe 单价 ¥8），公告里大半是充值送额度与倍率涨跌，免费额度用完要付费才能续",
-        "站内 FAQ 公示的备用域名 ai.docode.life / ai.docode.pro 与 docode.cc 解析到同一台服务器，但证书只签了 docode.cc，浏览器打开会直接报证书错误；公告里的 hk.docode.cc 则是 TLS 握手失败（2026-10-05 复测）。本页注册链接用的是站点 /api/status 自报的主地址 docode.cc，同一套账号，邀请码 zMRe 照样生效；别为了这几个域名去点「继续访问」绕过证书警告",
+        "站内 FAQ 公示的备用域名 ai.docode.life / ai.docode.pro 与 docode.cc 解析到同一台服务器，但证书只签了 docode.cc，浏览器打开会直接报证书错误；公告里的 hk.docode.cc 则是 TLS 握手失败（2026-10-05 复测）。本页注册链接用的是站点 /api/status 自报的主地址 docode.cc，同一套账号，邀请码 plGC 照样生效；别为了这几个域名去点「继续访问」绕过证书警告",
         "上游波动写在公告里：GPT plus「全面阵亡」后又「暂时复活」、gpt-5.4 已彻底下架、9 月 10 日还在说「openai 炸了，gpt 全线都不太行」，别当稳定生产通道用"
       ],
       "source_channel": "github:ai-coding-welfare",
@@ -1204,7 +1204,7 @@
       "reference_checked_at": "2026-10-15T07:30:49Z",
       "intro": "New API 主力中转网关，邮箱注册即送额度，同时支持 Claude Code 与 GPT 全系双协议直连。",
       "signup_bonus_label": "注册送 50 + 邀请码加赠 250 站内刀",
-      "bonus_evidence": "参考仓库登记注册 50、提交邀请码 zMRe 另赠 250；幻城导航描述 150，来源冲突，实际额度请以注册页及到账为准。公开状态未披露赠额数值。",
+      "bonus_evidence": "参考仓库登记注册 50、提交邀请码 plGC 另赠 250；幻城导航描述 150，来源冲突，实际额度请以注册页及到账为准。公开状态未披露赠额数值。",
       "usage_note": "Anthropic Base URL：https://docode.cc；OpenAI 兼容：https://docode.cc/v1。实际模型名、倍率和可用分组登录后确认。",
       "suitability": "邮箱路径优先；金额仅作来源记录，不按赠额大小排名。",
       "evidence_checked_at": "2026-10-15T07:30:49Z",
@@ -1217,7 +1217,7 @@
         "label": "9.8 / 10"
       },
       "short_desc": "New API 主力中转网关，邮箱注册即送额度，同时支持 Claude Code 与 GPT 全系双协议直连。",
-      "reg_tag": "邮箱注册 · 邀请码 2Lwb",
+      "reg_tag": "邮箱注册 · 邀请码 plGC",
       "live_promos": [
         {
           "date": "2026-10-15",
@@ -3368,7 +3368,7 @@
       "date": "2026-10-15",
       "tag": "站内公告",
       "text": "生图功能暂时不可用，原因为 OpenAI 官方协议变更。 预计这两天修复好",
-      "register_url": "https://docode.cc/register?aff=2Lwb"
+      "register_url": "https://docode.cc/register?aff=plGC"
     },
     {
       "site": "JustDoWork (Justwoker)",

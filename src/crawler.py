@@ -39,13 +39,13 @@ BUILTIN_SITES_SEED: List[Dict[str, Any]] = [
     {
         "id": "docode",
         "name": "DoCode",
-        "subtitle": "New API 中转站 · 注册送 50 站内刀，注册时填邀请码 zMRe 再加 250，首日 300 刀，Claude 与 GPT 都在架上",
+        "subtitle": "New API 中转站 · 注册送 50 站内刀，注册时填邀请码 plGC 再加 250，首日 300 刀，Claude 与 GPT 都在架上",
         "panel": "newapi",
-        "signupUrl": "https://docode.cc/register?aff=2Lwb",
+        "signupUrl": "https://docode.cc/register?aff=plGC",
         "homeUrl": "https://docode.cc",
         "statusApi": "https://docode.cc/api/status",
         "pricingApi": "https://docode.cc/api/pricing",
-        "inviteCode": "2Lwb",
+        "inviteCode": "plGC",
         "credits": {"signup": 50, "invite": 250, "dailyCheckin": None, "unit": "site-usd"},
         "recharge_ratio": "price=0.02（活动1元=50站内刀，日常1:25；Stripe单价¥8）",
         "price_rate": 0.02,
@@ -53,23 +53,23 @@ BUILTIN_SITES_SEED: List[Dict[str, Any]] = [
         "register": {
             "methods": ["邮箱 + 密码（需邮箱验证码 + Turnstile）"],
             "requirements": [
-                "邀请码 = zMRe，从带 ?aff=zMRe 链接进入注册，立得 50 + 250 = 300 站内刀",
+                "邀请码 = plGC，从带 ?aff=plGC 链接进入注册，立得 50 + 250 = 300 站内刀",
                 "只能邮箱 + 密码建号，开启邮箱验证（email_verification=true）",
-                "主域名打不开时可切换直连美国备用入口 https://api.docode.cc/register?aff=zMRe"
+                "主域名打不开时可切换直连美国备用入口 https://api.docode.cc/register?aff=plGC"
             ],
         },
         "endpoints": {"anthropic": "https://docode.cc", "openai": "https://docode.cc/v1"},
         "mirrors": [
-            {"label": "直连美国", "homeUrl": "https://api.docode.cc", "signupUrl": "https://api.docode.cc/register?aff=zMRe"},
-            {"label": "江浙沪专线", "homeUrl": "https://api.haogpt.net", "signupUrl": "https://api.haogpt.net/register?aff=zMRe"},
+            {"label": "直连美国", "homeUrl": "https://api.docode.cc", "signupUrl": "https://api.docode.cc/register?aff=plGC"},
+            {"label": "江浙沪专线", "homeUrl": "https://api.haogpt.net", "signupUrl": "https://api.haogpt.net/register?aff=plGC"},
         ],
         "tags": ["New API", "免费额度", "Claude Code", "Codex", "Anthropic 兼容", "OpenAI 兼容"],
         "highlights": [
-            "注册送 50 站内刀 + 邀请码 zMRe 赠送 250 站内刀，首日合计 300 站内刀",
+            "注册送 50 站内刀 + 邀请码 plGC 赠送 250 站内刀，首日合计 300 站内刀",
             "Claude (sonnet-5 / opus4.6) 与 GPT (gpt-6.1-sol / pro) 同时在架，支持生图 img.docode.cc",
             "支持 Cherry Studio、CC Switch、DeepChat、Lobe Chat 一键导入"
         ],
-        "activities_summary": "注册送50刀+邀请码zMRe送250刀；限时充值翻倍1元=50刀，充100送500刀、充200送1500刀、充500送6500刀；中秋VIP赠送1500~5000额度",
+        "activities_summary": "注册送50刀+邀请码plGC送250刀；限时充值翻倍1元=50刀，充100送500刀、充200送1500刀、充500送6500刀；中秋VIP赠送1500~5000额度",
     },
     {
         "id": "agentrouter",

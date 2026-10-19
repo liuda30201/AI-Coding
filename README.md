@@ -9,7 +9,7 @@
 
 | 排名 | 站点 | 推荐指数 | 注册福利 | 注册邀请链接 | 邀请码 |
 | :---: | --- | :---: | --- | --- | --- |
-| 🥇 1 | **DoCode** ![榜首推荐](https://img.shields.io/badge/TOP_1-DoCode-D4AF37?style=flat-square) | 9.8 / 10 | 注册50、邀请加赠250站内刀；每日抽奖保底50，不定时免费key，AI编程比赛；拉新送150刀 | [🚀 注册入口](https://docode.cc/register?aff=2Lwb) | `2Lwb` |
+| 🥇 1 | **DoCode** ![榜首推荐](https://img.shields.io/badge/TOP_1-DoCode-D4AF37?style=flat-square) | 9.8 / 10 | 注册50、邀请加赠250站内刀；每日抽奖保底50，不定时免费key，AI编程比赛；拉新送150刀 | [🚀 注册入口](https://docode.cc/register?aff=plGC) | `plGC` |
 | 🥈 2 | **JustDoWork (Justwoker)** | 9.4 / 10 | 注册约 $70，每日签到约 $22；Discord/公告不定时发免费兑换码 | [🚀 注册入口](https://api.justwoker.icu/register?aff=8lTQ) | `8lTQ` |
 | 🥉 3 | **芙卡卡の小食堂** | 9.3 / 10 | 注册150站内额度；邀请双方各加赠50；支持每日签到 | [🚀 注册入口](https://api.fuka.win/sign-up?aff=Ajvn) | `Ajvn` |
 | 🔹 4 | **新疆幻城网安网关** | 9.1 / 10 | 注册约¥14600站内额度；每日签到随机额度；邀请奖励另计 | [🚀 注册入口](https://api.hcnsec.cn/sign-up?aff=b1KI) | `b1KI` |
@@ -27,11 +27,11 @@
 ![DoCode 榜首推荐](https://img.shields.io/badge/DoCode-9.8%20%2F%2010-D4AF37?style=for-the-badge)
 
 - 📧 邮箱注册，需邮箱验证码。
-- 🔑 邀请码：`2Lwb`。
+- 🔑 邀请码：`plGC`。
 - 🎁 注册 50、邀请加赠 250 站内刀，拉新送150刀；不定时免费key，AI编程比赛
 - 🎲 每日抽奖保底50站内刀。
 
-👉 [使用专属链接注册 DoCode](https://docode.cc/register?aff=2Lwb)
+👉 [使用专属链接注册 DoCode](https://docode.cc/register?aff=plGC)
 
 ## 📋 推荐详情
 
@@ -39,7 +39,7 @@
 
 ### 1. DoCode · 9.8 / 10
 
-- **注册入口**：[DoCode](https://docode.cc/register?aff=2Lwb)，邀请码 `2Lwb`；使用邮箱和密码注册，需接收邮箱验证码。
+- **注册入口**：[DoCode](https://docode.cc/register?aff=plGC)，邀请码 `plGC`；使用邮箱和密码注册，需接收邮箱验证码。
 - **注册福利**：注册50、邀请加赠250站内刀，新人合计300；新人额度有模型使用限制。
 - **持续福利**：每日抽奖保底50站内刀，拉新送150刀；不定时免费key，AI编程比赛。活动参与条件以站内规则为准。
 - **使用特点**：网页评测认为对付费用户较友好，VIP等级越高倍率越低；可在后台创建Key并配置编程客户端。
