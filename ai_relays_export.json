@@ -626,18 +626,19 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 830,
+      "latency_ms": 3648,
       "system_name": "Codex Relay",
       "panel_version": "",
-      "last_checked_at": "2026-10-14T04:56:10.089Z",
+      "last_checked_at": "2026-10-20T11:47:12Z",
       "created_at": "2026-10-14T09:19:40Z",
-      "updated_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-20T11:47:12Z",
       "activities": [],
       "models": [],
       "model_count": 0,
       "simple_signup_selected": false,
       "personal_link": false,
-      "first_batch": false
+      "first_batch": false,
+      "deleted_at": null
     },
     {
       "id": 4,
@@ -696,21 +697,22 @@
       ],
       "caveats": [],
       "source_channel": "github:ai-coding-welfare",
-      "online_status": true,
+      "online_status": false,
       "is_archived": false,
       "archived_reason": "",
       "latency_ms": 772,
       "system_name": "Conduit",
       "panel_version": "",
-      "last_checked_at": "2026-10-14T04:56:10.072Z",
+      "last_checked_at": "2026-10-20T11:47:20Z",
       "created_at": "2026-10-14T09:19:40Z",
-      "updated_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-20T11:47:20Z",
       "activities": [],
       "models": [],
       "model_count": 0,
       "simple_signup_selected": false,
       "personal_link": false,
-      "first_batch": false
+      "first_batch": false,
+      "deleted_at": null
     },
     {
       "id": 5,
@@ -786,15 +788,15 @@
         "严禁批量注册、刷量、转售额度、虚假邀请，官方会直接封号"
       ],
       "source_channel": "github:ai-coding-welfare",
-      "online_status": true,
+      "online_status": false,
       "is_archived": false,
       "archived_reason": "",
       "latency_ms": 313,
       "system_name": "Agent Router",
       "panel_version": "init-20260918-cbda758f",
-      "last_checked_at": "2026-10-14T04:56:15.952Z",
+      "last_checked_at": "2026-10-20T11:47:40Z",
       "created_at": "2026-10-14T09:19:40Z",
-      "updated_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-20T11:47:40Z",
       "activities": [
         {
           "id": 2,
@@ -949,7 +951,8 @@
       "model_count": 4,
       "simple_signup_selected": false,
       "personal_link": false,
-      "first_batch": false
+      "first_batch": false,
+      "deleted_at": null
     },
     {
       "id": 6,
@@ -965,7 +968,8 @@
       "docs_url": "",
       "invite_code": "plGC",
       "registration_methods": [
-        "邮箱 + 密码"
+        "邮箱 + 密码",
+        "邮箱 + 密码 (需邮箱验证码)"
       ],
       "registration_requirements": [
         "邀请码 = plGC。从本页链接进入（带 ?aff=plGC）通常会自动填进注册表单的「邀请码」栏，提交前自己再看一眼；空着就只拿得到注册送的 50 站内刀",
@@ -992,7 +996,7 @@
       "email_verification": true,
       "turnstile_check": false,
       "github_min_age_days": null,
-      "activities_summary": "[2026-10-15] 生图功能暂时不可用，原因为 OpenAI 官方协议变更。 预计这两天修复好；[2026-10-09] gpt 全系已大幅下调倍率，gptpro 最低 7 倍，不降智最低 15 倍，官 key 最低 24 倍。",
+      "activities_summary": "[2026-10-15] 生图功能暂时不可用，原因为 OpenAI 官方协议变更。 预计这两天修复好；[2026-10-09] gpt 全系已大幅下调倍率，gptpro 最低 7 倍，不降智最低 15 倍，官 key 最低 24 倍。 | 最新公告：-已修复好！ 生图功能暂时不可用，原因为 OpenAI 官方协议变更。 预计这两天修复好",
       "supported_protocols": [
         "OpenAI 兼容",
         "Anthropic 兼容"
@@ -1035,12 +1039,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 1845,
+      "latency_ms": 617,
       "system_name": "DoCode",
       "panel_version": "",
-      "last_checked_at": "2026-10-15T08:12:54Z",
+      "last_checked_at": "2026-10-20T11:46:41Z",
       "created_at": "2026-10-14T09:19:40Z",
-      "updated_at": "2026-10-15T08:56:12Z",
+      "updated_at": "2026-10-20T11:46:41Z",
       "activities": [
         {
           "id": 10,
@@ -1194,6 +1198,14 @@
           "content": "站内没有签到（面板自报 checkin_enabled = false），额度靠充值和不定时活动，公告里出现过「充 100 送 500 刀」这类限时加码",
           "publish_date": "",
           "extra_tag": ""
+        },
+        {
+          "id": "35",
+          "activity_type": "default",
+          "title": "-已修复好！ 生图功能暂时不可用，原因为 OpenAI 官方协议变更。 预计这两天修复好",
+          "content": "-已修复好！ 生图功能暂时不可用，原因为 OpenAI 官方协议变更。 预计这两天修复好",
+          "publish_date": "2026-10-15",
+          "extra": ""
         }
       ],
       "models": [],
@@ -1229,7 +1241,8 @@
           "tag": "站内公告",
           "text": "gpt 全系已大幅下调倍率，gptpro 最低 7 倍，不降智最低 15 倍，官 key 最低 24 倍。"
         }
-      ]
+      ],
+      "deleted_at": null
     },
     {
       "id": 7,
@@ -1245,7 +1258,9 @@
       "docs_url": "https://api.justwoker.icu/dashboard/overview",
       "invite_code": "8lTQ",
       "registration_methods": [
-        "GitHub OAuth"
+        "GitHub OAuth",
+        "GitHub OAuth (需满365天)",
+        "账号密码"
       ],
       "registration_requirements": [
         "GitHub 账号需满 365 天",
@@ -1253,8 +1268,8 @@
         "Turnstile 人机验证"
       ],
       "recharge_ratio": "公益签到 + 在线兑换码（Quota单位 500000 = $1）",
-      "price_rate": null,
-      "stripe_unit_price": null,
+      "price_rate": 7.3,
+      "stripe_unit_price": 8.0,
       "quota_per_unit": 500000.0,
       "signup_bonus": 70.0,
       "invite_bonus": null,
@@ -1267,8 +1282,8 @@
       "checkin_enabled": true,
       "register_open": true,
       "password_register": false,
-      "email_verification": null,
-      "turnstile_check": null,
+      "email_verification": false,
+      "turnstile_check": true,
       "github_min_age_days": 365,
       "activities_summary": "[实时生效] 通过专属邀请链接 (aff=8lTQ) GitHub 一键登录立送 $70 额度，每日后台签到再领约 $22；[社区福利] 加入官方 Discord 社区 (discord.gg/jDXjGMUDS) 与关注站内公告，不定期掉落免费额度兑换码",
       "supported_protocols": [
@@ -1299,12 +1314,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 946,
+      "latency_ms": 2042,
       "system_name": "JustDoWork",
       "panel_version": "v1.0.0-rc.23",
-      "last_checked_at": "2026-10-15T08:12:54Z",
+      "last_checked_at": "2026-10-20T11:46:58Z",
       "created_at": "2026-10-14T09:19:40Z",
-      "updated_at": "2026-10-15T07:43:10Z",
+      "updated_at": "2026-10-20T11:46:58Z",
       "activities": [
         {
           "id": 18,
@@ -1363,7 +1378,8 @@
           "tag": "兑换码发放",
           "text": "加入官方 Discord 社区 (discord.gg/jDXjGMUDS) 与关注站内公告，不定期掉落免费额度兑换码"
         }
-      ]
+      ],
+      "deleted_at": null
     },
     {
       "id": 9,
@@ -1442,12 +1458,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 1484,
+      "latency_ms": 1777,
       "system_name": "FlushAPI",
       "panel_version": "",
-      "last_checked_at": "2026-10-14T04:56:10.794Z",
+      "last_checked_at": "2026-10-20T11:47:10Z",
       "created_at": "2026-10-14T09:19:40Z",
-      "updated_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-20T11:47:10Z",
       "activities": [
         {
           "id": 22,
@@ -1582,7 +1598,8 @@
       "model_count": 7,
       "simple_signup_selected": false,
       "personal_link": false,
-      "first_batch": false
+      "first_batch": false,
+      "deleted_at": null
     },
     {
       "id": 10,
@@ -1658,12 +1675,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 1666,
+      "latency_ms": 3880,
       "system_name": "KKtoken AI",
       "panel_version": "v1.0.0-rc.25",
-      "last_checked_at": "2026-10-14T04:56:10.978Z",
+      "last_checked_at": "2026-10-20T11:47:05Z",
       "created_at": "2026-10-14T09:19:40Z",
-      "updated_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-20T11:47:05Z",
       "activities": [
         {
           "id": 24,
@@ -1688,7 +1705,8 @@
       "model_count": 0,
       "simple_signup_selected": false,
       "personal_link": false,
-      "first_batch": false
+      "first_batch": false,
+      "deleted_at": null
     },
     {
       "id": 12,
@@ -1764,12 +1782,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 1929,
+      "latency_ms": 155,
       "system_name": "Matrix",
       "panel_version": "",
-      "last_checked_at": "2026-10-14T04:56:11.241Z",
+      "last_checked_at": "2026-10-20T11:46:40Z",
       "created_at": "2026-10-14T09:19:40Z",
-      "updated_at": "2026-10-14T09:19:40Z",
+      "updated_at": "2026-10-20T11:46:40Z",
       "activities": [
         {
           "id": 30,
@@ -1830,7 +1848,8 @@
         "risk_deduction": 0,
         "reason": "按注册便利 0–4、赠额描述 0–3、公开注册配置 0–2、说明完整 0–1 加分，再扣明确风险。全部未实测到账或模型质量，评分只代表资料与注册便利性。",
         "documentation": 0
-      }
+      },
+      "deleted_at": null
     },
     {
       "id": 15,
@@ -1903,15 +1922,15 @@
         "只有 /v1/* 的中转接口不吃挑战，网页端偶发挑战失败时换个浏览器或稍后再试"
       ],
       "source_channel": "github:ai-coding-welfare",
-      "online_status": true,
+      "online_status": false,
       "is_archived": false,
       "archived_reason": "",
       "latency_ms": 176,
       "system_name": "AnyRouter",
       "panel_version": "",
-      "last_checked_at": "2026-10-14T04:56:17.133Z",
+      "last_checked_at": "2026-10-20T11:46:43Z",
       "created_at": "2026-10-14T09:19:41Z",
-      "updated_at": "2026-10-14T09:19:41Z",
+      "updated_at": "2026-10-20T11:46:43Z",
       "activities": [
         {
           "id": 36,
@@ -1936,7 +1955,8 @@
       "model_count": 0,
       "simple_signup_selected": false,
       "personal_link": false,
-      "first_batch": false
+      "first_batch": false,
+      "deleted_at": null
     },
     {
       "id": 16,
@@ -2010,12 +2030,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 2713,
+      "latency_ms": 537,
       "system_name": "CheapCodex",
       "panel_version": "",
-      "last_checked_at": "2026-10-15T08:12:54Z",
+      "last_checked_at": "2026-10-20T11:46:45Z",
       "created_at": "2026-10-14T09:19:41Z",
-      "updated_at": "2026-10-15T07:43:10Z",
+      "updated_at": "2026-10-20T11:46:45Z",
       "activities": [
         {
           "id": 38,
@@ -2069,7 +2089,8 @@
           "tag": "三协议直连",
           "text": "原生开放 /v1/messages、/v1/chat/completions、/v1/responses，支持 GPT-5.6 Sol 与 Codex CLI"
         }
-      ]
+      ],
+      "deleted_at": null
     },
     {
       "id": 17,
@@ -2079,7 +2100,7 @@
       "panel_type": "relay",
       "home_url": "https://nofx.one/zh-CN",
       "register_url": "https://nofx.one/zh-CN/sign-in?ref=J369GHY4",
-      "redirect_url": "https://nofx.one/zh-CN/sign-in?ref=J369GHY4",
+      "redirect_url": "https://nofxone.com/zh-CN/sign-in?ref=J369GHY4",
       "status_api_url": "https://nofx.one/sitemap.xml",
       "pricing_api_url": "",
       "docs_url": "",
@@ -2144,12 +2165,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 3436,
+      "latency_ms": 6795,
       "system_name": "NOFX",
       "panel_version": "",
-      "last_checked_at": "2026-10-14T04:56:12.751Z",
+      "last_checked_at": "2026-10-20T11:47:15Z",
       "created_at": "2026-10-14T09:19:41Z",
-      "updated_at": "2026-10-14T09:19:41Z",
+      "updated_at": "2026-10-20T11:47:15Z",
       "activities": [
         {
           "id": 43,
@@ -2201,7 +2222,8 @@
       "model_count": 0,
       "simple_signup_selected": false,
       "personal_link": false,
-      "first_batch": false
+      "first_batch": false,
+      "deleted_at": null
     },
     {
       "id": 18,
@@ -2217,15 +2239,16 @@
       "docs_url": "https://github.com/panxunying/ai-coding-welfare/issues/30",
       "invite_code": "",
       "registration_methods": [
-        "邮箱注册"
+        "邮箱注册",
+        "邮箱 + 密码 (需邮箱验证码)"
       ],
       "registration_requirements": [
         "来源 GitHub Issue 投稿：https://github.com/panxunying/ai-coding-welfare/issues/30"
       ],
       "recharge_ratio": "¥1 = $1",
-      "price_rate": null,
-      "stripe_unit_price": null,
-      "quota_per_unit": null,
+      "price_rate": 1.0,
+      "stripe_unit_price": 8.0,
+      "quota_per_unit": 500000.0,
       "signup_bonus": 0.3,
       "invite_bonus": null,
       "daily_checkin_bonus": null,
@@ -2234,13 +2257,13 @@
       "my_invite_code": "",
       "my_invite_url": "",
       "my_api_key": "",
-      "checkin_enabled": null,
-      "register_open": null,
-      "password_register": null,
-      "email_verification": null,
-      "turnstile_check": null,
+      "checkin_enabled": false,
+      "register_open": true,
+      "password_register": true,
+      "email_verification": true,
+      "turnstile_check": true,
       "github_min_age_days": null,
-      "activities_summary": "### 站点名称 MolyEye ### 注册链接 https://molyeye.com/register ### 站点首页 https://molyeye.com ### 面板类型 New API ### 新用户能拿多少额度 注册送 $0.3（邮箱验证后到账，¥1 = $1 计价），无签到 ### 支持的兼容协议 - [X] Anthropic 兼容（Claude Code 可直连） - [X",
+      "activities_summary": "### 站点名称 MolyEye ### 注册链接 https://molyeye.com/register ### 站点首页 https://molyeye.com ### 面板类型 New API ### 新用户能拿多少额度 注册送 $0.3（邮箱验证后到账，¥1 = $1 计价），无签到 ### 支持的兼容协议 - [X] Anthropic 兼容（Claude Code 可直连） - [X | 最新公告：gpt-5.5 已下架，同价位请用 gpt-5.6-sol：单价完全相同，客户端里把模型名改成 gpt-5.6-sol 就行。",
       "supported_protocols": [
         "Anthropic 兼容",
         "OpenAI 兼容"
@@ -2260,12 +2283,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": null,
-      "system_name": "",
+      "latency_ms": 614,
+      "system_name": "MolyEye API",
       "panel_version": "",
-      "last_checked_at": "2026-10-14T09:19:42Z",
+      "last_checked_at": "2026-10-20T11:47:18Z",
       "created_at": "2026-10-14T09:19:42Z",
-      "updated_at": "2026-10-14T09:19:42Z",
+      "updated_at": "2026-10-20T11:47:18Z",
       "activities": [
         {
           "id": 44,
@@ -2275,13 +2298,212 @@
           "content": "### 站点名称 MolyEye ### 注册链接 https://molyeye.com/register ### 站点首页 https://molyeye.com ### 面板类型 New API ### 新用户能拿多少额度 注册送 $0.3（邮箱验证后到账，¥1 = $1 计价），无签到 ### 支持的兼容协议 - [X] Anthropic 兼容（Claude Code 可直连） - [X] OpenAI 兼容（Codex / Cursor / SDK 可直连） ### 注册门槛与注意事项 - 邮箱注册，要收验证码；QQ / 163 / 126 / Foxmail / Gmail /",
           "publish_date": "2026-10-14",
           "extra_tag": ""
+        },
+        {
+          "id": "5",
+          "activity_type": "default",
+          "title": "gpt-5.5 已下架，同价位请用 gpt-5.6-sol：单价完全相同，客户端里把模型名改成 gpt-5.6-sol ",
+          "content": "gpt-5.5 已下架，同价位请用 gpt-5.6-sol：单价完全相同，客户端里把模型名改成 gpt-5.6-sol 就行。",
+          "publish_date": "2026-10-20",
+          "extra": ""
+        },
+        {
+          "id": "4",
+          "activity_type": "default",
+          "title": "邀请好友，得好友充值的 10%：邀请好友注册，好友以后每次充值，你得到账金额的 10% 作为站内余额；每周一统一发放，开",
+          "content": "邀请好友，得好友充值的 10%：邀请好友注册，好友以后每次充值，你得到账金额的 10% 作为站内余额；每周一统一发放，开时长卡不计入。邀请链接在顶栏「邀请好友」或钱包页复制。",
+          "publish_date": "2026-10-19",
+          "extra": ""
+        },
+        {
+          "id": "1",
+          "activity_type": "warning",
+          "title": "部分 GPT 模型高峰期响应较慢或偶尔报错，稍后重试即可；gpt-6-luna 暂时下架，恢复后另行通知。",
+          "content": "部分 GPT 模型高峰期响应较慢或偶尔报错，稍后重试即可；gpt-6-luna 暂时下架，恢复后另行通知。",
+          "publish_date": "2026-10-08",
+          "extra": ""
+        },
+        {
+          "id": "2",
+          "activity_type": "default",
+          "title": "时长卡开售了：周卡 · 小铲 ¥79、月卡 · 大铲 ¥299、月卡 · 挖掘机 ¥699，天天在用的同样额度比按量便宜",
+          "content": "时长卡开售了：周卡 · 小铲 ¥79、月卡 · 大铲 ¥299、月卡 · 挖掘机 ¥699，天天在用的同样额度比按量便宜 15%～22%，每档限量。在 MolyEye 店铺购买，控制台钱包页点「购买时长卡」进店铺，买到卡码后在钱包的兑换码框里兑换，规则见使用文档「时长卡」。按量余额照旧不过期。",
+          "publish_date": "2026-10-08",
+          "extra": ""
+        },
+        {
+          "id": "3",
+          "activity_type": "default",
+          "title": "当前支持 GPT-5 / GPT-6 系列和 GPT 图片生成，GPT 文本模型比官方价省 70%。",
+          "content": "当前支持 GPT-5 / GPT-6 系列和 GPT 图片生成，GPT 文本模型比官方价省 70%。",
+          "publish_date": "2026-10-07",
+          "extra": ""
         }
       ],
-      "models": [],
-      "model_count": 0,
+      "models": [
+        {
+          "name": "gpt-6-astra",
+          "ratio": 1.5,
+          "completionRatio": 5.0,
+          "fixedPrice": null,
+          "inputPerMTok": 3.0,
+          "outputPerMTok": 15.0,
+          "groups": [
+            "default"
+          ],
+          "protocols": [
+            "openai",
+            "openai-response",
+            "anthropic"
+          ]
+        },
+        {
+          "name": "gpt-6-sol",
+          "ratio": 0.3,
+          "completionRatio": 5.0,
+          "fixedPrice": null,
+          "inputPerMTok": 0.6,
+          "outputPerMTok": 3.0,
+          "groups": [
+            "default"
+          ],
+          "protocols": [
+            "openai",
+            "openai-response",
+            "anthropic"
+          ]
+        },
+        {
+          "name": "gpt-6.1-sol",
+          "ratio": 0.3,
+          "completionRatio": 5.0,
+          "fixedPrice": null,
+          "inputPerMTok": 0.6,
+          "outputPerMTok": 3.0,
+          "groups": [
+            "default"
+          ],
+          "protocols": [
+            "openai",
+            "openai-response",
+            "anthropic"
+          ]
+        },
+        {
+          "name": "auto-review",
+          "ratio": 0.75,
+          "completionRatio": 6.0,
+          "fixedPrice": null,
+          "inputPerMTok": 1.5,
+          "outputPerMTok": 9.0,
+          "groups": [
+            "default"
+          ],
+          "protocols": [
+            "openai",
+            "openai-response",
+            "anthropic"
+          ]
+        },
+        {
+          "name": "gpt-5.6-luna",
+          "ratio": 0.03,
+          "completionRatio": 6.0,
+          "fixedPrice": null,
+          "inputPerMTok": 0.06,
+          "outputPerMTok": 0.36,
+          "groups": [
+            "default"
+          ],
+          "protocols": [
+            "openai",
+            "openai-response",
+            "anthropic"
+          ]
+        },
+        {
+          "name": "gpt-5.6-sol",
+          "ratio": 0.75,
+          "completionRatio": 6.0,
+          "fixedPrice": null,
+          "inputPerMTok": 1.5,
+          "outputPerMTok": 9.0,
+          "groups": [
+            "default"
+          ],
+          "protocols": [
+            "openai",
+            "openai-response",
+            "anthropic"
+          ]
+        },
+        {
+          "name": "gpt-image-2",
+          "ratio": 0.0,
+          "completionRatio": 0.0,
+          "fixedPrice": 0.06,
+          "inputPerMTok": null,
+          "outputPerMTok": null,
+          "groups": [
+            "default"
+          ],
+          "protocols": [
+            "image-generation",
+            "openai"
+          ]
+        },
+        {
+          "name": "gpt-image-2.5-flare",
+          "ratio": 0.0,
+          "completionRatio": 0.0,
+          "fixedPrice": 0.06,
+          "inputPerMTok": null,
+          "outputPerMTok": null,
+          "groups": [
+            "default"
+          ],
+          "protocols": [
+            "image-generation",
+            "openai"
+          ]
+        },
+        {
+          "name": "gpt-image-2.5-sunburst",
+          "ratio": 0.0,
+          "completionRatio": 0.0,
+          "fixedPrice": 0.06,
+          "inputPerMTok": null,
+          "outputPerMTok": null,
+          "groups": [
+            "default"
+          ],
+          "protocols": [
+            "image-generation",
+            "openai"
+          ]
+        },
+        {
+          "name": "gpt-5.6-terra",
+          "ratio": 0.3,
+          "completionRatio": 6.0,
+          "fixedPrice": null,
+          "inputPerMTok": 0.6,
+          "outputPerMTok": 3.6,
+          "groups": [
+            "default"
+          ],
+          "protocols": [
+            "openai",
+            "anthropic",
+            "openai-response"
+          ]
+        }
+      ],
+      "model_count": 10,
       "simple_signup_selected": false,
       "personal_link": false,
-      "first_batch": false
+      "first_batch": false,
+      "deleted_at": null
     },
     {
       "id": 19,
@@ -2339,12 +2561,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": null,
+      "latency_ms": 4118,
       "system_name": "",
       "panel_version": "",
-      "last_checked_at": "2026-10-14T09:19:42Z",
+      "last_checked_at": "2026-10-20T11:47:51Z",
       "created_at": "2026-10-14T09:19:42Z",
-      "updated_at": "2026-10-14T09:19:42Z",
+      "updated_at": "2026-10-20T11:47:51Z",
       "activities": [
         {
           "id": 45,
@@ -2360,7 +2582,8 @@
       "model_count": 0,
       "simple_signup_selected": false,
       "personal_link": false,
-      "first_batch": false
+      "first_batch": false,
+      "deleted_at": null
     },
     {
       "id": 20,
@@ -2370,7 +2593,7 @@
       "panel_type": "relay",
       "home_url": "https://api.dshapi.icu",
       "register_url": "https://api.dshapi.icu/r/T8KiaeGU",
-      "redirect_url": "https://api.dshapi.icu/r/T8KiaeGU",
+      "redirect_url": "https://api.dshapi.icu/register?aff=MJYJ&reflink=T8KiaeGU",
       "status_api_url": "https://api.dshapi.icu",
       "pricing_api_url": "",
       "docs_url": "https://github.com/panxunying/ai-coding-welfare/issues/17",
@@ -2418,12 +2641,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": null,
+      "latency_ms": 928,
       "system_name": "",
       "panel_version": "",
-      "last_checked_at": "2026-10-14T09:19:42Z",
+      "last_checked_at": "2026-10-20T11:47:22Z",
       "created_at": "2026-10-14T09:19:42Z",
-      "updated_at": "2026-10-14T09:19:42Z",
+      "updated_at": "2026-10-20T11:47:22Z",
       "activities": [
         {
           "id": 46,
@@ -2439,7 +2662,8 @@
       "model_count": 0,
       "simple_signup_selected": false,
       "personal_link": false,
-      "first_batch": false
+      "first_batch": false,
+      "deleted_at": null
     },
     {
       "id": 21,
@@ -2498,12 +2722,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": null,
+      "latency_ms": 132,
       "system_name": "",
       "panel_version": "",
-      "last_checked_at": "2026-10-14T09:19:42Z",
+      "last_checked_at": "2026-10-20T11:47:20Z",
       "created_at": "2026-10-14T09:19:42Z",
-      "updated_at": "2026-10-14T09:19:42Z",
+      "updated_at": "2026-10-20T11:47:20Z",
       "activities": [
         {
           "id": 47,
@@ -2519,7 +2743,8 @@
       "model_count": 0,
       "simple_signup_selected": false,
       "personal_link": false,
-      "first_batch": false
+      "first_batch": false,
+      "deleted_at": null
     },
     {
       "id": 22,
@@ -2576,15 +2801,15 @@
       ],
       "caveats": [],
       "source_channel": "github:issues",
-      "online_status": true,
+      "online_status": false,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": null,
+      "latency_ms": 3556,
       "system_name": "",
       "panel_version": "",
-      "last_checked_at": "2026-10-14T09:19:42Z",
+      "last_checked_at": "2026-10-20T11:47:52Z",
       "created_at": "2026-10-14T09:19:42Z",
-      "updated_at": "2026-10-14T09:19:42Z",
+      "updated_at": "2026-10-20T11:47:52Z",
       "activities": [
         {
           "id": 48,
@@ -2600,7 +2825,8 @@
       "model_count": 0,
       "simple_signup_selected": false,
       "personal_link": false,
-      "first_batch": false
+      "first_batch": false,
+      "deleted_at": null
     },
     {
       "id": 23,
@@ -2656,15 +2882,15 @@
       ],
       "caveats": [],
       "source_channel": "github:issues",
-      "online_status": true,
+      "online_status": false,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": null,
+      "latency_ms": 5718,
       "system_name": "",
       "panel_version": "",
-      "last_checked_at": "2026-10-14T09:19:42Z",
+      "last_checked_at": "2026-10-20T11:47:46Z",
       "created_at": "2026-10-14T09:19:42Z",
-      "updated_at": "2026-10-14T09:19:42Z",
+      "updated_at": "2026-10-20T11:47:46Z",
       "activities": [
         {
           "id": 49,
@@ -2680,7 +2906,8 @@
       "model_count": 0,
       "simple_signup_selected": false,
       "personal_link": false,
-      "first_batch": false
+      "first_batch": false,
+      "deleted_at": null
     },
     {
       "id": 24,
@@ -2696,16 +2923,18 @@
       "docs_url": "https://github.com/panxunying/ai-coding-welfare/issues/10",
       "invite_code": "b1KI",
       "registration_methods": [
-        "邮箱 + 密码"
+        "邮箱 + 密码",
+        "Passkey",
+        "邮箱 + 密码 (需邮箱验证码)"
       ],
       "registration_requirements": [
         "邮箱验证码",
         "Turnstile 人机验证"
       ],
       "recharge_ratio": "见站内公示（社区投稿站点）",
-      "price_rate": null,
-      "stripe_unit_price": null,
-      "quota_per_unit": null,
+      "price_rate": 7.3,
+      "stripe_unit_price": 8.0,
+      "quota_per_unit": 500000.0,
       "signup_bonus": 14600.0,
       "invite_bonus": null,
       "daily_checkin_bonus": null,
@@ -2714,13 +2943,13 @@
       "my_invite_code": "b1KI",
       "my_invite_url": "https://api.hcnsec.cn/sign-up?aff=b1KI",
       "my_api_key": "",
-      "checkin_enabled": null,
-      "register_open": null,
-      "password_register": null,
-      "email_verification": null,
-      "turnstile_check": null,
+      "checkin_enabled": true,
+      "register_open": true,
+      "password_register": true,
+      "email_verification": true,
+      "turnstile_check": true,
       "github_min_age_days": null,
-      "activities_summary": "[2026-10-15] 小程序名字：《重生之这一世我要好好学人工智能》直接微信搜索然后进去答题，获取兑换码权限，获取兑换码，然后就可以在我站钱包界面填写兑换码兑换额度，一天能答题十次，十次能换一万余额，现阶段正处于内测阶段，有问题大家及时反馈；[2026-10-13] 活动链接：https://zcode.z.ai/invite/JEGSSGVA 下载绑定glm账号，即可领取三亿token，具体大家自己看吧",
+      "activities_summary": "[2026-10-15] 小程序名字：《重生之这一世我要好好学人工智能》直接微信搜索然后进去答题，获取兑换码权限，获取兑换码，然后就可以在我站钱包界面填写兑换码兑换额度，一天能答题十次，十次能换一万余额，现阶段正处于内测阶段，有问题大家及时反馈；[2026-10-13] 活动链接：https://zcode.z.ai/invite/JEGSSGVA 下载绑定glm账号，即可领取三亿token，具体大家自己看吧 | 最新公告：DeepSeek-V4.1-Flash我站svip已经切换为DeepSeek-V4.1-Flash-10.17您无需改动，正常使用即可使用1017最新版，免费用户目前依旧没有切换为",
       "supported_protocols": [
         "Anthropic 兼容",
         "OpenAI 兼容"
@@ -2742,12 +2971,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": null,
-      "system_name": "",
+      "latency_ms": 188,
+      "system_name": "新疆幻城网安科技公益大模型安全网关",
       "panel_version": "",
-      "last_checked_at": "2026-10-15T08:12:54Z",
+      "last_checked_at": "2026-10-20T11:46:40Z",
       "created_at": "2026-10-14T09:19:43Z",
-      "updated_at": "2026-10-15T07:43:10Z",
+      "updated_at": "2026-10-20T11:46:40Z",
       "activities": [
         {
           "id": 50,
@@ -2757,6 +2986,126 @@
           "content": "### 站点名称 新疆幻城网安科技公益大模型安全网关 ### 注册链接 https://api.hcnsec.cn/sign-up?aff=MaxS ### 站点首页 https://api.hcnsec.cn/ ### 面板类型 New API ### 新用户能拿多少额度 注册送￥14600，每天签到随机额度，邀请送￥14600，所以总共可得￥2.92w以上的额度 ### 支持的兼容协议 - [x] Anthropic 兼容（Claude Code 可直连） - [x] OpenAI 兼容（Codex / Cursor / SDK 可直连） ### 注册门槛与注意事项 邮箱注册，都是国产模型",
           "publish_date": "2026-10-14",
           "extra_tag": ""
+        },
+        {
+          "id": "64",
+          "activity_type": "default",
+          "title": "DeepSeek-V4.1-Flash我站svip已经切换为DeepSeek-V4.1-Flash-10.17您无需改动",
+          "content": "DeepSeek-V4.1-Flash我站svip已经切换为DeepSeek-V4.1-Flash-10.17您无需改动，正常使用即可使用1017最新版，免费用户目前依旧没有切换为最新版，请耐心等待",
+          "publish_date": "2026-10-17",
+          "extra": "DeepSeek-V4.1-Flash我站svip已经切换为DeepSeek-V4.1-Flash-10.17"
+        },
+        {
+          "id": "63",
+          "activity_type": "default",
+          "title": "step-5-preview限时补充用量，并且限时免费调用（200k上下文以内0元调用）",
+          "content": "step-5-preview限时补充用量，并且限时免费调用（200k上下文以内0元调用）",
+          "publish_date": "2026-10-15",
+          "extra": "step-5-preview限时免费速瞪"
+        },
+        {
+          "id": "62",
+          "activity_type": "default",
+          "title": "小程序名字：《重生之这一世我要好好学人工智能》直接微信搜索然后进去答题，获取兑换码权限，获取兑换码，然后就可以在我站钱包",
+          "content": "小程序名字：《重生之这一世我要好好学人工智能》直接微信搜索然后进去答题，获取兑换码权限，获取兑换码，然后就可以在我站钱包界面填写兑换码兑换一千额度，一天能答题十次，十次能换一万余额，现阶段正处于内测阶段，有问题大家及时反馈，另外我站开放余额兑换会员活动，点开钱包就可以去兑换",
+          "publish_date": "2026-10-15",
+          "extra": "本站最新获余额活动，在我们的学习小程序里面学习人工智能答题即可获取兑换码"
+        },
+        {
+          "id": "61",
+          "activity_type": "default",
+          "title": "活动链接：https://zcode.z.ai/invite/JEGSSGVA 下载绑定glm账号，即可领取三亿toke",
+          "content": "活动链接：https://zcode.z.ai/invite/JEGSSGVA 下载绑定glm账号，即可领取三亿token，具体大家自己看吧",
+          "publish_date": "2026-10-13",
+          "extra": "glm官方活动下载z code 免费领取三亿glm-5.3-flash的token"
+        },
+        {
+          "id": "60",
+          "activity_type": "default",
+          "title": "We are excited to announce that our platform now supports Wa",
+          "content": "We are excited to announce that our platform now supports Waffo Pancake to facilitate international payments for our overseas users. To make a purchase, simply go to your Wallet, select your desired package, and choose Waffo Pancake as the payment method. After clicking Pay, you can complete the transaction by entering your bank card details or by using Google Pay and Apple Pay.",
+          "publish_date": "2026-10-11",
+          "extra": "New Payment Method: Waffo Pancake Now Available for International Payments"
+        },
+        {
+          "id": "59",
+          "activity_type": "default",
+          "title": "针对此前按次计费规则中\"小请求也按次扣费、性价比不高\"的问题，我们本周将对计费方式进行调整：降低小额请求的费用，同时提高",
+          "content": "针对此前按次计费规则中\"小请求也按次扣费、性价比不高\"的问题，我们本周将对计费方式进行调整：降低小额请求的费用，同时提高超长上下文请求的扣费标准。具体细则请查看各模型的详情页，欢迎大家关注。",
+          "publish_date": "2026-10-11",
+          "extra": "近期我们将对大部分模型进行降价调整，同时增加分阶段计费"
+        },
+        {
+          "id": "58",
+          "activity_type": "default",
+          "title": "我在用 LongCat AI 开放平台，体验LongCat最新模型，编程、推理、Agent 工具调用能力持续进化！该平台",
+          "content": "我在用 LongCat AI 开放平台，体验LongCat最新模型，编程、推理、Agent 工具调用能力持续进化！该平台不计入缓存token，缓存不算token，用量比实际大通过我的链接完成实名认证，你我各得 1000 万 Tokens（叠加平台新人礼包最高可得 2000 万）；首购下单即可返实付金额 5%！立即体验： https://longcat.chat/platform/product?inviteCode=EOMQYYGE 邀请码：EOMQYYGE。",
+          "publish_date": "2026-10-07",
+          "extra": "免费领取美团longcat大模型token"
+        },
+        {
+          "id": "57",
+          "activity_type": "default",
+          "title": "由于9月30日宽带爆满导致稳定性下降，本站暂停注册了一段时间，今天已升级宽带，欢迎新用户继续注册，老用户也可以继续通过邀",
+          "content": "由于9月30日宽带爆满导致稳定性下降，本站暂停注册了一段时间，今天已升级宽带，欢迎新用户继续注册，老用户也可以继续通过邀请获取余额",
+          "publish_date": "2026-10-07",
+          "extra": "本站已恢复正常注册"
+        },
+        {
+          "id": "56",
+          "activity_type": "default",
+          "title": "觉得模型不好用？其实挑对方法很简单：点开模型详情，优先选可用率高、延迟低的；或者看看每天动态刷新的排行榜，跟着大多数用户",
+          "content": "觉得模型不好用？其实挑对方法很简单：点开模型详情，优先选可用率高、延迟低的；或者看看每天动态刷新的排行榜，跟着大多数用户的选择走；如果实在拿不定主意，直接开启 Auto 自动路由，系统会自动为你匹配当前最好用的模型，省心又高效。",
+          "publish_date": "2026-10-03",
+          "extra": "免费用户如何在本站挑选到好用的模型？"
+        },
+        {
+          "id": "55",
+          "activity_type": "default",
+          "title": "MiniMax-M3.1-Flash模型已上架，svip用户限时0元调用",
+          "content": "MiniMax-M3.1-Flash模型已上架，svip用户限时0元调用",
+          "publish_date": "2026-10-02",
+          "extra": "MiniMax-M3.1-Flash模型已上架，svip用户限时0元调用"
+        },
+        {
+          "id": "54",
+          "activity_type": "default",
+          "title": "longcat-2.5支持多模态，能力比肩glm-5.2，内测期间0元调用欢迎体验",
+          "content": "longcat-2.5支持多模态，能力比肩glm-5.2，内测期间0元调用欢迎体验",
+          "publish_date": "2026-10-02",
+          "extra": "longcat-2.5上架内测期间0元调用"
+        },
+        {
+          "id": "53",
+          "activity_type": "default",
+          "title": "近期大量一人多号集群调用已占满本站带宽，严重影响其他用户使用。我们已批量封禁违规账号。并且暂停新用户注册，等待本站整改完",
+          "content": "近期大量一人多号集群调用已占满本站带宽，严重影响其他用户使用。我们已批量封禁违规账号。并且暂停新用户注册，等待本站整改完成，有足够资源服务更多用户再重新开启注册。 即日起，同一主体控制多个账号以规避限额的行为，一经发现将直接封禁全部关联账号。团队或企业有真实多账号需求的，请走工单申请企业配额；误封可申诉复核。感谢配合。",
+          "publish_date": "2026-09-30",
+          "extra": "本站严禁一人多开多个账号使用！！！同时近期将暂停注册进行整改"
+        },
+        {
+          "id": "52",
+          "activity_type": "default",
+          "title": "应广大用户的呼声，今天本站正式全方面支持codex的/v1/responses接口，接下来codex内接入本站只需要直接",
+          "content": "应广大用户的呼声，今天本站正式全方面支持codex的/v1/responses接口，接下来codex内接入本站只需要直接填写https://api.hcnsec.cn/v1 不再需要二次使用工具进行转",
+          "publish_date": "2026-09-27",
+          "extra": "好消息，本站已原生支持codex的/v1/responses格式接口"
+        },
+        {
+          "id": "51",
+          "activity_type": "default",
+          "title": "MiMo-V2.6-Flash模型已上架，限制0元，稳定性目前尚不清楚，同时svip的MiniMax-M3模型限时0元调",
+          "content": "MiMo-V2.6-Flash模型已上架，限制0元，稳定性目前尚不清楚，同时svip的MiniMax-M3模型限时0元调用",
+          "publish_date": "2026-09-24",
+          "extra": "MiMo-V2.6-Flash模型已上架，限制0元"
+        },
+        {
+          "id": "50",
+          "activity_type": "default",
+          "title": "阶跃星辰step-5-preview我站已上线，支持多模态，亲测能力与glm-5.2持平，免费用户可用速度快，同时我们将",
+          "content": "阶跃星辰step-5-preview我站已上线，支持多模态，亲测能力与glm-5.2持平，免费用户可用速度快，同时我们将于未来下架step-3.7-flash",
+          "publish_date": "2026-09-20",
+          "extra": "阶跃星辰最新模型step-5-preview已上线，免费用户可用"
         }
       ],
       "models": [],
@@ -2797,13 +3146,63 @@
           "tag": "glm官方活动下载z c",
           "text": "活动链接：https://zcode.z.ai/invite/JEGSSGVA 下载绑定glm账号，即可领取三亿token，具体大家自己看吧"
         }
-      ]
+      ],
+      "deleted_at": null
     },
     {
       "id": 25,
       "slug": "jixiangai",
       "name": "即享AI",
-      "activities": [],
+      "activities": [
+        {
+          "id": "17",
+          "activity_type": "default",
+          "title": "关于退款政策说明： 即享永久开放无理由退款服务，如为平台兑换码充值退款将会扣除支付通道手续费3%（私下充值的额度不计算退",
+          "content": "关于退款政策说明： 即享永久开放无理由退款服务，如为平台兑换码充值退款将会扣除支付通道手续费3%（私下充值的额度不计算退款手续费） 已消费额度由即享承担不会计算手续费 计算公式：兑换码充值剩余额度-兑换码充值剩余额度x3%=最终退款金额 特别说明： 1.退款不封禁对应账号 2.退款不清空赠送额度您可继续使用（例如签到赠送，邀请赠送，注册赠送）",
+          "publish_date": "2026-08-24",
+          "extra": ""
+        },
+        {
+          "id": "16",
+          "activity_type": "default",
+          "title": "每日限量免费分组，如需使用请将分组切换到free 不定时上新，包含glm，DeepSeek，claude，gemini等",
+          "content": "每日限量免费分组，如需使用请将分组切换到free 不定时上新，包含glm，DeepSeek，claude，gemini等等",
+          "publish_date": "2026-06-24",
+          "extra": ""
+        },
+        {
+          "id": "15",
+          "activity_type": "default",
+          "title": "即享AI所有API端点，如遇到连接问题建议更换尝试 国际优化： https://jixiangai.xyz/v1 国内优",
+          "content": "即享AI所有API端点，如遇到连接问题建议更换尝试 国际优化： https://jixiangai.xyz/v1 国内优化主〈十分推荐〉: https://cn.jixiangai.xyz/v1 国内优化副〈十分推荐〉： http://198.44.179.50/v1 备用通用： https://api.jixiangai.xyz/v1 模型可用性在线检测： http://online.jixiangai.xyz 自助购买网站，如需免手续费或其他额度联系群主 https://catfk.com/shop/jixiang",
+          "publish_date": "2026-06-07",
+          "extra": ""
+        },
+        {
+          "id": "7",
+          "activity_type": "default",
+          "title": "如果您频繁遇到空回建议查看日志，流式输出首字-1大多数情况为您的网络环境或客户端主动断开连接导致无法输出，建议改为非流式",
+          "content": "如果您频繁遇到空回建议查看日志，流式输出首字-1大多数情况为您的网络环境或客户端主动断开连接导致无法输出，建议改为非流式输出解决 另外所有空回截断系统均自动补偿无需担心",
+          "publish_date": "2026-05-24",
+          "extra": ""
+        },
+        {
+          "id": "3",
+          "activity_type": "warning",
+          "title": "流式首字-1情况下是连接断开，在客户端配置改到非流式传输即可解决，另外截断或空回系统均会自动补偿，无需担心（os：传输异",
+          "content": "流式首字-1情况下是连接断开，在客户端配置改到非流式传输即可解决，另外截断或空回系统均会自动补偿，无需担心（os：传输异常也会补）",
+          "publish_date": "2026-05-10",
+          "extra": ""
+        },
+        {
+          "id": "2",
+          "activity_type": "success",
+          "title": "补偿空回/截断系统上线，每2小时自动补偿，可在使用日志看到详情",
+          "content": "补偿空回/截断系统上线，每2小时自动补偿，可在使用日志看到详情",
+          "publish_date": "2026-05-09",
+          "extra": ""
+        }
+      ],
       "models": [],
       "created_at": "2026-10-15T07:19:24Z",
       "home_url": "https://api.jixiangai.xyz",
@@ -2811,13 +3210,14 @@
       "redirect_url": "https://api.jixiangai.xyz/register?aff=XimB",
       "invite_code": "XimB",
       "panel_type": "newapi",
-      "signup_bonus": 1,
-      "first_day_total": 1,
+      "signup_bonus": 1.0,
+      "first_day_total": 1.0,
       "credit_unit": "site-usd",
       "signup_bonus_label": "注册即送 $1 + 每日签到福利",
       "bonus_evidence": "注册送一刀，签到、邀请、加群奖励另计。",
       "registration_methods": [
-        "邮箱 + 密码（需邮箱验证码）"
+        "邮箱 + 密码（需邮箱验证码）",
+        "邮箱 + 密码 (需邮箱验证码)"
       ],
       "registration_requirements": [
         "邮箱验证码"
@@ -2836,9 +3236,9 @@
       "turnstile_check": false,
       "evidence_checked_at": "2026-10-15T07:19:24Z",
       "online_status": true,
-      "last_checked_at": "2026-10-15T08:12:54Z",
+      "last_checked_at": "2026-10-20T11:47:15Z",
       "is_archived": false,
-      "updated_at": "2026-10-15T07:43:10Z",
+      "updated_at": "2026-10-20T11:47:15Z",
       "public_status_evidence": {
         "register_enabled": true,
         "password_register_enabled": true,
@@ -2870,7 +3270,25 @@
           "text": "每日限量免费分组，如需使用请将分组切换到free 不定时上新，包含glm，DeepSeek，claude，gemini等等"
         }
       ],
-      "activities_summary": "[2026-08-24] 关于退款政策说明： 即享永久开放无理由退款服务，如为平台兑换码充值退款将会扣除支付通道手续费3%（私下充值的额度不计算退款手续费） 已消费额度由即享承担不会计算手续费 计算公式：兑换码充值剩余额度-兑换码充值剩余额度x3…；[2026-06-24] 每日限量免费分组，如需使用请将分组切换到free 不定时上新，包含glm，DeepSeek，claude，gemini等等"
+      "activities_summary": "[2026-08-24] 关于退款政策说明： 即享永久开放无理由退款服务，如为平台兑换码充值退款将会扣除支付通道手续费3%（私下充值的额度不计算退款手续费） 已消费额度由即享承担不会计算手续费 计算公式：兑换码充值剩余额度-兑换码充值剩余额度x3…；[2026-06-24] 每日限量免费分组，如需使用请将分组切换到free 不定时上新，包含glm，DeepSeek，claude，gemini等等",
+      "latency_ms": 634,
+      "system_name": "即享AI",
+      "panel_version": "v1.0.0-rc.21-v11",
+      "checkin_enabled": false,
+      "price_rate": 7.3,
+      "stripe_unit_price": 8.0,
+      "quota_per_unit": 500000.0,
+      "recharge_ratio": "price=7.3（¥7.3 ≈ $1，Stripe通道 ¥8）",
+      "deleted_at": null,
+      "supported_protocols": [],
+      "mirrors": [],
+      "tags": [],
+      "highlights": [],
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "subtitle": "",
+      "model_count": 0
     },
     {
       "id": 26,
@@ -2884,13 +3302,14 @@
       "redirect_url": "https://api.fuka.win/sign-up?aff=Ajvn",
       "invite_code": "Ajvn",
       "panel_type": "newapi",
-      "signup_bonus": 150,
-      "first_day_total": 150,
+      "signup_bonus": 150.0,
+      "first_day_total": 150.0,
       "credit_unit": "site-usd",
       "signup_bonus_label": "注册立送 150 + 邀请加赠 50 额度",
       "bonus_evidence": "注册送一百五，邀请人和被邀请人送五十，只开放 QQ 邮箱。",
       "registration_methods": [
-        "邮箱 + 密码（需邮箱验证码）"
+        "邮箱 + 密码（需邮箱验证码）",
+        "邮箱 + 密码 (需邮箱验证码)"
       ],
       "registration_requirements": [
         "仅限 QQ 邮箱"
@@ -2910,9 +3329,9 @@
       "turnstile_check": false,
       "evidence_checked_at": "2026-10-15T07:19:24Z",
       "online_status": true,
-      "last_checked_at": "2026-10-15T08:12:54Z",
+      "last_checked_at": "2026-10-20T11:46:55Z",
       "is_archived": false,
-      "updated_at": "2026-10-15T07:43:10Z",
+      "updated_at": "2026-10-20T11:46:55Z",
       "public_status_evidence": {
         "register_enabled": true,
         "password_register_enabled": true,
@@ -2946,7 +3365,22 @@
           "text": "面板已开启每日签到领点数功能（checkin_enabled=true），支持 CC Switch / Cherry Studio 一键导入"
         }
       ],
-      "activities_summary": "[实时生效] QQ 邮箱快速注册即送 150 站内额度；通过专属链接 (aff=Ajvn) 注册，邀请人与被邀请人双方各加赠 50 点；[每日福利] 面板已开启每日签到领点数功能（checkin_enabled=true），支持 CC Switch / Cherry Studio 一键导入"
+      "activities_summary": "[实时生效] QQ 邮箱快速注册即送 150 站内额度；通过专属链接 (aff=Ajvn) 注册，邀请人与被邀请人双方各加赠 50 点；[每日福利] 面板已开启每日签到领点数功能（checkin_enabled=true），支持 CC Switch / Cherry Studio 一键导入",
+      "latency_ms": 4026,
+      "system_name": "芙卡卡の小食堂",
+      "checkin_enabled": true,
+      "price_rate": 7.3,
+      "stripe_unit_price": 8.0,
+      "quota_per_unit": 500000.0,
+      "recharge_ratio": "price=7.3（¥7.3 ≈ $1，Stripe通道 ¥8）",
+      "deleted_at": null,
+      "supported_protocols": [],
+      "mirrors": [],
+      "tags": [],
+      "highlights": [],
+      "my_api_key": "",
+      "subtitle": "",
+      "model_count": 0
     },
     {
       "id": 27,
@@ -2960,13 +3394,14 @@
       "redirect_url": "https://api520.pro/register?aff=jCOA",
       "invite_code": "jCOA",
       "panel_type": "newapi",
-      "signup_bonus": 200,
-      "first_day_total": 200,
+      "signup_bonus": 200.0,
+      "first_day_total": 200.0,
       "credit_unit": "site-usd",
       "signup_bonus_label": "新用户注册即送 $200 站内刀",
       "bonus_evidence": "导航描述新用户送两百刀；邀请奖励另计。",
       "registration_methods": [
-        "邮箱 + 密码（需邮箱验证码）"
+        "邮箱 + 密码（需邮箱验证码）",
+        "邮箱 + 密码 (需邮箱验证码)"
       ],
       "registration_requirements": [
         "邮箱验证码"
@@ -2986,9 +3421,9 @@
       "turnstile_check": false,
       "evidence_checked_at": "2026-10-15T07:19:24Z",
       "online_status": true,
-      "last_checked_at": "2026-10-15T08:12:54Z",
+      "last_checked_at": "2026-10-20T11:46:41Z",
       "is_archived": false,
-      "updated_at": "2026-10-15T08:56:12Z",
+      "updated_at": "2026-10-20T11:46:41Z",
       "public_status_evidence": {
         "register_enabled": true,
         "password_register_enabled": true,
@@ -3022,13 +3457,110 @@
       ],
       "activities_summary": "[实时通知] 站内通知：邀请福利升级，QQ 邮箱注册立得 100~200 额度，邀请好友双方各得 100 额度；[实时通知] 已上线实时模型状态监控（look.api520.pro），可一键查看当前高可用低延迟模型",
       "my_invite_code": "jCOA",
-      "my_invite_url": "https://api520.pro/register?aff=jCOA"
+      "my_invite_url": "https://api520.pro/register?aff=jCOA",
+      "latency_ms": 541,
+      "system_name": "熊猫API",
+      "panel_version": "v1.0.0-rc.21-5555-gd455867c9-dirty",
+      "checkin_enabled": false,
+      "price_rate": 7.3,
+      "stripe_unit_price": 8.0,
+      "quota_per_unit": 1.0,
+      "recharge_ratio": "price=7.3（¥7.3 ≈ $1，Stripe通道 ¥8）",
+      "deleted_at": null,
+      "supported_protocols": [],
+      "mirrors": [],
+      "tags": [],
+      "highlights": [],
+      "my_api_key": "",
+      "subtitle": "",
+      "model_count": 0
     },
     {
       "id": 28,
       "slug": "monkeyapi",
       "name": "猴山 API",
-      "activities": [],
+      "activities": [
+        {
+          "id": "10",
+          "activity_type": "default",
+          "title": "ver渠道gemini-4 价格上调到1.8倍",
+          "content": "ver渠道gemini-4 价格上调到1.8倍",
+          "publish_date": "2026-10-16",
+          "extra": ""
+        },
+        {
+          "id": "9",
+          "activity_type": "success",
+          "title": "8.18晚8点开七夕充值活动！活动比例如下。 10￥ 1700额度 30￥ 6000额度 50￥ 11000额度 100",
+          "content": "8.18晚8点开七夕充值活动！活动比例如下。 10￥ 1700额度 30￥ 6000额度 50￥ 11000额度 100￥ 26000额度 闲鱼支持微信支付啦！！可以在微信小程序里使用闲鱼了！",
+          "publish_date": "2026-08-18",
+          "extra": ""
+        },
+        {
+          "id": "8",
+          "activity_type": "ongoing",
+          "title": "目前签到只针对付费用户开放，且需要调用超过5次，消耗超过10，经营不易，请谅解",
+          "content": "目前签到只针对付费用户开放，且需要调用超过5次，消耗超过10，经营不易，请谅解",
+          "publish_date": "2026-08-13",
+          "extra": ""
+        },
+        {
+          "id": "7",
+          "activity_type": "success",
+          "title": "目前已做出了空回自动退款的测试版本，测试期间避免不了bug的情况，有问题请反馈。",
+          "content": "目前已做出了空回自动退款的测试版本，测试期间避免不了bug的情况，有问题请反馈。",
+          "publish_date": "2026-08-13",
+          "extra": ""
+        },
+        {
+          "id": "6",
+          "activity_type": "default",
+          "title": "由于签到关闭，其他福利回收的缘故，本周末再开一次充值活动，同时闲鱼分阶段提高赠品的额度，二维码同步 10￥ 1700额度",
+          "content": "由于签到关闭，其他福利回收的缘故，本周末再开一次充值活动，同时闲鱼分阶段提高赠品的额度，二维码同步 10￥ 1700额度 赠品88 30￥ 6000额度 赠品188 50￥ 11000额度 赠品288 100￥ 26000额度 赠品588",
+          "publish_date": "2026-07-02",
+          "extra": ""
+        },
+        {
+          "id": "5",
+          "activity_type": "warning",
+          "title": "由于被批量建号蹬了一轮，封禁了好多账号，但是还是有新的出来，有点扛不住了，暂时先关闭签到奖励和邀请奖励，新用户额度降到1",
+          "content": "由于被批量建号蹬了一轮，封禁了好多账号，但是还是有新的出来，有点扛不住了，暂时先关闭签到奖励和邀请奖励，新用户额度降到10，进群的宝宝可以跟群主要试用额度，主要是为了解决被批量注册狂蹬的问题。",
+          "publish_date": "2026-07-01",
+          "extra": "非常抱歉这次福利回收，但是确实成本遭不住，这波扛过去后续还会再开。"
+        },
+        {
+          "id": "4",
+          "activity_type": "default",
+          "title": "2026.6.10中午12:00停服更新，全站更新，增加了签到限制，提高了签到额度，做了拉新为小号的筛查，不正常的拉新会",
+          "content": "2026.6.10中午12:00停服更新，全站更新，增加了签到限制，提高了签到额度，做了拉新为小号的筛查，不正常的拉新会封号，如有误封及时请联系我",
+          "publish_date": "2026-06-09",
+          "extra": ""
+        },
+        {
+          "id": "3",
+          "activity_type": "default",
+          "title": "成本控制先降低拉新奖励额度和注册额度，后续迁移新站后会增加签到额度但是会有签到限制",
+          "content": "成本控制先降低拉新奖励额度和注册额度，后续迁移新站后会增加签到额度但是会有签到限制",
+          "publish_date": "2026-06-06",
+          "extra": ""
+        },
+        {
+          "id": "2",
+          "activity_type": "default",
+          "title": "咸鱼又违规了，咸鱼需要等十天，续费请先进群联系我",
+          "content": "咸鱼又违规了，咸鱼需要等十天，续费请先进群联系我",
+          "publish_date": "2026-05-14",
+          "extra": ""
+        },
+        {
+          "id": "1",
+          "activity_type": "default",
+          "title": "2026.5.1 0点-24点开充值活动 10￥1700额度 30￥6000额度 50￥11000额度 100￥2600",
+          "content": "2026.5.1 0点-24点开充值活动 10￥1700额度 30￥6000额度 50￥11000额度 100￥26000额度 以付款时间为准。",
+          "publish_date": "2026-04-26",
+          "extra": ""
+        }
+      ],
       "models": [],
       "created_at": "2026-10-15T07:19:24Z",
       "home_url": "https://monkeyapi.apimonkey.online",
@@ -3036,13 +3568,15 @@
       "redirect_url": "https://monkeyapi.apimonkey.online/register?aff=eYCy",
       "invite_code": "eYCy",
       "panel_type": "newapi",
-      "signup_bonus": 100,
-      "first_day_total": 100,
+      "signup_bonus": 100.0,
+      "first_day_total": 100.0,
       "credit_unit": "site-usd",
       "signup_bonus_label": "注册即送 $100 站内刀",
       "bonus_evidence": "注册送一百美刀；进群与邀请加赠各一百另计。",
       "registration_methods": [
-        "邮箱 + 密码（需邮箱验证码）"
+        "邮箱 + 密码（需邮箱验证码）",
+        "Passkey",
+        "邮箱 + 密码 (需邮箱验证码)"
       ],
       "registration_requirements": [
         "邮箱验证码",
@@ -3063,9 +3597,9 @@
       "turnstile_check": true,
       "evidence_checked_at": "2026-10-15T07:19:24Z",
       "online_status": true,
-      "last_checked_at": "2026-10-15T08:12:54Z",
+      "last_checked_at": "2026-10-20T11:46:42Z",
       "is_archived": false,
-      "updated_at": "2026-10-15T07:43:10Z",
+      "updated_at": "2026-10-20T11:46:42Z",
       "public_status_evidence": {
         "register_enabled": true,
         "password_register_enabled": true,
@@ -3097,13 +3631,152 @@
           "text": "目前签到只针对付费用户开放，且需要调用超过5次，消耗超过10，经营不易，请谅解"
         }
       ],
-      "activities_summary": "[2026-08-18] 8.18晚8点开七夕充值活动！活动比例如下。 10￥ 1700额度 30￥ 6000额度 50￥ 11000额度 100￥ 26000额度 闲鱼支持微信支付啦！！可以在微信小程序里使用闲鱼了！；[2026-08-13] 目前签到只针对付费用户开放，且需要调用超过5次，消耗超过10，经营不易，请谅解"
+      "activities_summary": "[2026-08-18] 8.18晚8点开七夕充值活动！活动比例如下。 10￥ 1700额度 30￥ 6000额度 50￥ 11000额度 100￥ 26000额度 闲鱼支持微信支付啦！！可以在微信小程序里使用闲鱼了！；[2026-08-13] 目前签到只针对付费用户开放，且需要调用超过5次，消耗超过10，经营不易，请谅解 | 最新公告：ver渠道gemini-4 价格上调到1.8倍",
+      "latency_ms": 284,
+      "system_name": "猴山 Api",
+      "panel_version": "main-20260918-c82085a",
+      "checkin_enabled": true,
+      "price_rate": 7.3,
+      "stripe_unit_price": 8.0,
+      "quota_per_unit": 1.0,
+      "recharge_ratio": "price=7.3（¥7.3 ≈ $1，Stripe通道 ¥8）",
+      "deleted_at": null,
+      "supported_protocols": [],
+      "mirrors": [],
+      "tags": [],
+      "highlights": [],
+      "my_invite_code": "",
+      "my_invite_url": "",
+      "my_api_key": "",
+      "subtitle": "",
+      "model_count": 0
     },
     {
       "id": 29,
       "slug": "jiushi",
       "name": "玖时API",
-      "activities": [],
+      "activities": [
+        {
+          "id": "108",
+          "activity_type": "default",
+          "title": "禁言通知三群 · 加群 → 551475700 被拒绝加群是因为群满了 加这个群",
+          "content": "禁言通知三群 · 加群 → 551475700 被拒绝加群是因为群满了 加这个群",
+          "publish_date": "2026-10-17",
+          "extra": ""
+        },
+        {
+          "id": "107",
+          "activity_type": "default",
+          "title": "[k-个人]系列 opus模型 价格降价为0.165/次 VIP0.161/次 [AG促销]claude-opus-4-",
+          "content": "[k-个人]系列 opus模型 价格降价为0.165/次 VIP0.161/次 [AG促销]claude-opus-4-6-thinking 价格为0.18/次 VIP0.176/次 [AG2]claude-opus-4-6 系列降价优惠 0.23/次 VIP0.225/次 AG都为纯反重力号池 不卡600s输出 Bu满血Gemini 因为外国服务器厂商在陆续重启服务器群 所以暂时不稳定",
+          "publish_date": "2026-10-17",
+          "extra": ""
+        },
+        {
+          "id": "105",
+          "activity_type": "default",
+          "title": "[企业E]gemini-4-argon恢复啦，久等了！ 另外 [AG2]claude-opus-4-6 [AG2]cla",
+          "content": "[企业E]gemini-4-argon恢复啦，久等了！ 另外 [AG2]claude-opus-4-6 [AG2]claude-opus-4-6-thinking 0.27/次 VIP0.2646/次 时隔多月也复活了，是之前反馈很好的反重力渠道按次克",
+          "publish_date": "2026-10-15",
+          "extra": ""
+        },
+        {
+          "id": "104",
+          "activity_type": "default",
+          "title": "[vertex-t3按量]gemini-4-argon [vertex-t3按量]gemini-3.1-pro-prev",
+          "content": "[vertex-t3按量]gemini-4-argon [vertex-t3按量]gemini-3.1-pro-preview 上架纯正向官渠按量 非逆向 vertex为主 t3兜底 智商聪明 甲薄 价格为1.75倍率 VIP 1.715倍率 vertex是谷歌最聪明的渠道了 和你去openrouter上面 7.3 元买一刀是一样的体验",
+          "publish_date": "2026-10-15",
+          "extra": ""
+        },
+        {
+          "id": "103",
+          "activity_type": "default",
+          "title": "[内测]gemini-4-argon下架 改名为 [企业E]gemini-4-argon 0.095/次 VIP 0.0",
+          "content": "[内测]gemini-4-argon下架 改名为 [企业E]gemini-4-argon 0.095/次 VIP 0.0931/次 Gemini Enterprise渠道 源头大概是vertex 属于是平替了基本没什么差距 无自动路由 动态甲，在使用预设时请将强力破甲条目关掉不然可能反而会道歉 使用轻量预设 不支持图片 表情包 可以输出大概64k以上 1m上下文 遇到401 403的时候需要重刷几次",
+          "publish_date": "2026-10-14",
+          "extra": ""
+        },
+        {
+          "id": "102",
+          "activity_type": "default",
+          "title": "有需要的加新群 交流九群729636167 禁言十群1098690039",
+          "content": "有需要的加新群 交流九群729636167 禁言十群1098690039",
+          "publish_date": "2026-10-13",
+          "extra": ""
+        },
+        {
+          "id": "101",
+          "activity_type": "default",
+          "title": "上架 [内测]gemini-4-argon 0.095/次 VIP0.0931/次 企业内测渠道 甲不厚，在使用预设时请",
+          "content": "上架 [内测]gemini-4-argon 0.095/次 VIP0.0931/次 企业内测渠道 甲不厚，在使用预设时请将强力破甲条目关掉不然可能反而会道歉 使用轻量预设 不支持图片 可以输出64k以上 1m上下文 新模型很聪明",
+          "publish_date": "2026-10-12",
+          "extra": ""
+        },
+        {
+          "id": "100",
+          "activity_type": "default",
+          "title": "[AG]gemini-3.1-pro-preview 经过测试 发现已经被反重力官方自动路由成gemini-3.8-fl",
+          "content": "[AG]gemini-3.1-pro-preview 经过测试 发现已经被反重力官方自动路由成gemini-3.8-flash模型 应该是Gemini4要出的调整 全网反重力都被自动路由 所以下架模型 [AG]gemini-3.1-pro-preview",
+          "publish_date": "2026-10-11",
+          "extra": ""
+        },
+        {
+          "id": "99",
+          "activity_type": "default",
+          "title": "[k-个人] opus价格调整 0.185/次 VIP0.1813/次 不卡输出 号的成本上涨 所以跟着调整价格 月初价",
+          "content": "[k-个人] opus价格调整 0.185/次 VIP0.1813/次 不卡输出 号的成本上涨 所以跟着调整价格 月初价格波动明显 谢谢大家理解",
+          "publish_date": "2026-10-03",
+          "extra": ""
+        },
+        {
+          "id": "98",
+          "activity_type": "default",
+          "title": "[企业CLI]gemini-3.8-flash [企业CLI]gemini-3.5-flash 暂时只恢复flash模型",
+          "content": "[企业CLI]gemini-3.8-flash [企业CLI]gemini-3.5-flash 暂时只恢复flash模型 0.025/次 VIP0.0245/次",
+          "publish_date": "2026-10-01",
+          "extra": ""
+        },
+        {
+          "id": "97",
+          "activity_type": "default",
+          "title": "[Pro按量]gpt-6-sol [Pro按量]gpt-6.1-sol 上架新模型 官方0.25倍率 纯pro号池 有缓",
+          "content": "[Pro按量]gpt-6-sol [Pro按量]gpt-6.1-sol 上架新模型 官方0.25倍率 纯pro号池 有缓存 具体价格看模型广场",
+          "publish_date": "2026-09-30",
+          "extra": ""
+        },
+        {
+          "id": "96",
+          "activity_type": "default",
+          "title": "k系列均已降价 看群待办 并且比较稳定 月末价格就会低 趁这段时间吃 月初价格会高幅上涨 望周知 [k-特惠]降价 op",
+          "content": "k系列均已降价 看群待办 并且比较稳定 月末价格就会低 趁这段时间吃 月初价格会高幅上涨 望周知 [k-特惠]降价 opus VIP 0.0686/次 原 0.07/次 sonnet VIP 0.0392/次 原0.04/次 不卡输出 不卡8192 [k-个人]降价 opus VIP 0.1078/次 原 0.11/次 sonnet VIP 0.049/次 原0.05/次 不卡输出 不卡8192 [k]降价 opus VIP0.0588/次 原0.06/次 sonnet VIP 0.0392/次 原0.04/次",
+          "publish_date": "2026-09-27",
+          "extra": ""
+        },
+        {
+          "id": "95",
+          "activity_type": "default",
+          "title": "k系列均已降价 看群待办 并且比较稳定 月末价格就会低 趁这段时间吃 月初价格会高幅上涨 望周知",
+          "content": "k系列均已降价 看群待办 并且比较稳定 月末价格就会低 趁这段时间吃 月初价格会高幅上涨 望周知",
+          "publish_date": "2026-09-27",
+          "extra": ""
+        },
+        {
+          "id": "93",
+          "activity_type": "default",
+          "title": "QQ售后交流群八群：822106149 欢迎进群交流、获取最新通知 禁言通知群九：1126699954",
+          "content": "QQ售后交流群八群：822106149 欢迎进群交流、获取最新通知 禁言通知群九：1126699954",
+          "publish_date": "2026-09-22",
+          "extra": ""
+        },
+        {
+          "id": "92",
+          "activity_type": "default",
+          "title": "在线充值系统全面升级了 基本点击跳转就能付款成功 不需要再截屏再自己输入金额 不是之前的那种 基本100%到账 当然这个",
+          "content": "在线充值系统全面升级了 基本点击跳转就能付款成功 不需要再截屏再自己输入金额 不是之前的那种 基本100%到账 当然这个要收高额手续费 但是手续费我们自己承担 大家不用多付钱 大额私聊我充值",
+          "publish_date": "2026-09-09",
+          "extra": ""
+        }
+      ],
       "models": [],
       "created_at": "2026-10-15T07:19:24Z",
       "home_url": "https://api.jiushi.xin",
@@ -3117,7 +3790,8 @@
       "signup_bonus_label": "注册即送 $3 + 每日签到 ~$1",
       "bonus_evidence": "注册送 3 刀；签到赠额另计。",
       "registration_methods": [
-        "邮箱 + 密码（需邮箱验证码）"
+        "邮箱 + 密码（需邮箱验证码）",
+        "邮箱 + 密码 (需邮箱验证码)"
       ],
       "registration_requirements": [
         "邮箱验证码"
@@ -3131,15 +3805,15 @@
       "source_channel": "hcnsec-navigation",
       "source_url": "https://link.hcnsec.cn/site/58",
       "status_api_url": "https://api.jiushi.xin/api/status",
-      "register_open": true,
+      "register_open": false,
       "password_register": true,
       "email_verification": true,
       "turnstile_check": false,
       "evidence_checked_at": "2026-10-15T07:19:24Z",
       "online_status": true,
-      "last_checked_at": "2026-10-15T08:12:54Z",
+      "last_checked_at": "2026-10-20T11:47:13Z",
       "is_archived": false,
-      "updated_at": "2026-10-15T09:03:52Z",
+      "updated_at": "2026-10-20T11:47:13Z",
       "public_status_evidence": {
         "register_enabled": true,
         "password_register_enabled": true,
@@ -3171,7 +3845,7 @@
           "text": "有需要的加新群 交流九群729636167 禁言十群1098690039"
         }
       ],
-      "activities_summary": "[2026-10-14] [内测]gemini-4-argon下架 改名为 [企业E]gemini-4-argon 0.095/次 VIP 0.0931/次 Gemini Enterprise渠道 源头大概是vertex 属于是平替了基本没什么差…；[2026-10-13] 有需要的加新群 交流九群729636167 禁言十群1098690039",
+      "activities_summary": "[2026-10-14] [内测]gemini-4-argon下架 改名为 [企业E]gemini-4-argon 0.095/次 VIP 0.0931/次 Gemini Enterprise渠道 源头大概是vertex 属于是平替了基本没什么差…；[2026-10-13] 有需要的加新群 交流九群729636167 禁言十群1098690039 | 最新公告：禁言通知三群 · 加群 → 551475700 被拒绝加群是因为群满了 加这个群",
       "recent_logs": [],
       "my_invite_url": "https://api.jiushi.xin/register?aff=y35X",
       "my_invite_code": "y35X",
@@ -3181,9 +3855,15 @@
       "tags": [],
       "highlights": [],
       "my_api_key": "",
-      "recharge_ratio": "",
+      "recharge_ratio": "price=1.0（¥1 ≈ $1，Stripe通道 ¥8）",
       "subtitle": "",
-      "model_count": 0
+      "model_count": 0,
+      "latency_ms": 597,
+      "system_name": "玖时API",
+      "checkin_enabled": true,
+      "price_rate": 1.0,
+      "stripe_unit_price": 8.0,
+      "quota_per_unit": 500000.0
     },
     {
       "id": 30,
@@ -3222,9 +3902,9 @@
       "turnstile_check": false,
       "evidence_checked_at": "2026-10-15T07:19:24Z",
       "online_status": true,
-      "last_checked_at": "2026-10-15T08:12:54Z",
+      "last_checked_at": "2026-10-20T11:47:37Z",
       "is_archived": false,
-      "updated_at": "2026-10-15T09:03:52Z",
+      "updated_at": "2026-10-20T11:47:37Z",
       "public_status_evidence": {
         "register_enabled": true,
         "password_register_enabled": true,
@@ -3268,7 +3948,8 @@
       "my_api_key": "",
       "recharge_ratio": "",
       "subtitle": "",
-      "model_count": 0
+      "model_count": 0,
+      "latency_ms": 5933
     }
   ],
   "crawl_logs": [
@@ -3323,6 +4004,630 @@
       "error_message": "",
       "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":true},\\\"docs\\\":false,\\\"about\\\":false}\",\"SidebarModulesAdmin\":\"{\\\"chat\\\":{\\\"enabled\\\":true,\\\"playground\\\":false,\\\"chat\\\":false},\\\"console\\\":{\\\"enabled\\\":true,\\\"detail\\\":true,\\\"token\\\":true,\\\"log",
       "checked_at": "2026-10-14T09:19:47Z"
+    },
+    {
+      "id": 5,
+      "channel": "probe_register",
+      "target_url": "https://api.hcnsec.cn/sign-up?aff=b1KI",
+      "http_status": 200,
+      "latency_ms": 285,
+      "is_success": true,
+      "final_redirect_url": "https://api.hcnsec.cn/sign-up?aff=b1KI",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"google\" content=\"notranslate\" />\n\n    <!-- Primary Meta Tags -->\n    <title>免费GLM·DeepSeek·Qwen·Kimi·Step API接口 - 新疆幻城网安公益大模型安全网关</title",
+      "station_id": 24,
+      "checked_at": "2026-10-20T11:46:39Z"
+    },
+    {
+      "id": 6,
+      "channel": "probe_register",
+      "target_url": "https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_",
+      "http_status": 200,
+      "latency_ms": 459,
+      "is_success": true,
+      "final_redirect_url": "https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_",
+      "error_message": "",
+      "raw_excerpt": "<!DOCTYPE html><html lang=\"zh-CN\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><meta name=\"color-scheme\" content=\"light dark\"/><title>Matrix · 一站式开源应用即时体验平台</title><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"/><link rel=\"preconnect\" ",
+      "station_id": 12,
+      "checked_at": "2026-10-20T11:46:40Z"
+    },
+    {
+      "id": 7,
+      "channel": "probe_status_api",
+      "target_url": "https://api.hcnsec.cn/api/status",
+      "http_status": 200,
+      "latency_ms": 188,
+      "is_success": true,
+      "final_redirect_url": "https://api.hcnsec.cn/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":true},\\\"rankings\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":true},\\\"docs\\\":true,\\\"about\\\":true}\",\"SidebarModulesAdmin\":\"{\\\"chat\\\":{\\\"enabled\\\":true,\\\"playground\\\":true,\\\"chat\\\":true},\\\"console\\\":{\\\"en",
+      "station_id": 24,
+      "checked_at": "2026-10-20T11:46:40Z"
+    },
+    {
+      "id": 8,
+      "channel": "probe_register",
+      "target_url": "https://docode.cc/register?aff=plGC",
+      "http_status": 200,
+      "latency_ms": 665,
+      "is_success": true,
+      "final_redirect_url": "https://docode.cc/register?aff=plGC",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"zh\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <link rel=\"icon\" href=\"/logo.png\" />\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, viewport-fit=cover\"\n    />\n    <meta name=\"theme-color\" content=\"#ffffff\" />\n    <meta\n      name=\"descr",
+      "station_id": 6,
+      "checked_at": "2026-10-20T11:46:40Z"
+    },
+    {
+      "id": 9,
+      "channel": "probe_status_api",
+      "target_url": "https://matrix.mzsjai.com/api/health",
+      "http_status": 200,
+      "latency_ms": 155,
+      "is_success": true,
+      "final_redirect_url": "https://matrix.mzsjai.com/api/health",
+      "error_message": "",
+      "raw_excerpt": "{\"status\":\"ok\",\"timestamp\":\"2026-10-20T11:46:39.868Z\"}",
+      "station_id": 12,
+      "checked_at": "2026-10-20T11:46:40Z"
+    },
+    {
+      "id": 10,
+      "channel": "probe_register",
+      "target_url": "https://api520.pro/register?aff=jCOA",
+      "http_status": 200,
+      "latency_ms": 771,
+      "is_success": true,
+      "final_redirect_url": "https://api520.pro/register?aff=jCOA",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"zh\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <link rel=\"icon\" href=\"/logo.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <meta name=\"google\" content=\"notranslate\" />\n    <meta name=\"theme-color\" content=\"#ffffff\" />\n    <meta\n    ",
+      "station_id": 27,
+      "checked_at": "2026-10-20T11:46:40Z"
+    },
+    {
+      "id": 11,
+      "channel": "probe_status_api",
+      "target_url": "https://api520.pro/api/status",
+      "http_status": 200,
+      "latency_ms": 541,
+      "is_success": true,
+      "final_redirect_url": "https://api520.pro/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":false},\\\"rankings\\\":{\\\"enabled\\\":false,\\\"requireAuth\\\":false},\\\"monitor\\\":true,\\\"docs\\\":true,\\\"about\\\":true}\",\"SidebarModulesAdmin\":\"{\\\"chat\\\":{\\\"enabled\\\":true,\\\"playground\\\":true,\\\"chat\\\":tru",
+      "station_id": 27,
+      "checked_at": "2026-10-20T11:46:41Z"
+    },
+    {
+      "id": 12,
+      "channel": "probe_status_api",
+      "target_url": "https://docode.cc/api/status",
+      "http_status": 200,
+      "latency_ms": 617,
+      "is_success": true,
+      "final_redirect_url": "https://docode.cc/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":true},\\\"docs\\\":false,\\\"about\\\":false}\",\"SidebarModulesAdmin\":\"{\\\"chat\\\":{\\\"enabled\\\":true,\\\"playground\\\":false,\\\"chat\\\":false},\\\"console\\\":{\\\"enabled\\\":true,\\\"detail\\\":true,\\\"token\\\":true,\\\"log",
+      "station_id": 6,
+      "checked_at": "2026-10-20T11:46:41Z"
+    },
+    {
+      "id": 13,
+      "channel": "probe_register",
+      "target_url": "https://anyrouter.top/register?aff=Z24N",
+      "http_status": 0,
+      "latency_ms": 0,
+      "is_success": false,
+      "final_redirect_url": "https://anyrouter.top/register?aff=Z24N",
+      "error_message": "URLError: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)>",
+      "raw_excerpt": "",
+      "station_id": 15,
+      "checked_at": "2026-10-20T11:46:41Z"
+    },
+    {
+      "id": 14,
+      "channel": "probe_register",
+      "target_url": "https://monkeyapi.apimonkey.online/register?aff=eYCy",
+      "http_status": 200,
+      "latency_ms": 425,
+      "is_success": true,
+      "final_redirect_url": "https://monkeyapi.apimonkey.online/register?aff=eYCy",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/png\" href=\"/logo.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n\n    <!-- Primary Meta Tags -->\n    <title>New API</title>\n    <meta name=\"title\" content=\"New",
+      "station_id": 28,
+      "checked_at": "2026-10-20T11:46:41Z"
+    },
+    {
+      "id": 15,
+      "channel": "probe_status_api",
+      "target_url": "https://monkeyapi.apimonkey.online/api/status",
+      "http_status": 200,
+      "latency_ms": 284,
+      "is_success": true,
+      "final_redirect_url": "https://monkeyapi.apimonkey.online/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"items\\\":[{\\\"id\\\":\\\"home\\\",\\\"label\\\":\\\"Home\\\",\\\"labelKey\\\":\\\"Home\\\",\\\"href\\\":\\\"/\\\",\\\"enabled\\\":true,\\\"order\\\":0,\\\"kind\\\":\\\"builtin\\\",\\\"requireAuth\\\":false,\\\"external\\\":false},{\\\"id\\\":\\\"console\\\",\\\"label\\\":\\\"Console\\\",\\\"labelKey\\\":\\\"Console\\\",\\\"href\\\":\\\"/dashboard\\\",\\\"e",
+      "station_id": 28,
+      "checked_at": "2026-10-20T11:46:42Z"
+    },
+    {
+      "id": 16,
+      "channel": "probe_status_api",
+      "target_url": "https://anyrouter.top/api/status",
+      "http_status": 0,
+      "latency_ms": 0,
+      "is_success": false,
+      "final_redirect_url": "https://anyrouter.top/api/status",
+      "error_message": "URLError: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)>",
+      "raw_excerpt": "",
+      "station_id": 15,
+      "checked_at": "2026-10-20T11:46:43Z"
+    },
+    {
+      "id": 17,
+      "channel": "probe_register",
+      "target_url": "https://api.cheapcodex.online/register?aff=U7SSQZSDB36S",
+      "http_status": 200,
+      "latency_ms": 764,
+      "is_success": true,
+      "final_redirect_url": "https://api.cheapcodex.online/register?aff=U7SSQZSDB36S",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"zh-CN\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAjoAAAH+CAIAAAAauzOoAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAgAElEQVR4nMRd25bkqo6EWv3/f7yLebCRQqGQILP7rGHO7M6yMQgQuiPm7+/v2GWOOcZYYz2/11r76XwevmWNMfd/nz/HWHM9n4fKV",
+      "station_id": 16,
+      "checked_at": "2026-10-20T11:46:45Z"
+    },
+    {
+      "id": 18,
+      "channel": "probe_status_api",
+      "target_url": "https://api.cheapcodex.online/v1/models",
+      "http_status": 401,
+      "latency_ms": 537,
+      "is_success": false,
+      "final_redirect_url": "https://api.cheapcodex.online/v1/models",
+      "error_message": "HTTP 401",
+      "raw_excerpt": "{\"code\":\"API_KEY_REQUIRED\",\"message\":\"API key is required in Authorization header (Bearer scheme), x-api-key header, or x-goog-api-key header\"}",
+      "station_id": 16,
+      "checked_at": "2026-10-20T11:46:45Z"
+    },
+    {
+      "id": 19,
+      "channel": "probe_register",
+      "target_url": "https://flushapi.fun/sign-up?aff=WBF3",
+      "http_status": 200,
+      "latency_ms": 1777,
+      "is_success": true,
+      "final_redirect_url": "https://flushapi.fun/sign-up?aff=WBF3",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"google\" content=\"notranslate\" />\n\n    <!-- Primary Meta Tags -->\n    <title>FlushAPI</title>\n    <meta name=\"title\" content=\"FlushAPI\" /",
+      "station_id": 9,
+      "checked_at": "2026-10-20T11:46:47Z"
+    },
+    {
+      "id": 20,
+      "channel": "probe_register",
+      "target_url": "https://api.fuka.win/sign-up?aff=Ajvn",
+      "http_status": 0,
+      "latency_ms": 0,
+      "is_success": false,
+      "final_redirect_url": "https://api.fuka.win/sign-up?aff=Ajvn",
+      "error_message": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>",
+      "raw_excerpt": "",
+      "station_id": 26,
+      "checked_at": "2026-10-20T11:46:51Z"
+    },
+    {
+      "id": 21,
+      "channel": "probe_register",
+      "target_url": "https://kktoken.cc/sign-up?aff=MzG9",
+      "http_status": 0,
+      "latency_ms": 0,
+      "is_success": false,
+      "final_redirect_url": "https://kktoken.cc/sign-up?aff=MzG9",
+      "error_message": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>",
+      "raw_excerpt": "",
+      "station_id": 10,
+      "checked_at": "2026-10-20T11:46:51Z"
+    },
+    {
+      "id": 22,
+      "channel": "probe_status_api",
+      "target_url": "https://api.fuka.win/api/status",
+      "http_status": 200,
+      "latency_ms": 4026,
+      "is_success": true,
+      "final_redirect_url": "https://api.fuka.win/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":true},\\\"rankings\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":true},\\\"docs\\\":false,\\\"about\\\":true}\",\"SidebarModulesAdmin\":\"{\\\"chat\\\":{\\\"enabled\\\":true,\\\"playground\\\":true,\\\"chat\\\":true},\\\"console\\\":{\\\"e",
+      "station_id": 26,
+      "checked_at": "2026-10-20T11:46:55Z"
+    },
+    {
+      "id": 23,
+      "channel": "probe_register",
+      "target_url": "https://api.justwoker.icu/register?aff=8lTQ",
+      "http_status": 0,
+      "latency_ms": 0,
+      "is_success": false,
+      "final_redirect_url": "https://api.justwoker.icu/register?aff=8lTQ",
+      "error_message": "TimeoutError: The read operation timed out",
+      "raw_excerpt": "",
+      "station_id": 7,
+      "checked_at": "2026-10-20T11:46:55Z"
+    },
+    {
+      "id": 24,
+      "channel": "probe_status_api",
+      "target_url": "https://api.justwoker.icu/api/status",
+      "http_status": 200,
+      "latency_ms": 2042,
+      "is_success": true,
+      "final_redirect_url": "https://api.justwoker.icu/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":false,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":true},\\\"rankings\\\":{\\\"enabled\\\":false,\\\"requireAuth\\\":false},\\\"docs\\\":false,\\\"about\\\":false}\",\"SidebarModulesAdmin\":\"{\\\"chat\\\":{\\\"enabled\\\":false,\\\"playground\\\":true,\\\"chat\\\":false},\\\"console\\",
+      "station_id": 7,
+      "checked_at": "2026-10-20T11:46:57Z"
+    },
+    {
+      "id": 25,
+      "channel": "probe_status_api",
+      "target_url": "https://flushapi.fun/api/status",
+      "http_status": 0,
+      "latency_ms": 0,
+      "is_success": false,
+      "final_redirect_url": "https://flushapi.fun/api/status",
+      "error_message": "TimeoutError: The read operation timed out",
+      "raw_excerpt": "",
+      "station_id": 9,
+      "checked_at": "2026-10-20T11:46:58Z"
+    },
+    {
+      "id": 26,
+      "channel": "probe_register",
+      "target_url": "https://agentrouter.org/register?aff=szt3",
+      "http_status": 0,
+      "latency_ms": 0,
+      "is_success": false,
+      "final_redirect_url": "https://agentrouter.org/register?aff=szt3",
+      "error_message": "URLError: <urlopen error timed out>",
+      "raw_excerpt": "",
+      "station_id": 5,
+      "checked_at": "2026-10-20T11:46:59Z"
+    },
+    {
+      "id": 27,
+      "channel": "probe_register",
+      "target_url": "https://t.me/conduitoff_bot?start=ref_8111640723",
+      "http_status": 0,
+      "latency_ms": 0,
+      "is_success": false,
+      "final_redirect_url": "https://t.me/conduitoff_bot?start=ref_8111640723",
+      "error_message": "URLError: <urlopen error timed out>",
+      "raw_excerpt": "",
+      "station_id": 4,
+      "checked_at": "2026-10-20T11:46:59Z"
+    },
+    {
+      "id": 28,
+      "channel": "probe_register",
+      "target_url": "https://codex-relay.codes/register?aff=6jAq",
+      "http_status": 200,
+      "latency_ms": 3648,
+      "is_success": true,
+      "final_redirect_url": "https://codex-relay.codes/register?aff=6jAq",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"ru\" data-theme=\"dark\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\" />\n    <meta name=\"color-scheme\" content=\"dark light\" />\n    <meta name=\"theme-color\" content=\"#131519\" />\n    <!-- Eno",
+      "station_id": 2,
+      "checked_at": "2026-10-20T11:47:01Z"
+    },
+    {
+      "id": 29,
+      "channel": "probe_register",
+      "target_url": "https://nofx.one/zh-CN/sign-in?ref=J369GHY4",
+      "http_status": 200,
+      "latency_ms": 6795,
+      "is_success": true,
+      "final_redirect_url": "https://nofxone.com/zh-CN/sign-in?ref=J369GHY4",
+      "error_message": "",
+      "raw_excerpt": "<!DOCTYPE html><html lang=\"zh-CN\" class=\"__variable_geist_0fdagwn __variable_geist_mono_1001rt9\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"/_next/static/css/layout.DXY3eHgy.css\" data-rsc-css-href=\"/_next/static/css/",
+      "station_id": 17,
+      "checked_at": "2026-10-20T11:47:04Z"
+    },
+    {
+      "id": 30,
+      "channel": "probe_status_api",
+      "target_url": "https://kktoken.cc/api/status",
+      "http_status": 403,
+      "latency_ms": 3880,
+      "is_success": false,
+      "final_redirect_url": "https://kktoken.cc/api/status",
+      "error_message": "HTTP 403",
+      "raw_excerpt": "",
+      "station_id": 10,
+      "checked_at": "2026-10-20T11:47:05Z"
+    },
+    {
+      "id": 31,
+      "channel": "probe_register",
+      "target_url": "https://api.uu6.top/sign-up?aff=3sNT",
+      "http_status": 200,
+      "latency_ms": 5933,
+      "is_success": true,
+      "final_redirect_url": "https://api.uu6.top/sign-up?aff=3sNT",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"google\" content=\"notranslate\" />\n\n    <!-- Primary Meta Tags -->\n    <title>New API</title>\n    <meta name=\"title\" content=\"New API\" />\n",
+      "station_id": 30,
+      "checked_at": "2026-10-20T11:47:11Z"
+    },
+    {
+      "id": 32,
+      "channel": "probe_status_api",
+      "target_url": "https://codex-relay.codes",
+      "http_status": 0,
+      "latency_ms": 0,
+      "is_success": false,
+      "final_redirect_url": "https://codex-relay.codes",
+      "error_message": "TimeoutError: The read operation timed out",
+      "raw_excerpt": "",
+      "station_id": 2,
+      "checked_at": "2026-10-20T11:47:12Z"
+    },
+    {
+      "id": 33,
+      "channel": "probe_register",
+      "target_url": "https://api.jiushi.xin/register?aff=y35X",
+      "http_status": 200,
+      "latency_ms": 491,
+      "is_success": true,
+      "final_redirect_url": "https://api.jiushi.xin/register?aff=y35X",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"zh\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <link rel=\"icon\" href=\"/logo.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <meta name=\"theme-color\" content=\"#ffffff\" />\n    <meta\n      name=\"description\"\n      lang=\"zh\"\n      conten",
+      "station_id": 29,
+      "checked_at": "2026-10-20T11:47:12Z"
+    },
+    {
+      "id": 34,
+      "channel": "probe_status_api",
+      "target_url": "https://api.jiushi.xin/api/status",
+      "http_status": 200,
+      "latency_ms": 597,
+      "is_success": true,
+      "final_redirect_url": "https://api.jiushi.xin/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":false},\\\"docs\\\":false,\\\"about\\\":false}\",\"SidebarModulesAdmin\":\"{\\\"admin\\\":{\\\"channel\\\":true,\\\"deployment\\\":false,\\\"enabled\\\":true,\\\"models\\\":true,\\\"quick_refund\\\":true,\\\"redemption\\\":true,\\\"ris",
+      "station_id": 29,
+      "checked_at": "2026-10-20T11:47:13Z"
+    },
+    {
+      "id": 35,
+      "channel": "probe_register",
+      "target_url": "https://api.jixiangai.xyz/register?aff=XimB",
+      "http_status": 200,
+      "latency_ms": 609,
+      "is_success": true,
+      "final_redirect_url": "https://api.jixiangai.xyz/register?aff=XimB",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/png\" href=\"/logo.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"google\" content=\"notranslate\" />\n\n    <!-- Primary Meta Tags -->\n    <title>Ne",
+      "station_id": 25,
+      "checked_at": "2026-10-20T11:47:14Z"
+    },
+    {
+      "id": 36,
+      "channel": "probe_status_api",
+      "target_url": "https://api.jixiangai.xyz/api/status",
+      "http_status": 200,
+      "latency_ms": 634,
+      "is_success": true,
+      "final_redirect_url": "https://api.jixiangai.xyz/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":false},\\\"docs\\\":true,\\\"about\\\":true}\",\"SidebarModulesAdmin\":\"{\\\"chat\\\":{\\\"enabled\\\":true,\\\"playground\\\":true,\\\"chat\\\":false},\\\"console\\\":{\\\"enabled\\\":true,\\\"detail\\\":true,\\\"token\\\":true,\\\"log\\\"",
+      "station_id": 25,
+      "checked_at": "2026-10-20T11:47:15Z"
+    },
+    {
+      "id": 37,
+      "channel": "probe_status_api",
+      "target_url": "https://nofx.one/sitemap.xml",
+      "http_status": 0,
+      "latency_ms": 0,
+      "is_success": false,
+      "final_redirect_url": "https://nofx.one/sitemap.xml",
+      "error_message": "TimeoutError: The read operation timed out",
+      "raw_excerpt": "",
+      "station_id": 17,
+      "checked_at": "2026-10-20T11:47:15Z"
+    },
+    {
+      "id": 38,
+      "channel": "probe_register",
+      "target_url": "https://molyeye.com/register",
+      "http_status": 200,
+      "latency_ms": 1086,
+      "is_success": true,
+      "final_redirect_url": "https://molyeye.com/register",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\r\n<html lang=\"zh-CN\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <meta name=\"google\" content=\"notranslate\" />\r\n\r\n    <!-- Primary Meta Tags -->\r\n    <title>MolyEye API · GPT 模型 API，比官方价省 70%</title>\r\n    <",
+      "station_id": 18,
+      "checked_at": "2026-10-20T11:47:16Z"
+    },
+    {
+      "id": 39,
+      "channel": "probe_status_api",
+      "target_url": "https://molyeye.com/api/status",
+      "http_status": 200,
+      "latency_ms": 614,
+      "is_success": true,
+      "final_redirect_url": "https://molyeye.com/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":false},\\\"rankings\\\":{\\\"enabled\\\":false,\\\"requireAuth\\\":false},\\\"docs\\\":true,\\\"about\\\":true}\",\"SidebarModulesAdmin\":\"\",\"announcements\":[{\"content\":\"gpt-5.5 已下架，同价位请用 gpt-5.6-sol：单价完全相同，客户端里把模型名改",
+      "station_id": 18,
+      "checked_at": "2026-10-20T11:47:17Z"
+    },
+    {
+      "id": 40,
+      "channel": "probe_status_api",
+      "target_url": "https://agentrouter.org/api/status",
+      "http_status": 0,
+      "latency_ms": 0,
+      "is_success": false,
+      "final_redirect_url": "https://agentrouter.org/api/status",
+      "error_message": "URLError: <urlopen error timed out>",
+      "raw_excerpt": "",
+      "station_id": 5,
+      "checked_at": "2026-10-20T11:47:19Z"
+    },
+    {
+      "id": 41,
+      "channel": "probe_status_api",
+      "target_url": "https://t.me/conduitoff_bot",
+      "http_status": 0,
+      "latency_ms": 0,
+      "is_success": false,
+      "final_redirect_url": "https://t.me/conduitoff_bot",
+      "error_message": "URLError: <urlopen error timed out>",
+      "raw_excerpt": "",
+      "station_id": 4,
+      "checked_at": "2026-10-20T11:47:20Z"
+    },
+    {
+      "id": 42,
+      "channel": "probe_register",
+      "target_url": "https://tierflow.cn/register?referral_code=JtDE1qbaHqhW",
+      "http_status": 200,
+      "latency_ms": 147,
+      "is_success": true,
+      "final_redirect_url": "https://tierflow.cn/register?referral_code=JtDE1qbaHqhW",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/icon.svg\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <!-- 本站只有浅色主题(Rule 11):显式声明 color-scheme,阻止手机系统深色\n         模式下浏览器(国产浏览器/WebV",
+      "station_id": 21,
+      "checked_at": "2026-10-20T11:47:20Z"
+    },
+    {
+      "id": 43,
+      "channel": "probe_register",
+      "target_url": "https://api.dshapi.icu/r/T8KiaeGU",
+      "http_status": 200,
+      "latency_ms": 1795,
+      "is_success": true,
+      "final_redirect_url": "https://api.dshapi.icu/register?aff=MJYJ&reflink=T8KiaeGU",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"zh-CN\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" href=\"data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAQAElEQVR4AexaCXxN1/Y+050y3CsTSQ0hMauhiKlBzMPTVAaEoKbGI6kEQULMgphe0OijCEKExNQSNbWK1itaoShtESQRmZObm9zh3HP+3779xT8xJBFT3qv7W9/d5+",
+      "station_id": 20,
+      "checked_at": "2026-10-20T11:47:20Z"
+    },
+    {
+      "id": 44,
+      "channel": "probe_status_api",
+      "target_url": "https://tierflow.cn",
+      "http_status": 200,
+      "latency_ms": 132,
+      "is_success": true,
+      "final_redirect_url": "https://tierflow.cn",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/icon.svg\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <!-- 本站只有浅色主题(Rule 11):显式声明 color-scheme,阻止手机系统深色\n         模式下浏览器(国产浏览器/WebV",
+      "station_id": 21,
+      "checked_at": "2026-10-20T11:47:20Z"
+    },
+    {
+      "id": 45,
+      "channel": "probe_status_api",
+      "target_url": "https://api.dshapi.icu",
+      "http_status": 200,
+      "latency_ms": 928,
+      "is_success": true,
+      "final_redirect_url": "https://api.dshapi.icu",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"zh-CN\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" href=\"data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAQAElEQVR4AexaCXxN1/Y+050y3CsTSQ0hMauhiKlBzMPTVAaEoKbGI6kEQULMgphe0OijCEKExNQSNbWK1itaoShtESQRmZObm9zh3HP+3779xT8xJBFT3qv7W9/d5+",
+      "station_id": 20,
+      "checked_at": "2026-10-20T11:47:22Z"
+    },
+    {
+      "id": 46,
+      "channel": "probe_register",
+      "target_url": "https://aiapi-pro.com/register?utm_source=ai_coding_welfare",
+      "http_status": 200,
+      "latency_ms": 1852,
+      "is_success": true,
+      "final_redirect_url": "https://aiapi-pro.com/register?utm_source=ai_coding_welfare",
+      "error_message": "",
+      "raw_excerpt": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sign Up Free | NovAI</title>\n<meta name=\"description\" content=\"Create a free NovAI account and get $2.00 welcome credit. No credit card required.\">\n<meta name=",
+      "station_id": 19,
+      "checked_at": "2026-10-20T11:47:25Z"
+    },
+    {
+      "id": 47,
+      "channel": "probe_register",
+      "target_url": "https://free.hiyo.top/register?aff=G4N5JVJ3W7YJ",
+      "http_status": 0,
+      "latency_ms": 0,
+      "is_success": false,
+      "final_redirect_url": "https://free.hiyo.top/register?aff=G4N5JVJ3W7YJ",
+      "error_message": "TimeoutError: The read operation timed out",
+      "raw_excerpt": "",
+      "station_id": 23,
+      "checked_at": "2026-10-20T11:47:30Z"
+    },
+    {
+      "id": 48,
+      "channel": "probe_register",
+      "target_url": "https://onomeo.com/zh/login",
+      "http_status": 0,
+      "latency_ms": 0,
+      "is_success": false,
+      "final_redirect_url": "https://onomeo.com/zh/login",
+      "error_message": "TimeoutError: The read operation timed out",
+      "raw_excerpt": "",
+      "station_id": 22,
+      "checked_at": "2026-10-20T11:47:31Z"
+    },
+    {
+      "id": 49,
+      "channel": "probe_status_api",
+      "target_url": "https://onomeo.com/api/status",
+      "http_status": 404,
+      "latency_ms": 3556,
+      "is_success": false,
+      "final_redirect_url": "https://onomeo.com/api/status",
+      "error_message": "HTTP 404",
+      "raw_excerpt": "{\"error\":{\"code\":\"not_found\",\"message\":\"No such endpoint.\"}}",
+      "station_id": 22,
+      "checked_at": "2026-10-20T11:47:35Z"
+    },
+    {
+      "id": 50,
+      "channel": "probe_status_api",
+      "target_url": "https://free.hiyo.top/api/status",
+      "http_status": 404,
+      "latency_ms": 5718,
+      "is_success": false,
+      "final_redirect_url": "https://free.hiyo.top/api/status",
+      "error_message": "HTTP 404",
+      "raw_excerpt": "404 page not found",
+      "station_id": 23,
+      "checked_at": "2026-10-20T11:47:36Z"
+    },
+    {
+      "id": 51,
+      "channel": "probe_status_api",
+      "target_url": "https://api.uu6.top/api/status",
+      "http_status": 0,
+      "latency_ms": 0,
+      "is_success": false,
+      "final_redirect_url": "https://api.uu6.top/api/status",
+      "error_message": "TimeoutError: The read operation timed out",
+      "raw_excerpt": "",
+      "station_id": 30,
+      "checked_at": "2026-10-20T11:47:37Z"
+    },
+    {
+      "id": 52,
+      "channel": "probe_status_api",
+      "target_url": "https://aiapi-pro.com",
+      "http_status": 200,
+      "latency_ms": 4118,
+      "is_success": true,
+      "final_redirect_url": "https://aiapi-pro.com",
+      "error_message": "",
+      "raw_excerpt": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<!-- ROUTE_SENTINEL_V2 · PRERENDER_REMOVAL_V1 -->\n<script>\n(function(){\n  try{\n    var s=document.createElement('style');\n    s.id='routeSentinelStyle';\n    s.textContent='#app.app-loading{visibility:hidden!important}';\n    (document.head||document.documentEle",
+      "station_id": 19,
+      "checked_at": "2026-10-20T11:47:51Z"
     }
   ],
   "selection_notes": [

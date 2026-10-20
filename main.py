@@ -25,6 +25,9 @@ from src.db import DEFAULT_DB_PATH, RelayDatabase, utc_now_iso
 def generate_dashboard_html(db: RelayDatabase, output_html_path: str) -> str:
     from src.json_store import public_data
     template_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "relay_dashboard_template_20261015.html")
+    if not os.path.exists(template_path):
+        # Keep the service startable when the source template is omitted from a checkout.
+        template_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ai_relay_dashboard.html")
     with open(template_path, encoding="utf-8") as f:
         template = f.read()
     data = db.snapshot()
@@ -32,7 +35,15 @@ def generate_dashboard_html(db: RelayDatabase, output_html_path: str) -> str:
     data["stations"] = [s for s in data["stations"] if s.get("first_batch") or s.get("simple_signup_selected") or s.get("personal_link")]
     data.pop("crawl_logs", None)
     embedded = json.dumps(public_data(data), ensure_ascii=False).replace("<", "\\u003c")
-    template = template.replace('let DATA = {"stations":[],"selection_notes":[]}; /* RELAY_DATA */', 'let DATA = '+embedded+'; /* RELAY_DATA */')
+    import re
+    template, replacements = re.subn(
+        r'let DATA = .*?; /\* RELAY_DATA \*/',
+        lambda _: 'let DATA = ' + embedded + '; /* RELAY_DATA */',
+        template,
+        count=1,
+    )
+    if replacements != 1:
+        raise ValueError("Dashboard template is missing its RELAY_DATA marker")
     with open(output_html_path, "w", encoding="utf-8") as f:
         f.write(template)
     return output_html_path
