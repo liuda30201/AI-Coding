@@ -144,7 +144,7 @@
 
 - 🌐 页面：[ai_relay_dashboard.html](ai_relay_dashboard.html)
 - 🗃️ 唯一持久化数据：`ai_relays_export.json`
-- 📝 评测底稿：[评测资料](AI中转站评测与优惠活动汇总_20261015.md)
+- 📝 评测底稿：[评测资料](AI中转站评测与优惠活动汇总_20261020.md)
 - 🔄 `python main.py`：从本地 JSON 重新生成页面。
 - 🧪 `python -m unittest discover -s tests -p "test_*.py" -v`
 
