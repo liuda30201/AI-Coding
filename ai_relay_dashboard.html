@@ -110,7 +110,10 @@ header.hero { padding: 56px 0 36px; text-align: center; }
 }
 .pill b { color: var(--fg); }
 
-.cta-row { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+.cta-row { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; align-items: center; }
+.update-time { color: var(--fg-dim); font-size: 13px; line-height: 1.6; padding: 4px 6px; }
+.update-time time { display: inline-block; font-variant-numeric: tabular-nums; }
+@media (max-width: 720px) { .update-time { flex-basis: 100%; } }
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 6px;
   padding: 11px 18px; border-radius: 11px; text-decoration: none;
@@ -355,6 +358,7 @@ a:focus-visible, button:focus-visible {
     <div class="cta-row">
       <a class="btn btn-primary" href="https://docode.cc/register?aff=plGC" target="_blank" rel="noopener">立即免费注册 DoCode (送 300 刀) →</a>
       <a class="btn btn-ghost" href="#promos">查看各站最新优惠活动 ↓</a>
+      <span class="update-time">更新时间：<time datetime="2026-10-21T11:24:08+08:00">2026-10-21 11:24（北京时间）</time></span>
     </div>
   </header>
 
