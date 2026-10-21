@@ -165,6 +165,6 @@
 - 🗃️ 唯一持久化数据：`ai_relays_export.json`
 - 🔄 `python main.py`：从本地 JSON 重新生成页面。
 - 🧪 `python -m unittest discover -s tests -p "test_*.py" -v`
-- 🔗 GitHub 同步：[操作说明](GitHub同步说明_20261021.md)；双击 `GitHub同步_20261021.cmd` 提交并推送，Gitee 配置保持不变。
+- 🔗 GitHub 同步脚本：`python github_sync_20261021.py status|sync|pull`。
 
 
