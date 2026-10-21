@@ -1214,6 +1214,10 @@ class RelayCrawler:
                 updated["recharge_ratio"] = parsed_status["recharge_ratio"]
             if parsed_status.get("announcements"):
                 updated["activities"] = parsed_status["announcements"]
+                updated["live_promos"] = [
+                    {"date": a["publish_date"], "tag": "站内公告", "text": a["content"]}
+                    for a in sorted(parsed_status["announcements"], key=lambda a: a["publish_date"], reverse=True)[:2]
+                ]
                 latest_text = parsed_status["announcements"][0]["content"][:90]
                 if latest_text and latest_text not in (updated.get("activities_summary") or ""):
                     base_sum = updated.get("activities_summary") or ""
