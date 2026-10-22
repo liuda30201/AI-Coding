@@ -1,0 +1,84 @@
+name: Refresh relay dashboard
+
+on:
+  schedule:
+    # GitHub Actions 使用 UTC；每 3 小时执行一次，错开整点高峰。
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-relay-dashboard
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Probe stations and build dashboard
+        run: |
+          python -u main.py \
+            --probe \
+            --export-json ai_relays_export.json \
+            --export-html ai_relay_dashboard.html
+          python update_readme_announcements.py
+          cp ai_relay_dashboard.html index.html
+
+      - name: Commit generated data when changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md ai_relays_export.json ai_relay_dashboard.html index.html
+          if git diff --cached --quiet; then
+            echo 'No generated dashboard changes.'
+            exit 0
+          fi
+          git commit -m 'Refresh relay announcements and dashboard'
+          git push origin HEAD:main
+
+  deploy-pages:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - name: Checkout refreshed main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Prepare self-contained Pages site
+        run: |
+          mkdir -p _site
+          cp index.html ai_relay_dashboard.html _site/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

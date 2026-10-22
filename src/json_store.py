@@ -93,6 +93,15 @@ class RelayDatabase:
         with self._lock:
             return copy.deepcopy(self._read())
 
+    def mark_generated(self, at=None):
+        generated_at = at or utc_now_iso()
+        with self._lock:
+            root = self._read()
+            root['generated_at'] = generated_at
+            root['last_probe_at'] = generated_at
+            self._save(root)
+            return generated_at
+
     def _find(self, data, identifier):
         return next((s for s in data['stations'] if (str(s.get('id')) == str(identifier) if str(identifier).isdigit() else s['slug'] == str(identifier).strip().lower())), None)
 

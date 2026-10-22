@@ -142,6 +142,7 @@ def main() -> int:
     if args.probe:
         ran_any = True
         p_res = crawler.probe_all_stations()
+        db.mark_generated()
         print(f"[PROBE-ALL] 已并发探测 {p_res['probed_count']} 个站点，在线 {p_res['online_count']} 个")
 
     if args.export_json:

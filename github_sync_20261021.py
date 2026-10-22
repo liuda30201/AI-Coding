@@ -22,10 +22,10 @@ def git(*args, capture=False):
 
 def allowed(name):
     p = Path(name)
-    return ('__pycache__' not in p.parts and p.suffix.lower() in
-            {'.py', '.md', '.html', '.json', '.css', '.js', '.cmd', '.bat', '.ps1', '.txt'}
-            and not any(part.startswith('.') for part in p.parts)
-            and not any(word in p.name.lower() for word in ('credential', 'private_key', 'id_rsa')))
+    workflow = p.parts[:2] == ('.github', 'workflows')
+    return (workflow or ('__pycache__' not in p.parts and not any(part.startswith('.') for part in p.parts))) \
+        and p.suffix.lower() in {'.py', '.md', '.html', '.json', '.css', '.js', '.cmd', '.bat', '.ps1', '.txt', '.yml', '.yaml'} \
+        and not any(word in p.name.lower() for word in ('credential', 'private_key', 'id_rsa'))
 
 
 def inspect_content(name, text):
@@ -94,6 +94,7 @@ def main():
     args = parser.parse_args()
     if args.action == 'self-test':
         assert allowed('src/crawler.py') and allowed('README.md')
+        assert allowed('.github/workflows/refresh-relay-dashboard.yml')
         assert not allowed('src/__pycache__/crawler.pyc') and not allowed('.env')
         assert not allowed('private_key.txt')
         inspect_content('sample.json', '{"my_api_key":"","stations":[]}')

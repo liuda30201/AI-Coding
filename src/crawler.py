@@ -1174,6 +1174,7 @@ class RelayCrawler:
 
         # Merge probed live fields into existing station data without overwriting valid manual fields with empty values
         updated = dict(station)
+        updated["announcements_checked_at"] = ""
         updated["redirect_url"] = redirect_url
         updated["online_status"] = bool(
             reg_res["ok"] or status_res["ok"] or status_res["status"] in (401, 403, 429)
@@ -1213,6 +1214,7 @@ class RelayCrawler:
             if parsed_status.get("recharge_ratio") and not updated.get("recharge_ratio"):
                 updated["recharge_ratio"] = parsed_status["recharge_ratio"]
             if parsed_status.get("announcements"):
+                updated["announcements_checked_at"] = updated["last_checked_at"]
                 updated["activities"] = parsed_status["announcements"]
                 updated["live_promos"] = [
                     {"date": a["publish_date"], "tag": "站内公告", "text": a["content"]}
