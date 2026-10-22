@@ -72,7 +72,7 @@ jobs:
       - name: Prepare self-contained Pages site
         run: |
           mkdir -p _site
-          cp index.html ai_relay_dashboard.html _site/
+          cp index.html ai_relay_dashboard.html robots.txt sitemap.xml _site/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

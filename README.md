@@ -162,6 +162,7 @@
 ## 📂 文件与维护
 
 - 🌐 在线首页（HTML 看板）：[GitHub Pages](https://liuda30201.github.io/AI-Coding/)
+- 🔎 搜索引擎入口：[`robots.txt`](robots.txt) · [`sitemap.xml`](sitemap.xml)
 - 🖥️ 看板源文件：[ai_relay_dashboard.html](ai_relay_dashboard.html)
 - 📝 文字说明与公告摘要：当前 `README.md`
 - 🗃️ 唯一持久化数据：`ai_relays_export.json`
