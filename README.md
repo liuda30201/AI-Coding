@@ -165,7 +165,7 @@
 - 🖥️ 看板源文件：[ai_relay_dashboard.html](ai_relay_dashboard.html)
 - 📝 文字说明与公告摘要：当前 `README.md`
 - 🗃️ 唯一持久化数据：`ai_relays_export.json`
-- ⚙️ 自动更新：`.github/workflows/refresh-relay-dashboard.yml` 每 3 小时探测一次，更新 JSON、HTML 和 Pages 首页；也可在 GitHub Actions 中手动运行。
+- ⚙️ 自动更新：`.github/workflows/refresh-relay-dashboard.yml` 每 3 小时探测一次，更新 JSON、看板和公告摘要，并部署 Pages；首次启用请在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
 - 🔄 `python main.py`：从本地 JSON 重新生成页面。
 - 🧪 `python -m unittest discover -s tests -p "test_*.py" -v`
 - 🔗 GitHub 同步脚本：`python github_sync_20261021.py status|sync|pull`。
