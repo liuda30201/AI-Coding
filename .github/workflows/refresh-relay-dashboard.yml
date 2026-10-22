@@ -1,6 +1,8 @@
 name: Refresh relay dashboard
 
 on:
+  push:
+    branches: [main]
   schedule:
     # GitHub Actions 使用 UTC；每 3 小时执行一次，错开整点高峰。
     - cron: '17 */3 * * *'
