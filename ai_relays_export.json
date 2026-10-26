@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-26T04:44:01Z",
+  "generated_at": "2026-10-26T12:58:08Z",
   "storage": "json",
   "stations": [
     {
@@ -626,12 +626,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 515,
+      "latency_ms": 584,
       "system_name": "Codex Relay",
       "panel_version": "",
-      "last_checked_at": "2026-10-26T04:43:57Z",
+      "last_checked_at": "2026-10-26T12:58:03Z",
       "created_at": "2026-10-14T09:19:40Z",
-      "updated_at": "2026-10-26T04:43:57Z",
+      "updated_at": "2026-10-26T12:58:03Z",
       "activities": [],
       "models": [],
       "model_count": 0,
@@ -701,12 +701,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 440,
+      "latency_ms": 518,
       "system_name": "Conduit",
       "panel_version": "",
-      "last_checked_at": "2026-10-26T04:43:54Z",
+      "last_checked_at": "2026-10-26T12:58:00Z",
       "created_at": "2026-10-14T09:19:40Z",
-      "updated_at": "2026-10-26T04:43:54Z",
+      "updated_at": "2026-10-26T12:58:00Z",
       "activities": [],
       "models": [],
       "model_count": 0,
@@ -793,12 +793,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 808,
+      "latency_ms": 635,
       "system_name": "Agent Router",
       "panel_version": "init-20261016-861e4557",
-      "last_checked_at": "2026-10-26T04:43:55Z",
+      "last_checked_at": "2026-10-26T12:58:01Z",
       "created_at": "2026-10-14T09:19:40Z",
-      "updated_at": "2026-10-26T04:43:55Z",
+      "updated_at": "2026-10-26T12:58:01Z",
       "activities": [
         {
           "id": 2,
@@ -1176,12 +1176,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 367,
+      "latency_ms": 401,
       "system_name": "DoCode",
       "panel_version": "",
-      "last_checked_at": "2026-10-26T04:43:55Z",
+      "last_checked_at": "2026-10-26T12:58:00Z",
       "created_at": "2026-10-14T09:19:40Z",
-      "updated_at": "2026-10-26T04:43:55Z",
+      "updated_at": "2026-10-26T12:58:00Z",
       "activities": [
         {
           "id": 10,
@@ -1396,7 +1396,7 @@
         }
       ],
       "deleted_at": null,
-      "announcements_checked_at": "2026-10-26T04:43:55Z"
+      "announcements_checked_at": "2026-10-26T12:58:00Z"
     },
     {
       "id": 7,
@@ -1468,12 +1468,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 84,
+      "latency_ms": 46,
       "system_name": "JustDoWork",
       "panel_version": "v1.0.0-rc.23",
-      "last_checked_at": "2026-10-26T04:43:56Z",
+      "last_checked_at": "2026-10-26T12:58:02Z",
       "created_at": "2026-10-14T09:19:40Z",
-      "updated_at": "2026-10-26T04:43:56Z",
+      "updated_at": "2026-10-26T12:58:02Z",
       "activities": [
         {
           "id": 18,
@@ -1613,12 +1613,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 546,
+      "latency_ms": 506,
       "system_name": "FlushAPI",
       "panel_version": "",
-      "last_checked_at": "2026-10-26T04:43:57Z",
+      "last_checked_at": "2026-10-26T12:58:03Z",
       "created_at": "2026-10-14T09:19:40Z",
-      "updated_at": "2026-10-26T04:43:57Z",
+      "updated_at": "2026-10-26T12:58:03Z",
       "activities": [
         {
           "id": 22,
@@ -1680,8 +1680,8 @@
           "inputPerMTok": 5.0,
           "outputPerMTok": 25.0,
           "groups": [
-            "Super",
-            "default"
+            "default",
+            "Super"
           ],
           "protocols": [
             "anthropic",
@@ -1727,8 +1727,8 @@
           "inputPerMTok": 4.0,
           "outputPerMTok": 20.0,
           "groups": [
-            "default",
-            "Super"
+            "Super",
+            "default"
           ],
           "protocols": [
             "openai"
@@ -1742,8 +1742,8 @@
           "inputPerMTok": 10.0,
           "outputPerMTok": 50.0,
           "groups": [
-            "default",
-            "Super"
+            "Super",
+            "default"
           ],
           "protocols": [
             "openai"
@@ -1831,12 +1831,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 240,
+      "latency_ms": 563,
       "system_name": "KKtoken AI",
       "panel_version": "v1.0.0-rc.25",
-      "last_checked_at": "2026-10-26T04:43:56Z",
+      "last_checked_at": "2026-10-26T12:58:02Z",
       "created_at": "2026-10-14T09:19:40Z",
-      "updated_at": "2026-10-26T04:43:56Z",
+      "updated_at": "2026-10-26T12:58:02Z",
       "activities": [
         {
           "id": 24,
@@ -1939,12 +1939,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 1050,
+      "latency_ms": 1116,
       "system_name": "Matrix",
       "panel_version": "",
-      "last_checked_at": "2026-10-26T04:43:55Z",
+      "last_checked_at": "2026-10-26T12:58:02Z",
       "created_at": "2026-10-14T09:19:40Z",
-      "updated_at": "2026-10-26T04:43:55Z",
+      "updated_at": "2026-10-26T12:58:02Z",
       "activities": [
         {
           "id": 30,
@@ -2083,12 +2083,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 818,
+      "latency_ms": 637,
       "system_name": "AnyRouter",
       "panel_version": "",
-      "last_checked_at": "2026-10-26T04:43:56Z",
+      "last_checked_at": "2026-10-26T12:58:02Z",
       "created_at": "2026-10-14T09:19:41Z",
-      "updated_at": "2026-10-26T04:43:56Z",
+      "updated_at": "2026-10-26T12:58:02Z",
       "activities": [
         {
           "id": 36,
@@ -2189,12 +2189,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 94,
+      "latency_ms": 85,
       "system_name": "CheapCodex",
       "panel_version": "",
-      "last_checked_at": "2026-10-26T04:43:56Z",
+      "last_checked_at": "2026-10-26T12:58:02Z",
       "created_at": "2026-10-14T09:19:41Z",
-      "updated_at": "2026-10-26T04:43:56Z",
+      "updated_at": "2026-10-26T12:58:02Z",
       "activities": [
         {
           "id": 38,
@@ -2325,12 +2325,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 912,
+      "latency_ms": 481,
       "system_name": "NOFX",
       "panel_version": "",
-      "last_checked_at": "2026-10-26T04:43:58Z",
+      "last_checked_at": "2026-10-26T12:58:03Z",
       "created_at": "2026-10-14T09:19:41Z",
-      "updated_at": "2026-10-26T04:43:58Z",
+      "updated_at": "2026-10-26T12:58:03Z",
       "activities": [
         {
           "id": 43,
@@ -2444,12 +2444,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 439,
+      "latency_ms": 419,
       "system_name": "MolyEye API",
       "panel_version": "",
-      "last_checked_at": "2026-10-26T04:43:59Z",
+      "last_checked_at": "2026-10-26T12:58:05Z",
       "created_at": "2026-10-14T09:19:42Z",
-      "updated_at": "2026-10-26T04:43:59Z",
+      "updated_at": "2026-10-26T12:58:05Z",
       "activities": [
         {
           "id": 44,
@@ -2594,8 +2594,8 @@
           ],
           "protocols": [
             "openai",
-            "openai-response",
-            "anthropic"
+            "anthropic",
+            "openai-response"
           ]
         },
         {
@@ -2677,7 +2677,7 @@
           "text": "邀请好友，得好友充值的 10%：邀请好友注册，好友以后每次充值，你得到账金额的 10% 作为站内余额；每周一统一发放，开时长卡不计入。邀请链接在顶栏「邀请好友」或钱包页复制。"
         }
       ],
-      "announcements_checked_at": "2026-10-26T04:43:59Z"
+      "announcements_checked_at": "2026-10-26T12:58:05Z"
     },
     {
       "id": 19,
@@ -2735,12 +2735,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 637,
+      "latency_ms": 554,
       "system_name": "",
       "panel_version": "",
-      "last_checked_at": "2026-10-26T04:43:59Z",
+      "last_checked_at": "2026-10-26T12:58:05Z",
       "created_at": "2026-10-14T09:19:42Z",
-      "updated_at": "2026-10-26T04:43:59Z",
+      "updated_at": "2026-10-26T12:58:05Z",
       "activities": [
         {
           "id": 45,
@@ -2816,12 +2816,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 53,
+      "latency_ms": 76,
       "system_name": "",
       "panel_version": "",
-      "last_checked_at": "2026-10-26T04:43:58Z",
+      "last_checked_at": "2026-10-26T12:58:04Z",
       "created_at": "2026-10-14T09:19:42Z",
-      "updated_at": "2026-10-26T04:43:58Z",
+      "updated_at": "2026-10-26T12:58:04Z",
       "activities": [
         {
           "id": 46,
@@ -2898,12 +2898,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 1142,
+      "latency_ms": 1060,
       "system_name": "",
       "panel_version": "",
-      "last_checked_at": "2026-10-26T04:44:00Z",
+      "last_checked_at": "2026-10-26T12:58:08Z",
       "created_at": "2026-10-14T09:19:42Z",
-      "updated_at": "2026-10-26T04:44:00Z",
+      "updated_at": "2026-10-26T12:58:08Z",
       "activities": [
         {
           "id": 47,
@@ -2981,12 +2981,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 96,
+      "latency_ms": 104,
       "system_name": "",
       "panel_version": "",
-      "last_checked_at": "2026-10-26T04:43:59Z",
+      "last_checked_at": "2026-10-26T12:58:05Z",
       "created_at": "2026-10-14T09:19:42Z",
-      "updated_at": "2026-10-26T04:43:59Z",
+      "updated_at": "2026-10-26T12:58:05Z",
       "activities": [
         {
           "id": 48,
@@ -3063,12 +3063,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 169,
+      "latency_ms": 182,
       "system_name": "",
       "panel_version": "",
-      "last_checked_at": "2026-10-26T04:43:58Z",
+      "last_checked_at": "2026-10-26T12:58:04Z",
       "created_at": "2026-10-14T09:19:42Z",
-      "updated_at": "2026-10-26T04:43:58Z",
+      "updated_at": "2026-10-26T12:58:04Z",
       "activities": [
         {
           "id": 49,
@@ -3150,12 +3150,12 @@
       "online_status": true,
       "is_archived": false,
       "archived_reason": "",
-      "latency_ms": 2675,
+      "latency_ms": 1534,
       "system_name": "新疆幻城网安科技公益大模型安全网关",
-      "panel_version": "v1.0.0-rc.47-hc4",
-      "last_checked_at": "2026-10-26T04:44:00Z",
+      "panel_version": "v1.0.0-rc.47-hc6",
+      "last_checked_at": "2026-10-26T12:58:08Z",
       "created_at": "2026-10-14T09:19:43Z",
-      "updated_at": "2026-10-26T04:44:00Z",
+      "updated_at": "2026-10-26T12:58:08Z",
       "activities": [
         {
           "id": 50,
@@ -3335,7 +3335,7 @@
         }
       ],
       "deleted_at": null,
-      "announcements_checked_at": "2026-10-26T04:44:00Z"
+      "announcements_checked_at": "2026-10-26T12:58:08Z"
     },
     {
       "id": 25,
@@ -3424,9 +3424,9 @@
       "turnstile_check": false,
       "evidence_checked_at": "2026-10-15T07:19:24Z",
       "online_status": true,
-      "last_checked_at": "2026-10-26T04:43:57Z",
+      "last_checked_at": "2026-10-26T12:58:04Z",
       "is_archived": false,
-      "updated_at": "2026-10-26T04:43:57Z",
+      "updated_at": "2026-10-26T12:58:04Z",
       "public_status_evidence": {
         "register_enabled": true,
         "password_register_enabled": true,
@@ -3459,7 +3459,7 @@
         }
       ],
       "activities_summary": "[2026-08-24] 关于退款政策说明： 即享永久开放无理由退款服务，如为平台兑换码充值退款将会扣除支付通道手续费3%（私下充值的额度不计算退款手续费） 已消费额度由即享承担不会计算手续费 计算公式：兑换码充值剩余额度-兑换码充值剩余额度x3…；[2026-06-24] 每日限量免费分组，如需使用请将分组切换到free 不定时上新，包含glm，DeepSeek，claude，gemini等等",
-      "latency_ms": 136,
+      "latency_ms": 74,
       "system_name": "即享AI",
       "panel_version": "v1.0.0-rc.21-v11",
       "checkin_enabled": false,
@@ -3477,7 +3477,7 @@
       "my_api_key": "",
       "subtitle": "",
       "model_count": 0,
-      "announcements_checked_at": "2026-10-26T04:43:57Z"
+      "announcements_checked_at": "2026-10-26T12:58:04Z"
     },
     {
       "id": 26,
@@ -3518,9 +3518,9 @@
       "turnstile_check": false,
       "evidence_checked_at": "2026-10-15T07:19:24Z",
       "online_status": true,
-      "last_checked_at": "2026-10-26T04:43:55Z",
+      "last_checked_at": "2026-10-26T12:58:01Z",
       "is_archived": false,
-      "updated_at": "2026-10-26T04:43:55Z",
+      "updated_at": "2026-10-26T12:58:01Z",
       "public_status_evidence": {
         "register_enabled": true,
         "password_register_enabled": true,
@@ -3555,7 +3555,7 @@
         }
       ],
       "activities_summary": "[实时生效] QQ 邮箱快速注册即送 150 站内额度；通过专属链接 (aff=Ajvn) 注册，邀请人与被邀请人双方各加赠 50 点；[每日福利] 面板已开启每日签到领点数功能（checkin_enabled=true），支持 CC Switch / Cherry Studio 一键导入",
-      "latency_ms": 511,
+      "latency_ms": 212,
       "system_name": "芙卡卡の小食堂",
       "checkin_enabled": true,
       "price_rate": 7.3,
@@ -3611,9 +3611,9 @@
       "turnstile_check": false,
       "evidence_checked_at": "2026-10-15T07:19:24Z",
       "online_status": true,
-      "last_checked_at": "2026-10-26T04:43:54Z",
+      "last_checked_at": "2026-10-26T12:58:01Z",
       "is_archived": false,
-      "updated_at": "2026-10-26T04:43:54Z",
+      "updated_at": "2026-10-26T12:58:01Z",
       "public_status_evidence": {
         "register_enabled": true,
         "password_register_enabled": true,
@@ -3648,7 +3648,7 @@
       "activities_summary": "[实时通知] 站内通知：邀请福利升级，QQ 邮箱注册立得 100~200 额度，邀请好友双方各得 100 额度；[实时通知] 已上线实时模型状态监控（look.api520.pro），可一键查看当前高可用低延迟模型",
       "my_invite_code": "jCOA",
       "my_invite_url": "https://api520.pro/register?aff=jCOA",
-      "latency_ms": 507,
+      "latency_ms": 532,
       "system_name": "熊猫API",
       "panel_version": "v1.0.0-rc.21-5555-gd455867c9-dirty",
       "checkin_enabled": false,
@@ -3788,9 +3788,9 @@
       "turnstile_check": true,
       "evidence_checked_at": "2026-10-15T07:19:24Z",
       "online_status": true,
-      "last_checked_at": "2026-10-26T04:43:57Z",
+      "last_checked_at": "2026-10-26T12:58:03Z",
       "is_archived": false,
-      "updated_at": "2026-10-26T04:43:57Z",
+      "updated_at": "2026-10-26T12:58:03Z",
       "public_status_evidence": {
         "register_enabled": true,
         "password_register_enabled": true,
@@ -3823,7 +3823,7 @@
         }
       ],
       "activities_summary": "[2026-08-18] 8.18晚8点开七夕充值活动！活动比例如下。 10￥ 1700额度 30￥ 6000额度 50￥ 11000额度 100￥ 26000额度 闲鱼支持微信支付啦！！可以在微信小程序里使用闲鱼了！；[2026-08-13] 目前签到只针对付费用户开放，且需要调用超过5次，消耗超过10，经营不易，请谅解 | 最新公告：ver渠道gemini-4 价格上调到1.8倍",
-      "latency_ms": 864,
+      "latency_ms": 1032,
       "system_name": "猴山 Api",
       "panel_version": "main-20260918-c82085a",
       "checkin_enabled": true,
@@ -3841,7 +3841,7 @@
       "my_api_key": "",
       "subtitle": "",
       "model_count": 0,
-      "announcements_checked_at": "2026-10-26T04:43:57Z"
+      "announcements_checked_at": "2026-10-26T12:58:03Z"
     },
     {
       "id": 29,
@@ -4011,9 +4011,9 @@
       "turnstile_check": false,
       "evidence_checked_at": "2026-10-15T07:19:24Z",
       "online_status": true,
-      "last_checked_at": "2026-10-26T04:43:59Z",
+      "last_checked_at": "2026-10-26T12:58:05Z",
       "is_archived": false,
-      "updated_at": "2026-10-26T04:43:59Z",
+      "updated_at": "2026-10-26T12:58:05Z",
       "public_status_evidence": {
         "register_enabled": true,
         "password_register_enabled": true,
@@ -4058,13 +4058,13 @@
       "recharge_ratio": "price=1.0（¥1 ≈ $1，Stripe通道 ¥8）",
       "subtitle": "",
       "model_count": 0,
-      "latency_ms": 691,
+      "latency_ms": 637,
       "system_name": "玖时API",
       "checkin_enabled": true,
       "price_rate": 1.0,
       "stripe_unit_price": 8.0,
       "quota_per_unit": 500000.0,
-      "announcements_checked_at": "2026-10-26T04:43:59Z"
+      "announcements_checked_at": "2026-10-26T12:58:05Z"
     },
     {
       "id": 30,
@@ -4233,9 +4233,9 @@
       "turnstile_check": false,
       "evidence_checked_at": "2026-10-15T07:19:24Z",
       "online_status": true,
-      "last_checked_at": "2026-10-26T04:43:57Z",
+      "last_checked_at": "2026-10-26T12:58:03Z",
       "is_archived": false,
-      "updated_at": "2026-10-26T04:43:57Z",
+      "updated_at": "2026-10-26T12:58:03Z",
       "public_status_evidence": {
         "register_enabled": true,
         "password_register_enabled": true,
@@ -4280,13 +4280,13 @@
       "recharge_ratio": "price=0.1（1元 = 10 站内刀，Stripe单价 ¥8）",
       "subtitle": "",
       "model_count": 0,
-      "latency_ms": 152,
+      "latency_ms": 232,
       "system_name": "转转AI",
       "checkin_enabled": false,
       "price_rate": 0.1,
       "stripe_unit_price": 8.0,
       "quota_per_unit": 500000.0,
-      "announcements_checked_at": "2026-10-26T04:43:57Z"
+      "announcements_checked_at": "2026-10-26T12:58:03Z"
     }
   ],
   "crawl_logs": [
@@ -19941,6 +19941,630 @@
       "raw_excerpt": "<!doctype html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/icon.svg\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <!-- 本站只有浅色主题(Rule 11):显式声明 color-scheme,阻止手机系统深色\n         模式下浏览器(国产浏览器/WebV",
       "station_id": 21,
       "checked_at": "2026-10-26T04:44:00Z"
+    },
+    {
+      "id": 1205,
+      "channel": "probe_register",
+      "target_url": "https://docode.cc/register?aff=zIA2",
+      "http_status": 200,
+      "latency_ms": 375,
+      "is_success": true,
+      "final_redirect_url": "https://docode.cc/register?aff=zIA2",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"zh\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <link rel=\"icon\" href=\"/logo.png\" />\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, viewport-fit=cover\"\n    />\n    <meta name=\"theme-color\" content=\"#ffffff\" />\n    <meta\n      name=\"descr",
+      "station_id": 6,
+      "checked_at": "2026-10-26T12:58:00Z"
+    },
+    {
+      "id": 1206,
+      "channel": "probe_register",
+      "target_url": "https://t.me/conduitoff_bot?start=ref_8111640723",
+      "http_status": 200,
+      "latency_ms": 601,
+      "is_success": true,
+      "final_redirect_url": "https://t.me/conduitoff_bot?start=ref_8111640723",
+      "error_message": "",
+      "raw_excerpt": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <title>Telegram: Launch @conduitoff_bot</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <script>location.hash=''</script>\n    <script>try{if(window.parent!=null&&window!=window.parent){window.parent",
+      "station_id": 4,
+      "checked_at": "2026-10-26T12:58:00Z"
+    },
+    {
+      "id": 1207,
+      "channel": "probe_register",
+      "target_url": "https://agentrouter.org/register?aff=szt3",
+      "http_status": 200,
+      "latency_ms": 691,
+      "is_success": true,
+      "final_redirect_url": "https://agentrouter.org/register?aff=szt3",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<meta charset=\"UTF-8\">\n<meta name=\"aliyun_waf_aa\" content=\"ff926c7f07e45e2e487a29a6197d3460\">\n<meta name=\"aliyun_waf_bb\" content=\"eade71455e2ad9c6d08b82bc7d98df8c\">\n<title></title>\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<script>\n/* v2.0.1 */!function(){va",
+      "station_id": 5,
+      "checked_at": "2026-10-26T12:58:00Z"
+    },
+    {
+      "id": 1208,
+      "channel": "probe_register",
+      "target_url": "https://api520.pro/register?aff=jCOA",
+      "http_status": 200,
+      "latency_ms": 821,
+      "is_success": true,
+      "final_redirect_url": "https://api520.pro/register?aff=jCOA",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"zh\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <link rel=\"icon\" href=\"/logo.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <meta name=\"google\" content=\"notranslate\" />\n    <meta name=\"theme-color\" content=\"#ffffff\" />\n    <meta\n    ",
+      "station_id": 27,
+      "checked_at": "2026-10-26T12:58:00Z"
+    },
+    {
+      "id": 1209,
+      "channel": "probe_status_api",
+      "target_url": "https://docode.cc/api/status",
+      "http_status": 200,
+      "latency_ms": 401,
+      "is_success": true,
+      "final_redirect_url": "https://docode.cc/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":true},\\\"docs\\\":false,\\\"about\\\":false}\",\"SidebarModulesAdmin\":\"{\\\"chat\\\":{\\\"enabled\\\":true,\\\"playground\\\":false,\\\"chat\\\":false},\\\"console\\\":{\\\"enabled\\\":true,\\\"detail\\\":true,\\\"token\\\":true,\\\"log",
+      "station_id": 6,
+      "checked_at": "2026-10-26T12:58:00Z"
+    },
+    {
+      "id": 1210,
+      "channel": "probe_status_api",
+      "target_url": "https://t.me/conduitoff_bot",
+      "http_status": 200,
+      "latency_ms": 518,
+      "is_success": true,
+      "final_redirect_url": "https://t.me/conduitoff_bot",
+      "error_message": "",
+      "raw_excerpt": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <title>Telegram: Launch @conduitoff_bot</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <script>location.hash=''</script>\n    <script>try{if(window.parent!=null&&window!=window.parent){window.parent",
+      "station_id": 4,
+      "checked_at": "2026-10-26T12:58:00Z"
+    },
+    {
+      "id": 1211,
+      "channel": "probe_register",
+      "target_url": "https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_",
+      "http_status": 200,
+      "latency_ms": 1010,
+      "is_success": true,
+      "final_redirect_url": "https://matrix.mzsjai.com/login?redirect=%2Fapp%2Fgrowth%3FinviteCode%3DMXMRFO52KD2_",
+      "error_message": "",
+      "raw_excerpt": "<!DOCTYPE html><html lang=\"zh-CN\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><meta name=\"color-scheme\" content=\"light dark\"/><title>Matrix · 一站式开源应用即时体验平台</title><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"/><link rel=\"preconnect\" ",
+      "station_id": 12,
+      "checked_at": "2026-10-26T12:58:00Z"
+    },
+    {
+      "id": 1212,
+      "channel": "probe_status_api",
+      "target_url": "https://agentrouter.org/api/status",
+      "http_status": 200,
+      "latency_ms": 635,
+      "is_success": true,
+      "final_redirect_url": "https://agentrouter.org/api/status",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<meta charset=\"UTF-8\">\n<meta name=\"aliyun_waf_aa\" content=\"ff926c7f07e45e2e487a29a6197d3460\">\n<meta name=\"aliyun_waf_bb\" content=\"eade71455e2ad9c6d08b82bc7d98df8c\">\n<title></title>\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<script>\n/* v2.0.1 */!function(){va",
+      "station_id": 5,
+      "checked_at": "2026-10-26T12:58:01Z"
+    },
+    {
+      "id": 1213,
+      "channel": "probe_status_api",
+      "target_url": "https://api520.pro/api/status",
+      "http_status": 200,
+      "latency_ms": 532,
+      "is_success": true,
+      "final_redirect_url": "https://api520.pro/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":false},\\\"rankings\\\":{\\\"enabled\\\":false,\\\"requireAuth\\\":false},\\\"monitor\\\":true,\\\"docs\\\":true,\\\"about\\\":true}\",\"SidebarModulesAdmin\":\"{\\\"chat\\\":{\\\"enabled\\\":true,\\\"playground\\\":true,\\\"chat\\\":tru",
+      "station_id": 27,
+      "checked_at": "2026-10-26T12:58:01Z"
+    },
+    {
+      "id": 1214,
+      "channel": "probe_register",
+      "target_url": "https://api.fuka.win/sign-up?aff=Ajvn",
+      "http_status": 200,
+      "latency_ms": 409,
+      "is_success": true,
+      "final_redirect_url": "https://api.fuka.win/sign-up?aff=Ajvn",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/png\" href=\"/logo.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n\n    <!-- Primary Meta Tags -->\n    <title>New API</title>\n    <meta name=\"title\" content=\"New",
+      "station_id": 26,
+      "checked_at": "2026-10-26T12:58:01Z"
+    },
+    {
+      "id": 1215,
+      "channel": "probe_register",
+      "target_url": "https://kktoken.cc/sign-up?aff=MzG9",
+      "http_status": 200,
+      "latency_ms": 234,
+      "is_success": true,
+      "final_redirect_url": "https://kktoken.cc/sign-up?aff=MzG9",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/png\" href=\"/logo.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"google\" content=\"notranslate\" />\n\n    <!-- Primary Meta Tags -->\n    <title>Ne",
+      "station_id": 10,
+      "checked_at": "2026-10-26T12:58:01Z"
+    },
+    {
+      "id": 1216,
+      "channel": "probe_status_api",
+      "target_url": "https://api.fuka.win/api/status",
+      "http_status": 200,
+      "latency_ms": 212,
+      "is_success": true,
+      "final_redirect_url": "https://api.fuka.win/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":true},\\\"rankings\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":true},\\\"docs\\\":false,\\\"about\\\":true}\",\"SidebarModulesAdmin\":\"{\\\"chat\\\":{\\\"enabled\\\":true,\\\"playground\\\":true,\\\"chat\\\":true},\\\"console\\\":{\\\"e",
+      "station_id": 26,
+      "checked_at": "2026-10-26T12:58:01Z"
+    },
+    {
+      "id": 1217,
+      "channel": "probe_register",
+      "target_url": "https://anyrouter.top/register?aff=Z24N",
+      "http_status": 200,
+      "latency_ms": 1001,
+      "is_success": true,
+      "final_redirect_url": "https://anyrouter.top/register?aff=Z24N",
+      "error_message": "",
+      "raw_excerpt": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0004\u0003��(�ͱ�)N.�,(�+K,RH,J7�U76770317�06svt1�tsr260rr�024q�0555rt6�47T��H+�K.����H�I֬\u0006\u0019�n�h���b���i]�������\u0018\u001d�Y]RT\t�O��-H,*N��+�p�0�044���7�0��@\u00137\u0004�\u001bij�jHK\u0002�\u001b��7H\u0005����74�\u0018d���fP\nX�\u0019�\u0006#��9�\rF\u0010q\u000bMm4�B�-х!�'�\u001bc�\f6>\t�\u0018\u0013�x�uf�F���m�fRQjb�ujNq�BJ�zAiq�z�FJ�zqFfZ�z����umrbIr�F�f5N\u0015��\u001a�\u0006�:\u0006\u0015�f\u0006Ii�:��X�D",
+      "station_id": 15,
+      "checked_at": "2026-10-26T12:58:01Z"
+    },
+    {
+      "id": 1218,
+      "channel": "probe_status_api",
+      "target_url": "https://kktoken.cc/api/status",
+      "http_status": 200,
+      "latency_ms": 563,
+      "is_success": true,
+      "final_redirect_url": "https://kktoken.cc/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":false,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":true},\\\"rankings\\\":{\\\"enabled\\\":false,\\\"requireAuth\\\":false},\\\"docs\\\":false,\\\"about\\\":false}\",\"SidebarModulesAdmin\":\"{\\\"chat\\\":{\\\"enabled\\\":false,\\\"playground\\\":false,\\\"chat\\\":false},\\\"console",
+      "station_id": 10,
+      "checked_at": "2026-10-26T12:58:01Z"
+    },
+    {
+      "id": 1219,
+      "channel": "probe_status_api",
+      "target_url": "https://matrix.mzsjai.com/api/health",
+      "http_status": 200,
+      "latency_ms": 1116,
+      "is_success": true,
+      "final_redirect_url": "https://matrix.mzsjai.com/api/health",
+      "error_message": "",
+      "raw_excerpt": "{\"status\":\"ok\",\"timestamp\":\"2026-10-26T12:58:01.664Z\"}",
+      "station_id": 12,
+      "checked_at": "2026-10-26T12:58:02Z"
+    },
+    {
+      "id": 1220,
+      "channel": "probe_register",
+      "target_url": "https://api.justwoker.icu/register?aff=8lTQ",
+      "http_status": 200,
+      "latency_ms": 411,
+      "is_success": true,
+      "final_redirect_url": "https://api.justwoker.icu/register?aff=8lTQ",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/png\" href=\"/logo.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"google\" content=\"notranslate\" />\n\n    <!-- Primary Meta Tags -->\n    <title>Ne",
+      "station_id": 7,
+      "checked_at": "2026-10-26T12:58:02Z"
+    },
+    {
+      "id": 1221,
+      "channel": "probe_status_api",
+      "target_url": "https://api.justwoker.icu/api/status",
+      "http_status": 200,
+      "latency_ms": 46,
+      "is_success": true,
+      "final_redirect_url": "https://api.justwoker.icu/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":false,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":true},\\\"rankings\\\":{\\\"enabled\\\":false,\\\"requireAuth\\\":false},\\\"docs\\\":false,\\\"about\\\":false}\",\"SidebarModulesAdmin\":\"{\\\"chat\\\":{\\\"enabled\\\":false,\\\"playground\\\":true,\\\"chat\\\":false},\\\"console\\",
+      "station_id": 7,
+      "checked_at": "2026-10-26T12:58:02Z"
+    },
+    {
+      "id": 1222,
+      "channel": "probe_register",
+      "target_url": "https://api.hcnsec.cn/sign-up?aff=b1KI",
+      "http_status": 200,
+      "latency_ms": 2619,
+      "is_success": true,
+      "final_redirect_url": "https://api.hcnsec.cn/sign-up?aff=b1KI",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"google\" content=\"notranslate\" />\n\n    <!-- Primary Meta Tags -->\n    <title>免费GLM·DeepSeek·Qwen·Kimi·Step API接口 - 新疆幻城网安公益大模型安全网关</title",
+      "station_id": 24,
+      "checked_at": "2026-10-26T12:58:02Z"
+    },
+    {
+      "id": 1223,
+      "channel": "probe_status_api",
+      "target_url": "https://anyrouter.top/api/status",
+      "http_status": 200,
+      "latency_ms": 637,
+      "is_success": true,
+      "final_redirect_url": "https://anyrouter.top/api/status",
+      "error_message": "",
+      "raw_excerpt": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0004\u0003��(�ͱ�)N.�,(�+K,RH,J7�U762p1p26�0r1665�426s150qs162t1v315t4�p41T��H+�K.����H�I֬\u0006\u0019�n�h���b���i]�������\u0018\u001d�Y]RT\t�O��-H,*N��+�p�0�044���7�0��@\u00137\u0004�\u001bij�jHK\u0002�\u001b��7H\u0005����74�\u0018d���fP\nX�\u0019�\u0006#��9�\rF\u0010q\u000bMm4�B�-х!�'�\u001bc�\f6>\t�\u0018\u0013�x�uf�F���m�fRQjb�ujNq�BJ�zAiq�z�FJ�zqFfZ�z����umrbIr�F�f5N\u0015��\u001a�\u0006�:\u0006\u0015�f\u0006Ii�:��X�D",
+      "station_id": 15,
+      "checked_at": "2026-10-26T12:58:02Z"
+    },
+    {
+      "id": 1224,
+      "channel": "probe_register",
+      "target_url": "https://api.cheapcodex.online/register?aff=U7SSQZSDB36S",
+      "http_status": 200,
+      "latency_ms": 191,
+      "is_success": true,
+      "final_redirect_url": "https://api.cheapcodex.online/register?aff=U7SSQZSDB36S",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"zh-CN\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAjoAAAH+CAIAAAAauzOoAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAgAElEQVR4nMRd25bkqo6EWv3/f7yLebCRQqGQILP7rGHO7M6yMQgQuiPm7+/v2GWOOcZYYz2/11r76XwevmWNMfd/nz/HWHM9n4fKV",
+      "station_id": 16,
+      "checked_at": "2026-10-26T12:58:02Z"
+    },
+    {
+      "id": 1225,
+      "channel": "probe_status_api",
+      "target_url": "https://api.cheapcodex.online/v1/models",
+      "http_status": 401,
+      "latency_ms": 85,
+      "is_success": false,
+      "final_redirect_url": "https://api.cheapcodex.online/v1/models",
+      "error_message": "HTTP 401",
+      "raw_excerpt": "{\"code\":\"API_KEY_REQUIRED\",\"message\":\"API key is required in Authorization header (Bearer scheme), x-api-key header, or x-goog-api-key header\"}",
+      "station_id": 16,
+      "checked_at": "2026-10-26T12:58:02Z"
+    },
+    {
+      "id": 1226,
+      "channel": "probe_register",
+      "target_url": "https://monkeyapi.apimonkey.online/register?aff=eYCy",
+      "http_status": 200,
+      "latency_ms": 846,
+      "is_success": true,
+      "final_redirect_url": "https://monkeyapi.apimonkey.online/register?aff=eYCy",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/png\" href=\"/logo.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n\n    <!-- Primary Meta Tags -->\n    <title>New API</title>\n    <meta name=\"title\" content=\"New",
+      "station_id": 28,
+      "checked_at": "2026-10-26T12:58:02Z"
+    },
+    {
+      "id": 1227,
+      "channel": "probe_register",
+      "target_url": "https://flushapi.fun/sign-up?aff=WBF3",
+      "http_status": 200,
+      "latency_ms": 525,
+      "is_success": true,
+      "final_redirect_url": "https://flushapi.fun/sign-up?aff=WBF3",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"google\" content=\"notranslate\" />\n\n    <!-- Primary Meta Tags -->\n    <title>FlushAPI</title>\n    <meta name=\"title\" content=\"FlushAPI\" /",
+      "station_id": 9,
+      "checked_at": "2026-10-26T12:58:02Z"
+    },
+    {
+      "id": 1228,
+      "channel": "probe_register",
+      "target_url": "https://api.uu6.top/sign-up?aff=3sNT",
+      "http_status": 200,
+      "latency_ms": 275,
+      "is_success": true,
+      "final_redirect_url": "https://api.uu6.top/sign-up?aff=3sNT",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"google\" content=\"notranslate\" />\n\n    <!-- Primary Meta Tags -->\n    <title>New API</title>\n    <meta name=\"title\" content=\"New API\" />\n",
+      "station_id": 30,
+      "checked_at": "2026-10-26T12:58:02Z"
+    },
+    {
+      "id": 1229,
+      "channel": "probe_register",
+      "target_url": "https://nofx.one/zh-CN/sign-in?ref=J369GHY4",
+      "http_status": 200,
+      "latency_ms": 624,
+      "is_success": true,
+      "final_redirect_url": "https://nofxone.com/zh-CN/sign-in?ref=J369GHY4",
+      "error_message": "",
+      "raw_excerpt": "<!DOCTYPE html><html lang=\"zh-CN\" class=\"__variable_geist_0fdagwn __variable_geist_mono_1001rt9\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"/_next/static/css/layout.DXY3eHgy.css\" data-rsc-css-href=\"/_next/static/css/",
+      "station_id": 17,
+      "checked_at": "2026-10-26T12:58:03Z"
+    },
+    {
+      "id": 1230,
+      "channel": "probe_status_api",
+      "target_url": "https://flushapi.fun/api/status",
+      "http_status": 200,
+      "latency_ms": 506,
+      "is_success": true,
+      "final_redirect_url": "https://flushapi.fun/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"\",\"SidebarModulesAdmin\":\"\",\"announcements\":[],\"announcements_enabled\":true,\"api_info\":[],\"api_info_enabled\":true,\"chats\":[{\"Cherry Studio\":\"cherrystudio://providers/api-keys?v=1\\u0026data={cherryConfig}\"},{\"AionUI\":\"aionui://provider/add?v=1\\u0026data={aionuiConfig}\"},{\"",
+      "station_id": 9,
+      "checked_at": "2026-10-26T12:58:03Z"
+    },
+    {
+      "id": 1231,
+      "channel": "probe_register",
+      "target_url": "https://codex-relay.codes/register?aff=6jAq",
+      "http_status": 200,
+      "latency_ms": 768,
+      "is_success": true,
+      "final_redirect_url": "https://codex-relay.codes/register?aff=6jAq",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"ru\" data-theme=\"dark\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\" />\n    <meta name=\"color-scheme\" content=\"dark light\" />\n    <meta name=\"theme-color\" content=\"#131519\" />\n    <!-- Eno",
+      "station_id": 2,
+      "checked_at": "2026-10-26T12:58:03Z"
+    },
+    {
+      "id": 1232,
+      "channel": "probe_status_api",
+      "target_url": "https://api.uu6.top/api/status",
+      "http_status": 200,
+      "latency_ms": 232,
+      "is_success": true,
+      "final_redirect_url": "https://api.uu6.top/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"channelStatus\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":false},\\\"rankings\\\":{\\\"enabled\\\":false,\\\"requireAuth\\\":false},\\\"docs\\\":true,\\\"about\\\":false}\",\"SidebarModulesAdmin\":\"{\\\"console\\\":{\\\"enabled\\\":true,\\\"media\\\":true},\\\"chat",
+      "station_id": 30,
+      "checked_at": "2026-10-26T12:58:03Z"
+    },
+    {
+      "id": 1233,
+      "channel": "probe_status_api",
+      "target_url": "https://nofx.one/sitemap.xml",
+      "http_status": 200,
+      "latency_ms": 481,
+      "is_success": true,
+      "final_redirect_url": "https://nofxone.com/sitemap.xml",
+      "error_message": "",
+      "raw_excerpt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://nofxone.com/zh-CN</loc>\n<lastmod>2026-10-26T12:58:03.496Z</lastmod>\n<changefreq>weekly</changefreq>\n<priority>1</priority>\n</url>\n<url>\n<loc>https://nofxone.com/en</loc>\n<lastmod>20",
+      "station_id": 17,
+      "checked_at": "2026-10-26T12:58:03Z"
+    },
+    {
+      "id": 1234,
+      "channel": "probe_status_api",
+      "target_url": "https://monkeyapi.apimonkey.online/api/status",
+      "http_status": 200,
+      "latency_ms": 1032,
+      "is_success": true,
+      "final_redirect_url": "https://monkeyapi.apimonkey.online/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"items\\\":[{\\\"id\\\":\\\"home\\\",\\\"label\\\":\\\"Home\\\",\\\"labelKey\\\":\\\"Home\\\",\\\"href\\\":\\\"/\\\",\\\"enabled\\\":true,\\\"order\\\":0,\\\"kind\\\":\\\"builtin\\\",\\\"requireAuth\\\":false,\\\"external\\\":false},{\\\"id\\\":\\\"console\\\",\\\"label\\\":\\\"Console\\\",\\\"labelKey\\\":\\\"Console\\\",\\\"href\\\":\\\"/dashboard\\\",\\\"e",
+      "station_id": 28,
+      "checked_at": "2026-10-26T12:58:03Z"
+    },
+    {
+      "id": 1235,
+      "channel": "probe_status_api",
+      "target_url": "https://codex-relay.codes",
+      "http_status": 200,
+      "latency_ms": 584,
+      "is_success": true,
+      "final_redirect_url": "https://codex-relay.codes",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"ru\" data-theme=\"dark\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\" />\n    <meta name=\"color-scheme\" content=\"dark light\" />\n    <meta name=\"theme-color\" content=\"#131519\" />\n    <!-- Eno",
+      "station_id": 2,
+      "checked_at": "2026-10-26T12:58:03Z"
+    },
+    {
+      "id": 1236,
+      "channel": "probe_register",
+      "target_url": "https://api.jixiangai.xyz/register?aff=XimB",
+      "http_status": 200,
+      "latency_ms": 347,
+      "is_success": true,
+      "final_redirect_url": "https://api.jixiangai.xyz/register?aff=XimB",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/png\" href=\"/logo.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"google\" content=\"notranslate\" />\n\n    <!-- Primary Meta Tags -->\n    <title>Ne",
+      "station_id": 25,
+      "checked_at": "2026-10-26T12:58:04Z"
+    },
+    {
+      "id": 1237,
+      "channel": "probe_status_api",
+      "target_url": "https://api.jixiangai.xyz/api/status",
+      "http_status": 200,
+      "latency_ms": 74,
+      "is_success": true,
+      "final_redirect_url": "https://api.jixiangai.xyz/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":false},\\\"docs\\\":true,\\\"about\\\":true}\",\"SidebarModulesAdmin\":\"{\\\"chat\\\":{\\\"enabled\\\":true,\\\"playground\\\":true,\\\"chat\\\":false},\\\"console\\\":{\\\"enabled\\\":true,\\\"detail\\\":true,\\\"token\\\":true,\\\"log\\\"",
+      "station_id": 25,
+      "checked_at": "2026-10-26T12:58:04Z"
+    },
+    {
+      "id": 1238,
+      "channel": "probe_status_api",
+      "target_url": "https://api.hcnsec.cn/api/status",
+      "http_status": 200,
+      "latency_ms": 1534,
+      "is_success": true,
+      "final_redirect_url": "https://api.hcnsec.cn/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":true},\\\"rankings\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":true},\\\"docs\\\":true,\\\"about\\\":true}\",\"SidebarModulesAdmin\":\"{\\\"chat\\\":{\\\"enabled\\\":true,\\\"playground\\\":true,\\\"chat\\\":true},\\\"console\\\":{\\\"en",
+      "station_id": 24,
+      "checked_at": "2026-10-26T12:58:04Z"
+    },
+    {
+      "id": 1239,
+      "channel": "probe_register",
+      "target_url": "https://molyeye.com/register",
+      "http_status": 200,
+      "latency_ms": 443,
+      "is_success": true,
+      "final_redirect_url": "https://molyeye.com/register",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\r\n<html lang=\"zh-CN\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <meta name=\"google\" content=\"notranslate\" />\r\n\r\n    <!-- Primary Meta Tags -->\r\n    <title>MolyEye API · GPT 模型 API，比官方价省 70%</title>\r\n    <",
+      "station_id": 18,
+      "checked_at": "2026-10-26T12:58:04Z"
+    },
+    {
+      "id": 1240,
+      "channel": "probe_register",
+      "target_url": "https://api.dshapi.icu/r/T8KiaeGU",
+      "http_status": 200,
+      "latency_ms": 150,
+      "is_success": true,
+      "final_redirect_url": "https://api.dshapi.icu/register?aff=MJYJ&reflink=T8KiaeGU",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"zh-CN\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" href=\"data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAQAElEQVR4AexaCXxN1/Y+050y3CsTSQ0hMauhiKlBzMPTVAaEoKbGI6kEQULMgphe0OijCEKExNQSNbWK1itaoShtESQRmZObm9zh3HP+3779xT8xJBFT3qv7W9/d5+",
+      "station_id": 20,
+      "checked_at": "2026-10-26T12:58:04Z"
+    },
+    {
+      "id": 1241,
+      "channel": "probe_status_api",
+      "target_url": "https://api.dshapi.icu",
+      "http_status": 200,
+      "latency_ms": 76,
+      "is_success": true,
+      "final_redirect_url": "https://api.dshapi.icu",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"zh-CN\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" href=\"data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAQAElEQVR4AexaCXxN1/Y+050y3CsTSQ0hMauhiKlBzMPTVAaEoKbGI6kEQULMgphe0OijCEKExNQSNbWK1itaoShtESQRmZObm9zh3HP+3779xT8xJBFT3qv7W9/d5+",
+      "station_id": 20,
+      "checked_at": "2026-10-26T12:58:04Z"
+    },
+    {
+      "id": 1242,
+      "channel": "probe_register",
+      "target_url": "https://free.hiyo.top/register?aff=G4N5JVJ3W7YJ",
+      "http_status": 200,
+      "latency_ms": 1158,
+      "is_success": true,
+      "final_redirect_url": "https://free.hiyo.top/register?aff=G4N5JVJ3W7YJ",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"zh-HK\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n    <link rel=\"icon\" type=\"image/png\" href=\"/logo.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Hiyo Free - Cod",
+      "station_id": 23,
+      "checked_at": "2026-10-26T12:58:04Z"
+    },
+    {
+      "id": 1243,
+      "channel": "probe_register",
+      "target_url": "https://aiapi-pro.com/register?utm_source=ai_coding_welfare",
+      "http_status": 200,
+      "latency_ms": 567,
+      "is_success": true,
+      "final_redirect_url": "https://aiapi-pro.com/register?utm_source=ai_coding_welfare",
+      "error_message": "",
+      "raw_excerpt": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sign Up Free | NovAI</title>\n<meta name=\"description\" content=\"Create a free NovAI account and get $2.00 welcome credit. No credit card required.\">\n<meta name=",
+      "station_id": 19,
+      "checked_at": "2026-10-26T12:58:04Z"
+    },
+    {
+      "id": 1244,
+      "channel": "probe_status_api",
+      "target_url": "https://molyeye.com/api/status",
+      "http_status": 200,
+      "latency_ms": 419,
+      "is_success": true,
+      "final_redirect_url": "https://molyeye.com/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":false},\\\"rankings\\\":{\\\"enabled\\\":false,\\\"requireAuth\\\":false},\\\"docs\\\":true,\\\"about\\\":true}\",\"SidebarModulesAdmin\":\"\",\"announcements\":[{\"content\":\"gpt-5.5 已下架，同价位请用 gpt-5.6-sol：单价完全相同，客户端里把模型名改",
+      "station_id": 18,
+      "checked_at": "2026-10-26T12:58:04Z"
+    },
+    {
+      "id": 1245,
+      "channel": "probe_status_api",
+      "target_url": "https://free.hiyo.top/api/status",
+      "http_status": 404,
+      "latency_ms": 182,
+      "is_success": false,
+      "final_redirect_url": "https://free.hiyo.top/api/status",
+      "error_message": "HTTP 404",
+      "raw_excerpt": "404 page not found",
+      "station_id": 23,
+      "checked_at": "2026-10-26T12:58:04Z"
+    },
+    {
+      "id": 1246,
+      "channel": "probe_register",
+      "target_url": "https://api.jiushi.xin/register?aff=y35X",
+      "http_status": 200,
+      "latency_ms": 1251,
+      "is_success": true,
+      "final_redirect_url": "https://api.jiushi.xin/register?aff=y35X",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"zh\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <link rel=\"icon\" href=\"/logo.png\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <meta name=\"theme-color\" content=\"#ffffff\" />\n    <meta\n      name=\"description\"\n      lang=\"zh\"\n      conten",
+      "station_id": 29,
+      "checked_at": "2026-10-26T12:58:04Z"
+    },
+    {
+      "id": 1247,
+      "channel": "probe_register",
+      "target_url": "https://onomeo.com/zh/login",
+      "http_status": 200,
+      "latency_ms": 170,
+      "is_success": true,
+      "final_redirect_url": "https://onomeo.com/zh/login",
+      "error_message": "",
+      "raw_excerpt": "<!DOCTYPE html><html lang=\"zh-CN\" data-lang=\"zh\" class=\"figtree_5fb61c8b-module__nDHJIq__variable jetbrains_mono_167d988b-module__2KuRSG__variable fraunces_a26c4c46-module__6VO8Ka__variable\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"",
+      "station_id": 22,
+      "checked_at": "2026-10-26T12:58:05Z"
+    },
+    {
+      "id": 1248,
+      "channel": "probe_status_api",
+      "target_url": "https://onomeo.com/api/status",
+      "http_status": 404,
+      "latency_ms": 104,
+      "is_success": false,
+      "final_redirect_url": "https://onomeo.com/api/status",
+      "error_message": "HTTP 404",
+      "raw_excerpt": "{\"error\":{\"code\":\"not_found\",\"message\":\"No such endpoint.\"}}",
+      "station_id": 22,
+      "checked_at": "2026-10-26T12:58:05Z"
+    },
+    {
+      "id": 1249,
+      "channel": "probe_status_api",
+      "target_url": "https://aiapi-pro.com",
+      "http_status": 200,
+      "latency_ms": 554,
+      "is_success": true,
+      "final_redirect_url": "https://aiapi-pro.com",
+      "error_message": "",
+      "raw_excerpt": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<!-- ROUTE_SENTINEL_V2 · PRERENDER_REMOVAL_V1 -->\n<script>\n(function(){\n  try{\n    var s=document.createElement('style');\n    s.id='routeSentinelStyle';\n    s.textContent='#app.app-loading{visibility:hidden!important}';\n    (document.head||document.documentEle",
+      "station_id": 19,
+      "checked_at": "2026-10-26T12:58:05Z"
+    },
+    {
+      "id": 1250,
+      "channel": "probe_status_api",
+      "target_url": "https://api.jiushi.xin/api/status",
+      "http_status": 200,
+      "latency_ms": 637,
+      "is_success": true,
+      "final_redirect_url": "https://api.jiushi.xin/api/status",
+      "error_message": "",
+      "raw_excerpt": "{\"data\":{\"HeaderNavModules\":\"{\\\"home\\\":true,\\\"console\\\":true,\\\"pricing\\\":{\\\"enabled\\\":true,\\\"requireAuth\\\":false},\\\"docs\\\":false,\\\"about\\\":false}\",\"SidebarModulesAdmin\":\"{\\\"admin\\\":{\\\"channel\\\":true,\\\"deployment\\\":false,\\\"enabled\\\":true,\\\"models\\\":true,\\\"quick_refund\\\":true,\\\"redemption\\\":true,\\\"ris",
+      "station_id": 29,
+      "checked_at": "2026-10-26T12:58:05Z"
+    },
+    {
+      "id": 1251,
+      "channel": "probe_register",
+      "target_url": "https://tierflow.cn/register?referral_code=JtDE1qbaHqhW",
+      "http_status": 200,
+      "latency_ms": 2382,
+      "is_success": true,
+      "final_redirect_url": "https://tierflow.cn/register?referral_code=JtDE1qbaHqhW",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/icon.svg\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <!-- 本站只有浅色主题(Rule 11):显式声明 color-scheme,阻止手机系统深色\n         模式下浏览器(国产浏览器/WebV",
+      "station_id": 21,
+      "checked_at": "2026-10-26T12:58:07Z"
+    },
+    {
+      "id": 1252,
+      "channel": "probe_status_api",
+      "target_url": "https://tierflow.cn",
+      "http_status": 200,
+      "latency_ms": 1060,
+      "is_success": true,
+      "final_redirect_url": "https://tierflow.cn",
+      "error_message": "",
+      "raw_excerpt": "<!doctype html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/icon.svg\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <!-- 本站只有浅色主题(Rule 11):显式声明 color-scheme,阻止手机系统深色\n         模式下浏览器(国产浏览器/WebV",
+      "station_id": 21,
+      "checked_at": "2026-10-26T12:58:08Z"
     }
   ],
   "selection_notes": [
@@ -20061,5 +20685,5 @@
       "register_url": "https://api.jixiangai.xyz/register?aff=XimB"
     }
   ],
-  "last_probe_at": "2026-10-26T04:44:01Z"
+  "last_probe_at": "2026-10-26T12:58:08Z"
 }
