@@ -38,13 +38,14 @@ jobs:
             --export-json ai_relays_export.json \
             --export-html ai_relay_dashboard.html
           python update_readme_announcements.py
+          python -c "from pathlib import Path; import json, re; d = json.loads(Path('ai_relays_export.json').read_text(encoding='utf-8')); day = (d.get('last_probe_at') or d.get('generated_at') or '')[:10]; p = Path('sitemap.xml'); s = p.read_text(encoding='utf-8'); p.write_text(re.sub(r'</loc>(\s*<lastmod>[^<]*</lastmod>)?', f'</loc>\\n    <lastmod>{day}</lastmod>', s, count=1), encoding='utf-8') if day else None"
           cp ai_relay_dashboard.html index.html
 
       - name: Commit generated data when changed
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md ai_relays_export.json ai_relay_dashboard.html index.html
+          git add README.md ai_relays_export.json ai_relay_dashboard.html index.html sitemap.xml
           if git diff --cached --quiet; then
             echo 'No generated dashboard changes.'
             exit 0

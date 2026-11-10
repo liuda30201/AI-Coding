@@ -69,7 +69,7 @@ BUILTIN_SITES_SEED: List[Dict[str, Any]] = [
             "Claude (sonnet-5 / opus4.6) 与 GPT (gpt-6.1-sol / pro) 同时在架，支持生图 img.docode.cc",
             "支持 Cherry Studio、CC Switch、DeepChat、Lobe Chat 一键导入"
         ],
-        "activities_summary": "注册送50刀+邀请码zIA2送250刀；限时充值翻倍1元=50刀，充100送500刀、充200送1500刀、充500送6500刀；中秋VIP赠送1500~5000额度",
+        "activities_summary": "注册送50刀+邀请码zIA2送250刀，拉新送200刀额度；限时充值翻倍1元=50刀，充100送500刀、充200送1500刀、充500送6500刀；中秋VIP赠送1500~5000额度",
     },
     {
         "id": "agentrouter",
